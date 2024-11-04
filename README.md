@@ -31,6 +31,15 @@ A Specific Collection of LLM resources (a work in progress).
 | [Fal.ai](https://fal.ai/)               | N/A      | [![GitHub followers](https://img.shields.io/github/followers/fal-ai?style=flat-square&color=teal)](https://github.com/fal-ai) |
 | [VertexAI](https://cloud.google.com/vertex-ai) | N/A | [![GitHub followers](https://img.shields.io/github/followers/GoogleCloudPlatform?style=flat-square&color=teal)](https://github.com/GoogleCloudPlatform/vertex-ai-samples) |
 
+### Local Inference 
+
+| Framework                                         | Browser Chat 🖥️ | Organization      | Open Source | GitHub |
+|-----------------------------------------------|------------------|-------------------|-------------|--------|
+| [Llama.cpp](https://github.com/ggerganov/llama.cpp) | ❌               | ggerganov        | [![GitHub Repo stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=flat-square&color=purple)](https://github.com/ggerganov/llama.cpp) | [![GitHub followers](https://img.shields.io/github/followers/ggerganov?style=flat-square&color=teal)](https://github.com/ggerganov) |
+| [Ollama](https://ollama.com/)                  | ❌               | Ollama           | [![GitHub Repo stars](https://img.shields.io/github/stars/ollama/ollama?style=flat-square&color=purple)](https://github.com/ollama/ollama) | [![GitHub followers](https://img.shields.io/github/followers/ollama?style=flat-square&color=teal)](https://github.com/ollama) |
+| [gpt4all](https://www.nomic.ai/gpt4all)        | ✅               | Nomic.ai         | [![GitHub Repo stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=flat-square&color=purple)](https://github.com/nomic-ai/gpt4all) | [![GitHub followers](https://img.shields.io/github/followers/nomic-ai?style=flat-square&color=teal)](https://github.com/nomic-ai) |
+| [LMStudio](https://lmstudio.ai/)               | ✅               | LMStudio AI      | [![GitHub Repo stars](https://img.shields.io/github/stars/lmstudio-ai/LMStudio?style=flat-square&color=purple)](https://github.com/lmstudio-ai) | [![GitHub followers](https://img.shields.io/github/followers/lmstudio-ai?style=flat-square&color=teal)](https://github.com/lmstudio-ai) |
+| [OpenLLM](https://github.com/bentoml/OpenLLM)  | ✅               | BentoML          | [![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=flat-square&color=purple)](https://github.com/bentoml/OpenLLM) | [![GitHub followers](https://img.shields.io/github/followers/bentoml?style=flat-square&color=teal)](https://github.com/bentoml) |
 
 ### Open-Source LLM Web Chat UIs
 
@@ -42,17 +51,32 @@ A Specific Collection of LLM resources (a work in progress).
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | Mintplex Labs      | The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, and more.              | [![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square&color=purple)](https://github.com/Mintplex-Labs/anything-llm) | [![GitHub followers](https://img.shields.io/github/followers/Mintplex-Labs?style=flat-square&color=teal)](https://github.com/Mintplex-Labs) |
 | [Superagent](https://github.com/superagent-ai/superagent) | Superagent AI     | Superagent allows any developer to add powerful AI assistants to their applications. These assistants use large language models (LLM), retrieval augmented generation (RAG), and generative AI to help users.   | [![GitHub Repo stars](https://img.shields.io/github/stars/superagent-ai/superagent?style=flat-square&color=purple)](https://github.com/superagent-ai/superagent) | [![GitHub followers](https://img.shields.io/github/followers/superagent-ai?style=flat-square&color=teal)](https://github.com/superagent-ai) |
 
+### Rent GPUs (Fine-Tuning, Deploying, Training)
 
-### Local Inference 
-
-| Framework                                         | Browser Chat 🖥️ | Organization      | Open Source | GitHub |
-|-----------------------------------------------|------------------|-------------------|-------------|--------|
-| [Llama.cpp](https://github.com/ggerganov/llama.cpp) | ❌               | ggerganov        | [![GitHub Repo stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=flat-square&color=purple)](https://github.com/ggerganov/llama.cpp) | [![GitHub followers](https://img.shields.io/github/followers/ggerganov?style=flat-square&color=teal)](https://github.com/ggerganov) |
-| [Ollama](https://ollama.com/)                  | ❌               | Ollama           | [![GitHub Repo stars](https://img.shields.io/github/stars/ollama/ollama?style=flat-square&color=purple)](https://github.com/ollama/ollama) | [![GitHub followers](https://img.shields.io/github/followers/ollama?style=flat-square&color=teal)](https://github.com/ollama) |
-| [gpt4all](https://www.nomic.ai/gpt4all)        | ✅               | Nomic.ai         | [![GitHub Repo stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=flat-square&color=purple)](https://github.com/nomic-ai/gpt4all) | [![GitHub followers](https://img.shields.io/github/followers/nomic-ai?style=flat-square&color=teal)](https://github.com/nomic-ai) |
-| [LMStudio](https://lmstudio.ai/)               | ✅               | LMStudio AI      | [![GitHub Repo stars](https://img.shields.io/github/stars/lmstudio-ai/LMStudio?style=flat-square&color=purple)](https://github.com/lmstudio-ai) | [![GitHub followers](https://img.shields.io/github/followers/lmstudio-ai?style=flat-square&color=teal)](https://github.com/lmstudio-ai) |
-| [OpenLLM](https://github.com/bentoml/OpenLLM)  | ✅               | BentoML          | [![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=flat-square&color=purple)](https://github.com/bentoml/OpenLLM) | [![GitHub followers](https://img.shields.io/github/followers/bentoml?style=flat-square&color=teal)](https://github.com/bentoml) |
-
+| Platform                                      | Templates                | Beginner Friendly | GitHub |
+|-----------------------------------------------|--------------------------|-------------------|--------|
+| [Brev.dev](https://www.brev.dev/)             | Fine-tuning              | ❌                | [![GitHub followers](https://img.shields.io/github/followers/brevdev?style=flat-square&color=teal)](https://github.com/brevdev) |
+| [Modal](https://modal.com/)                   | Fine-tuning              | ❌                | [![GitHub followers](https://img.shields.io/github/followers/modal-labs?style=flat-square&color=teal)](https://github.com/modal-labs) |
+| [Hyperbolic AI](https://hyperbolic.xyz/)      | None                     | ❌                | [![GitHub followers](https://img.shields.io/github/followers/HyperbolicLabs?style=flat-square&color=teal)](https://github.com/HyperbolicLabs) |
+| [RunPod](https://www.runpod.io/)              | None                     | ❌                | [![GitHub followers](https://img.shields.io/github/followers/runpod?style=flat-square&color=teal)](https://github.com/runpod) |
+| [Paperspace](https://www.paperspace.com/)     | Fine-tuning              | ✅                | [![GitHub followers](https://img.shields.io/github/followers/Paperspace?style=flat-square&color=teal)](https://github.com/Paperspace) |
+| [Colab](https://colab.research.google.com/)   | Small models only        | ✅                | [![GitHub followers](https://img.shields.io/github/followers/googlecolab?style=flat-square&color=teal)](https://github.com/googlecolab) |
 
 
+### Fine-Tuning with No-Code UI
+
+| Tool                                           | Beginner Friendly | Open Source | GitHub |
+|------------------------------------------------|-------------------|-------------|--------|
+| [Together.ai](https://www.together.ai/products#fine-tuning) | ✅               | ❌          | N/A    |
+| [Hugging Face AutoTrain](https://huggingface.co/autotrain) | ✅               | ❌          | [![GitHub Repo stars](https://img.shields.io/github/stars/huggingface/autotrain-advanced?style=flat-square&color=purple)](https://github.com/huggingface/autotrain-advanced) |
+| [AutoML](https://github.com/mljar/automl-app)  | ❌               | ✅          | [![GitHub Repo stars](https://img.shields.io/github/stars/mljar/automl-app?style=flat-square&color=purple)](https://github.com/mljar/automl-app) |
+| [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | ❌               | ✅          | [![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=flat-square&color=purple)](https://github.com/hiyouga/LLaMA-Factory) |
+| [H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) | ✅               | ✅          | [![GitHub Repo stars](https://img.shields.io/github/stars/h2oai/h2o-llmstudio?style=flat-square&color=purple)](https://github.com/h2oai/h2o-llmstudio) |
+
+### Fine-Tuning Frameworks
+
+| Framework                                 | Open Source | GitHub |
+|-------------------------------------------|-------------|--------|
+| [Axolotl](https://axolotl.ai/)            | [![GitHub Repo stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl?style=flat-square&color=purple)](https://github.com/axolotl-ai-cloud/axolotl) | [![GitHub followers](https://img.shields.io/github/followers/axolotl-ai-cloud?style=flat-square&color=teal)](https://github.com/axolotl-ai-cloud) |
+| [Unsloth](https://unsloth.ai/)            | [![GitHub Repo stars](https://img.shields.io/github/stars/unslothai/unsloth?style=flat-square&color=purple)](https://github.com/unslothai/unsloth) | [![GitHub followers](https://img.shields.io/github/followers/unslothai?style=flat-square&color=teal)](https://github.com/unslothai) |
 
