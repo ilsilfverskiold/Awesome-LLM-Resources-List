@@ -1,6 +1,6 @@
 # 🌟 Awesome LLM Resources
 
-A Curated Collection of LLM resources (work in progress). 💡✨
+A Curated Collection of LLM resources. 💡✨
 
 **🌐 Updated: 4th November 2024**
 
