@@ -1,8 +1,10 @@
-# Awesome LLM Resources
+# 🌟 Awesome LLM Resources
 
-A Specific Collection of LLM resources (work in progress). 
+A Curated Collection of LLM resources (work in progress). 💡✨
 
-### Open Source 'Serverless' Hosting
+**🌐 Updated: 4th November 2024**
+
+### 'Serverless' Hosting of private/OS Models
 
 | Platform/Tool                   | Released | Scale Down | Open Source | GitHub | Get Started Scripts |
 | --------------------------------| -------- | ---------- | ----------- | ------ | -------------------- |
