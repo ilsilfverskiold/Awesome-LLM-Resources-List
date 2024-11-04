@@ -4,7 +4,7 @@
 
 | Platform/Tool  | Released | Scale Down | Open Source | Get Started Scripts |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Beam.Cloud  | Content Cell  | > 1 min | ![GitHub Repo stars](https://img.shields.io/github/stars/beam-cloud/beta9?style=social) | Content Cell  |
+| Beam.Cloud  | Content Cell  | > 1 min | [![GitHub Repo stars](https://img.shields.io/github/stars/beam-cloud/beta9?style=social)](https://beam.cloud) | Content Cell  |
 | Baseten  | Content Cell  | > 15 min  | Content Cell  | Content Cell  |
 | Modal  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | HF Endpoints | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
