@@ -125,4 +125,23 @@ A Specific Collection of LLM resources (work in progress).
 | [XAgent](https://github.com/OpenBMB/XAgent)         | OpenBMB                      | [![GitHub Repo stars](https://img.shields.io/github/stars/OpenBMB/XAgent?style=flat-square&color=purple)](https://github.com/OpenBMB/XAgent) | 2023     | [![GitHub followers](https://img.shields.io/github/followers/OpenBMB?style=flat-square&color=teal)](https://github.com/OpenBMB) |
 | [FinRobot](https://ai4finance.org/)                 | AI4Finance Foundation        | [![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat-square&color=purple)](https://github.com/AI4Finance-Foundation/FinRobot) | 2024     | [![GitHub followers](https://img.shields.io/github/followers/AI4Finance-Foundation?style=flat-square&color=teal)](https://github.com/AI4Finance-Foundation) |
 
+### Co-Pilots
+
+| Framework                                  | Open Source                                                                                                                | GitHub                                                                                   |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [Aider](https://aider.chat/)               | [![GitHub Repo stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square&color=purple)](https://github.com/Aider-AI/aider) | [![GitHub followers](https://img.shields.io/github/followers/Aider-AI?style=flat-square&color=teal)](https://github.com/Aider-AI) |
+| [Cursor](https://www.cursor.com/)          | [![GitHub Repo stars](https://img.shields.io/github/stars/getcursor/cursor?style=flat-square&color=purple)](https://github.com/getcursor/cursor) | [![GitHub followers](https://img.shields.io/github/followers/getcursor?style=flat-square&color=teal)](https://github.com/getcursor) |
+| [Continue](https://docs.continue.dev/)     | [![GitHub Repo stars](https://img.shields.io/github/stars/continuedev/continue?style=flat-square&color=purple)](https://github.com/continuedev/continue) | [![GitHub followers](https://img.shields.io/github/followers/continuedev?style=flat-square&color=teal)](https://github.com/continuedev) |
+
+
+### Voice API
+
+| Framework                                  | Open Source                                                                                                                | GitHub                                                                                   |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [VAPI.ai](https://vapi.ai/)                | 🔴    | [![GitHub followers](https://img.shields.io/github/followers/vapiai?style=flat-square&color=teal)](https://github.com/vapiai) |
+| [Bland.ai](https://www.bland.ai/)          | 🔴                                                                                                                          | N/A                                                                                      |
+| [CallAnnie](https://callannie.ai/)         | 🔴                                                                                                                          | N/A                                                                                      |
+| [RealtimeTTS](https://github.com/KoljaB/RealtimeTTS) | [![GitHub Repo stars](https://img.shields.io/github/stars/KoljaB/RealtimeTTS?style=flat-square&color=purple)](https://github.com/KoljaB/RealtimeTTS) | [![GitHub followers](https://img.shields.io/github/followers/KoljaB?style=flat-square&color=teal)](https://github.com/KoljaB) |
+| [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) | [![GitHub Repo stars](https://img.shields.io/github/stars/KoljaB/RealtimeSTT?style=flat-square&color=purple)](https://github.com/KoljaB/RealtimeSTT) | [![GitHub followers](https://img.shields.io/github/followers/KoljaB?style=flat-square&color=teal)](https://github.com/KoljaB) |
+| [Coqui TTS](https://github.com/coqui-ai/TTS) | [![GitHub Repo stars](https://img.shields.io/github/stars/coqui-ai/TTS?style=flat-square&color=purple)](https://github.com/coqui-ai/TTS) | [![GitHub followers](https://img.shields.io/github/followers/coqui-ai?style=flat-square&color=teal)](https://github.com/coqui-ai) |
 
