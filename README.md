@@ -2,20 +2,19 @@
 
 A Specific Collection of LLM resources (work in progress). 
 
-### Open Source 'Serverless' Hosting:
+### Open Source 'Serverless' Hosting
 
 | Platform/Tool                   | Released | Scale Down | Open Source | GitHub | Get Started Scripts |
 | --------------------------------| -------- | ---------- | ----------- | ------ | -------------------- |
 | [Beam.Cloud](https://www.beam.cloud/) | 2021     | > 1 min    | [![GitHub Repo stars](https://img.shields.io/github/stars/beam-cloud/beta9?style=flat-square&color=purple)](https://github.com/beam-cloud/beta9) | [![GitHub followers](https://img.shields.io/github/followers/beam-cloud?style=flat-square&color=teal)](https://github.com/beam-cloud) | [Helpers](https://github.com/ilsilfverskiold/Awesome-LLM-Resources-List/tree/main/helpers/scripts/beam) |
-| [Baseten](https://www.baseten.com/) | 2019     | > 15 min   | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/basetenlabs?style=flat-square&color=teal)](https://github.com/basetenlabs) | Content Cell |
+| [Baseten](https://www.baseten.com/) | 2019     | > 15 min   | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/basetenlabs?style=flat-square&color=teal)](https://github.com/basetenlabs) | [Guide](https://docs.baseten.co/deploy/guides/private-model) |
 | [Modal](https://modal.com/)      | 2021     | < 1 min    | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/modal-labs?style=flat-square&color=teal)](https://github.com/modal-labs) | [Helpers](https://github.com/ilsilfverskiold/Awesome-LLM-Resources-List/tree/main/helpers/scripts/modal) |
-| [HF Endpoints](https://ui.endpoints.huggingface.co/) | 2023 | > 15 min   | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/huggingface?style=flat-square&color=teal)](https://github.com/huggingface) | Content Cell |
-| [Replicate](https://replicate.com/) | 2019     | < 1 min    | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/replicate?style=flat-square&color=teal)](https://github.com/replicate) | Content Cell |
-| [Sagemaker (AWS)](https://aws.amazon.com/sagemaker/) | 2017 | N/A        | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/aws?style=flat-square&color=teal)](https://github.com/aws/amazon-sagemaker-examples) | Content Cell |
-| [Lambda w/ EFS (AWS)](https://aws.amazon.com/pm/lambda/) | 2014 | < 1 min | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/awsdocs?style=flat-square&color=teal)](https://github.com/awsdocs/aws-lambda-developer-guide) | Content Cell |
-| [RunPod Serverless](https://www.runpod.io/serverless-gpu) | 2022 | > 30s    | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/runpod?style=flat-square&color=teal)](https://github.com/runpod) | Content Cell |
-| [BentoML](https://www.bentoml.com/) | 2019     | > 5 min    | [![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/BentoML?style=flat-square&color=purple)](https://github.com/bentoml/BentoML) | [![GitHub followers](https://img.shields.io/github/followers/bentoml?style=flat-square&color=teal)](https://github.com/bentoml) | Content Cell |
-
+| [HF Endpoints](https://ui.endpoints.huggingface.co/) | 2023 | > 15 min   | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/huggingface?style=flat-square&color=teal)](https://github.com/huggingface) | None Needed |
+| [Replicate](https://replicate.com/) | 2019     | < 1 min    | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/replicate?style=flat-square&color=teal)](https://github.com/replicate) | [Guide](https://replicate.com/docs/guides/push-a-transformers-model) |
+| [Sagemaker (AWS)](https://aws.amazon.com/sagemaker/) | 2017 | N/A        | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/aws?style=flat-square&color=teal)](https://github.com/aws/amazon-sagemaker-examples) | N/A |
+| [Lambda w/ EFS (AWS)](https://aws.amazon.com/pm/lambda/) | 2014 | < 1 min | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/awsdocs?style=flat-square&color=teal)](https://github.com/awsdocs/aws-lambda-developer-guide) | [Guide](https://aws.amazon.com/blogs/compute/hosting-hugging-face-models-on-aws-lambda/) |
+| [RunPod Serverless](https://www.runpod.io/serverless-gpu) | 2022 | > 30s    | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/runpod?style=flat-square&color=teal)](https://github.com/runpod) | N/A |
+| [BentoML](https://www.bentoml.com/) | 2019     | > 5 min    | [![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/BentoML?style=flat-square&color=purple)](https://github.com/bentoml/BentoML) | [![GitHub followers](https://img.shields.io/github/followers/bentoml?style=flat-square&color=teal)](https://github.com/bentoml) | [Gallery](https://www.bentoml.com/gallery) |
 ### Access Off-the-Shelf OS Models (via API):
 
 | Platform/Tool                           | Released | GitHub |
