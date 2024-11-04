@@ -80,3 +80,23 @@ A Specific Collection of LLM resources (a work in progress).
 | [Axolotl](https://axolotl.ai/)            | [![GitHub Repo stars](https://img.shields.io/github/stars/axolotl-ai-cloud/axolotl?style=flat-square&color=purple)](https://github.com/axolotl-ai-cloud/axolotl) | [![GitHub followers](https://img.shields.io/github/followers/axolotl-ai-cloud?style=flat-square&color=teal)](https://github.com/axolotl-ai-cloud) |
 | [Unsloth](https://unsloth.ai/)            | [![GitHub Repo stars](https://img.shields.io/github/stars/unslothai/unsloth?style=flat-square&color=purple)](https://github.com/unslothai/unsloth) | [![GitHub followers](https://img.shields.io/github/followers/unslothai?style=flat-square&color=teal)](https://github.com/unslothai) |
 
+
+Create table (Framework (with link to website or repo if there isn't one), Open Source (stars + link to repo), Beginner Friendly, Released, GitHub (follower icon + link to org page):
+
+Agentic/AI workflow frameworks:
+Langchain - https://www.langchain.com/ - https://github.com/langchain-ai/langchain - 2022
+LangGraph - https://www.langchain.com/langgraph - https://github.com/langchain-ai/langgraph - 2023
+LlamaIndex - https://docs.llamaindex.ai/en/stable/use_cases/agents/ - https://github.com/run-llama/llama_index - 2023
+Langroid - https://langroid.github.io/langroid/ - https://github.com/langroid/langroid
+Flowise
+Swarms
+CrewAI - high-level abstraction
+Autogen - high-level abstraction
+AutoChain - high-level abstraction 
+AILegion - high-level abstraction
+MemGPT - https://github.com/cpacker/MemGPT
+uAgents - https://pypi.org/project/uagents/ - https://github.com/fetchai/uAgents 
+Phidata - https://github.com/phidatahq/phidata
+https://github.com/i-am-bee/bee-agent-framework
+https://github.com/BrainBlend-AI/atomic-agents 
+
