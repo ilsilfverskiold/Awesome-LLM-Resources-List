@@ -32,14 +32,13 @@ A Collection of LLM resources (a work in progress).
 | [fal.ai](https://fal.ai/) | N/A | 🔴       |
 | VertexAI            | N/A      | 🔴          |
 
+### Web Chat UIs
 
+| Tool                                            | Organization       | Released | Description                                                                                     | Open Source | GitHub |
+|-------------------------------------------------|--------------------|----------|-------------------------------------------------------------------------------------------------|-------------|--------|
+| [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | AUTOMATIC1111      | 2022     | Chat interface for Stable Diffusion                | [![GitHub Repo stars](https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=social)](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | [![GitHub followers](https://img.shields.io/github/followers/AUTOMATIC1111?style=social)](https://github.com/AUTOMATIC1111) |
+| [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui) | oobabooga          | 2023      | A Gradio web UI for Large Language Models.       | [![GitHub Repo stars](https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=social)](https://github.com/oobabooga/text-generation-webui) | [![GitHub followers](https://img.shields.io/github/followers/oobabooga?style=social)](https://github.com/oobabooga) |
+| [Jan AI](https://jan.ai/)                       | Jan HQ            | 2023      | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)                           | [![GitHub Repo stars](https://img.shields.io/github/stars/janhq/jan?style=social)](https://github.com/janhq/jan) | [![GitHub followers](https://img.shields.io/github/followers/janhq?style=social)](https://github.com/janhq) |
+| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | Mintplex Labs      | 2023      | The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, and more.              | [![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social)](https://github.com/Mintplex-Labs/anything-llm) | [![GitHub followers](https://img.shields.io/github/followers/Mintplex-Labs?style=social)](https://github.com/Mintplex-Labs) |
+| [Superagent](https://github.com/superagent-ai/superagent) | Superagent AI     | 2023      | Superagent allows any developer to add powerful AI assistants to their applications. These assistants use large language models (LLM), retrieval augmented generation (RAG), and generative AI to help users.   | [![GitHub Repo stars](https://img.shields.io/github/stars/superagent-ai/superagent?style=social)](https://github.com/superagent-ai/superagent) | [![GitHub followers](https://img.shields.io/github/followers/superagent-ai?style=social)](https://github.com/superagent-ai) |
 
-Together.ai
-Fireworks.ai
-Replicate
-Groq
-DeepInfra
-Bedrock
-Lepton
-https://fal.ai/ 
-VertexAI
