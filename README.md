@@ -1,6 +1,6 @@
 # Awesome LLM Resources
 
-A Specific Collection of LLM resources (a work in progress). 
+A Specific Collection of LLM resources (work in progress). 
 
 ### Open Source 'Serverless' Hosting:
 
