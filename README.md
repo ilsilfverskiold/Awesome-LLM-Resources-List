@@ -17,6 +17,7 @@ A Curated Collection of LLM resources (work in progress). 💡✨
 | [Lambda w/ EFS (AWS)](https://aws.amazon.com/pm/lambda/) | 2014 | < 1 min | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/awsdocs?style=flat-square&color=teal)](https://github.com/awsdocs/aws-lambda-developer-guide) | [Guide](https://aws.amazon.com/blogs/compute/hosting-hugging-face-models-on-aws-lambda/) |
 | [RunPod Serverless](https://www.runpod.io/serverless-gpu) | 2022 | > 30s    | 🔴          | [![GitHub followers](https://img.shields.io/github/followers/runpod?style=flat-square&color=teal)](https://github.com/runpod) | N/A |
 | [BentoML](https://www.bentoml.com/) | 2019     | > 5 min    | [![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/BentoML?style=flat-square&color=purple)](https://github.com/bentoml/BentoML) | [![GitHub followers](https://img.shields.io/github/followers/bentoml?style=flat-square&color=teal)](https://github.com/bentoml) | [Gallery](https://www.bentoml.com/gallery) |
+
 ### Access Off-the-Shelf OS Models (via API):
 
 | Platform/Tool                           | Released | GitHub |
@@ -50,6 +51,8 @@ A Curated Collection of LLM resources (work in progress). 💡✨
 | [Jan AI](https://jan.ai/)                       | Jan HQ            | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. Multiple engine support (llama.cpp, TensorRT-LLM)                           | [![GitHub Repo stars](https://img.shields.io/github/stars/janhq/jan?style=flat-square&color=purple)](https://github.com/janhq/jan) | [![GitHub followers](https://img.shields.io/github/followers/janhq?style=flat-square&color=teal)](https://github.com/janhq) |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | Mintplex Labs      | The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, and more.              | [![GitHub Repo stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square&color=purple)](https://github.com/Mintplex-Labs/anything-llm) | [![GitHub followers](https://img.shields.io/github/followers/Mintplex-Labs?style=flat-square&color=teal)](https://github.com/Mintplex-Labs) |
 | [Superagent](https://github.com/superagent-ai/superagent) | Superagent AI     | Superagent allows any developer to add powerful AI assistants to their applications. These assistants use large language models (LLM), retrieval augmented generation (RAG), and generative AI to help users.   | [![GitHub Repo stars](https://img.shields.io/github/stars/superagent-ai/superagent?style=flat-square&color=purple)](https://github.com/superagent-ai/superagent) | [![GitHub followers](https://img.shields.io/github/followers/superagent-ai?style=flat-square&color=teal)](https://github.com/superagent-ai) |
+| [Bionic-GPT](https://bionic-gpt.com/)           | Bionic GPT        | Replacement for ChatGPT, offering the advantages of Generative AI while maintaining strict data confidentiality. | [![GitHub Repo stars](https://img.shields.io/github/stars/bionic-gpt/bionic-gpt?style=flat-square&color=purple)](https://github.com/bionic-gpt/bionic-gpt) | [![GitHub followers](https://img.shields.io/github/followers/bionic-gpt?style=flat-square&color=teal)](https://github.com/bionic-gpt) |
+
 
 ### LLM Serving Frameworks
 
@@ -129,6 +132,10 @@ A Curated Collection of LLM resources (work in progress). 💡✨
 | [XAgent](https://github.com/OpenBMB/XAgent)         | OpenBMB                      | [![GitHub Repo stars](https://img.shields.io/github/stars/OpenBMB/XAgent?style=flat-square&color=purple)](https://github.com/OpenBMB/XAgent) | 2023     | [![GitHub followers](https://img.shields.io/github/followers/OpenBMB?style=flat-square&color=teal)](https://github.com/OpenBMB) |
 | [FinRobot](https://ai4finance.org/)                 | AI4Finance Foundation        | [![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat-square&color=purple)](https://github.com/AI4Finance-Foundation/FinRobot) | 2024     | [![GitHub followers](https://img.shields.io/github/followers/AI4Finance-Foundation?style=flat-square&color=teal)](https://github.com/AI4Finance-Foundation) |
 | [STORM](https://storm.genie.stanford.edu/)          | Stanford OVAL                | [![GitHub Repo stars](https://img.shields.io/github/stars/stanford-oval/storm?style=flat-square&color=purple)](https://github.com/stanford-oval/storm) | 2024     | [![GitHub followers](https://img.shields.io/github/followers/stanford-oval?style=flat-square&color=teal)](https://github.com/stanford-oval) |
+| [Multion](https://www.multion.ai/)                  | MULTI-ON                     | 🔴                                                                                                                          | N/A      | [![GitHub followers](https://img.shields.io/github/followers/MULTI-ON?style=flat-square&color=teal)](https://github.com/MULTI-ON) |
+| [Minion](https://minion.ai/)                        | Minion AI                    | 🔴                                                                                                                          | N/A      | [![GitHub followers](https://img.shields.io/github/followers/minionai?style=flat-square&color=teal)](https://github.com/minionai) |
+
+
 
 ### Co-Pilots
 
