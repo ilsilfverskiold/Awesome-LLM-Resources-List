@@ -81,22 +81,24 @@ A Specific Collection of LLM resources (a work in progress).
 | [Unsloth](https://unsloth.ai/)            | [![GitHub Repo stars](https://img.shields.io/github/stars/unslothai/unsloth?style=flat-square&color=purple)](https://github.com/unslothai/unsloth) | [![GitHub followers](https://img.shields.io/github/followers/unslothai?style=flat-square&color=teal)](https://github.com/unslothai) |
 
 
-Create table (Framework (with link to website or repo if there isn't one), Open Source (stars + link to repo), Beginner Friendly, Released, GitHub (follower icon + link to org page):
+### Agentic/AI Workflow
 
-Agentic/AI workflow frameworks:
-Langchain - https://www.langchain.com/ - https://github.com/langchain-ai/langchain - 2022
-LangGraph - https://www.langchain.com/langgraph - https://github.com/langchain-ai/langgraph - 2023
-LlamaIndex - https://docs.llamaindex.ai/en/stable/use_cases/agents/ - https://github.com/run-llama/llama_index - 2023
-Langroid - https://langroid.github.io/langroid/ - https://github.com/langroid/langroid
-Flowise
-Swarms
-CrewAI - high-level abstraction
-Autogen - high-level abstraction
-AutoChain - high-level abstraction 
-AILegion - high-level abstraction
-MemGPT - https://github.com/cpacker/MemGPT
-uAgents - https://pypi.org/project/uagents/ - https://github.com/fetchai/uAgents 
-Phidata - https://github.com/phidatahq/phidata
-https://github.com/i-am-bee/bee-agent-framework
-https://github.com/BrainBlend-AI/atomic-agents 
+| Framework                                        | Open Source                                                                                                                | Beginner Friendly | Released | GitHub                                                                                   |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------------|----------|------------------------------------------------------------------------------------------|
+| [LangChain](https://www.langchain.com/)          | [![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square&color=purple)](https://github.com/langchain-ai/langchain) | ✅               | 2022     | [![GitHub followers](https://img.shields.io/github/followers/langchain-ai?style=flat-square&color=teal)](https://github.com/langchain-ai) |
+| [LangGraph](https://www.langchain.com/langgraph) | [![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square&color=purple)](https://github.com/langchain-ai/langgraph) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/langchain-ai?style=flat-square&color=teal)](https://github.com/langchain-ai) |
+| [LlamaIndex](https://docs.llamaindex.ai/en/stable/use_cases/agents/) | [![GitHub Repo stars](https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square&color=purple)](https://github.com/run-llama/llama_index) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/run-llama?style=flat-square&color=teal)](https://github.com/run-llama) |
+| [Langroid](https://langroid.github.io/langroid/) | [![GitHub Repo stars](https://img.shields.io/github/stars/langroid/langroid?style=flat-square&color=purple)](https://github.com/langroid/langroid) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/langroid?style=flat-square&color=teal)](https://github.com/langroid) |
+| [Flowise](https://flowiseai.com/)                | [![GitHub Repo stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat-square&color=purple)](https://github.com/FlowiseAI/Flowise) | ✅               | 2023      | [![GitHub followers](https://img.shields.io/github/followers/FlowiseAI?style=flat-square&color=teal)](https://github.com/FlowiseAI) |
+| [Swarms](https://swarms.world/)                  | [![GitHub Repo stars](https://img.shields.io/github/stars/kyegomez/swarms?style=flat-square&color=purple)](https://github.com/kyegomez/swarms) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/kyegomez?style=flat-square&color=teal)](https://github.com/kyegomez) |
+| [CrewAI](https://www.crewai.com/)               | [![GitHub Repo stars](https://img.shields.io/github/stars/crewaiinc/crewai?style=flat-square&color=purple)](https://github.com/crewaiinc/crewai) | ✅               | 2023      | [![GitHub followers](https://img.shields.io/github/followers/crewaiinc?style=flat-square&color=teal)](https://github.com/crewaiinc) |
+| [Autogen](https://microsoft.github.io/autogen/0.2/) | [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&color=purple)](https://github.com/microsoft/autogen) | ✅               | 2023      | [![GitHub followers](https://img.shields.io/github/followers/microsoft?style=flat-square&color=teal)](https://github.com/microsoft) |
+| [AutoChain](https://autochain.forethought.ai/)   | [![GitHub Repo stars](https://img.shields.io/github/stars/Forethought-Technologies/AutoChain?style=flat-square&color=purple)](https://github.com/Forethought-Technologies/AutoChain) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/Forethought-Technologies?style=flat-square&color=teal)](https://github.com/Forethought-Technologies) |
+| [AILegion](https://github.com/eumemic/ai-legion) | [![GitHub Repo stars](https://img.shields.io/github/stars/eumemic/ai-legion?style=flat-square&color=purple)](https://github.com/eumemic/ai-legion) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/eumemic?style=flat-square&color=teal)](https://github.com/eumemic) |
+| [MemGPT (Letta)](https://www.letta.com/)         | [![GitHub Repo stars](https://img.shields.io/github/stars/cpacker/MemGPT?style=flat-square&color=purple)](https://github.com/cpacker/MemGPT) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/cpacker?style=flat-square&color=teal)](https://github.com/cpacker) |
+| [uAgents](https://pypi.org/project/uagents/)     | [![GitHub Repo stars](https://img.shields.io/github/stars/fetchai/uAgents?style=flat-square&color=purple)](https://github.com/fetchai/uAgents) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/fetchai?style=flat-square&color=teal)](https://github.com/fetchai) |
+| [Phidata](https://docs.phidata.com/agents)       | [![GitHub Repo stars](https://img.shields.io/github/stars/phidatahq/phidata?style=flat-square&color=purple)](https://github.com/phidatahq/phidata) | ❌               | 2023     | [![GitHub followers](https://img.shields.io/github/followers/phidatahq?style=flat-square&color=teal)](https://github.com/phidatahq) |
+| [Bee Agent Framework](https://i-am-bee.github.io/bee-agent-framework/#/) | [![GitHub Repo stars](https://img.shields.io/github/stars/i-am-bee/bee-agent-framework?style=flat-square&color=purple)](https://github.com/i-am-bee/bee-agent-framework) | ❌               | 2024     | [![GitHub followers](https://img.shields.io/github/followers/i-am-bee?style=flat-square&color=teal)](https://github.com/i-am-bee) |
+| [Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents)     | [![GitHub Repo stars](https://img.shields.io/github/stars/BrainBlend-AI/atomic-agents?style=flat-square&color=purple)](https://github.com/BrainBlend-AI/atomic-agents) | ❌               | 2024     | [![GitHub followers](https://img.shields.io/github/followers/BrainBlend-AI?style=flat-square&color=teal)](https://github.com/BrainBlend-AI) |
+
 
