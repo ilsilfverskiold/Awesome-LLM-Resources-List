@@ -18,7 +18,7 @@ A Curated Collection of LLM resources. 💡✨
 | [RunPod Serverless](https://www.runpod.io/serverless-gpu) | 2022 | > 30s       | 🔴            | [![GitHub followers](https://img.shields.io/github/followers/runpod?style=flat-square&color=teal)](https://github.com/runpod) | N/A                     | 🟡 | ❌ | 🤷 | ❌ |
 | [BentoML](https://www.bentoml.com/) | 2019     | > 5 min      | [![GitHub Repo stars](https://img.shields.io/github/stars/bentoml/BentoML?style=flat-square&color=purple)](https://github.com/bentoml/BentoML) | [![GitHub followers](https://img.shields.io/github/followers/bentoml?style=flat-square&color=teal)](https://github.com/bentoml) | [Gallery](https://www.bentoml.com/gallery) | 🟡 | 🟡 | 👍 | 🆓 $10 |
 
-
+It goes without saying that these platforms can usually do more than LLM serving**
 
 ### Access Off-the-Shelf OS Models (via API):
 
