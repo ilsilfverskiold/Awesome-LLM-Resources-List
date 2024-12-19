@@ -174,6 +174,29 @@ It goes without saying that these platforms can usually do more than LLM serving
 See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get stuck (not always needed)
 
 
+### Research Papers on CoT
+
+| Publication Date | Title | 🔗 | Authors | Organization | Technique |
+|------------------|-------|----|---------|--------------|-----------|
+| January 28, 2022 | Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | [🔗](https://arxiv.org/abs/2201.11903) | Jason Wei, et al. | DeepMind | CoT Prompting |
+| March 21, 2022 | Self-Consistency Improves Chain of Thought Reasoning in Language Models | [🔗](https://arxiv.org/abs/2203.11171) | Xuezhi Wang et al. | DeepMind | CoT with Self-Consistency |
+| May 21, 2022 | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models | [🔗](https://arxiv.org/abs/2205.10625) | Denny Zhou et al. | DeepMind | Least-to-Most Prompting |
+| May 21, 2022 | Large Language Models are Zero-Shot Reasoners | [🔗](https://arxiv.org/abs/2205.11916) | Takeshi Kojima, et al. | DeepMind | Zero-shot-CoT |
+| October 6, 2022 | ReAct: Synergizing Reasoning and Acting in Language Models | [🔗](https://arxiv.org/abs/2210.03629) | Shunyu Yao et al. | Princeton University | ReAct |
+| April 1, 2023 | Teaching Large Language Models to Self-Debug | [🔗](https://arxiv.org/abs/2304.05128) | Xiang Lisa Li, et al. | DeepMind, Stanford University | Self-Debugging |
+| May 6, 2023 | Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models | [🔗](https://arxiv.org/abs/2305.04091) | Lei Wang et al. | The Chinese University of Hong Kong, SenseTime Research | Plan-and-Solve Prompting |
+| May 23, 2023 | Let’s Verify Step by Step | [🔗](https://arxiv.org/pdf/2305.20050) | Anya Goyal, et al. | DeepMind | Verification for CoT |
+| October 3, 2023 | Large Language Models Cannot Self-Correct Reasoning Yet | [🔗](https://arxiv.org/abs/2310.01798) | Qingxiu Dong, et al. | The Chinese University of Hong Kong, Huawei Noah's Ark Lab | Self-Correction in LLMs |
+| November 2023 | Universal Self-Consistency for Large Language Model Generation | [🔗](https://arxiv.org/pdf/2311.17311) | Xinyun Chen, Renat Aksitov, Uri Alon, Jie Ren, Kefan Xiao, Pengcheng Yin, Sushant Prakash, Charles Sutton, Xuezhi Wang, Denny Zhou | DeepMind | Universal Self-Consistency |
+| December 3, 2023 | Tree of Thoughts: Deliberate Problem Solving with Large Language Models | [🔗](https://export.arxiv.org/abs/2305.10601) | Shunyu Yao, et al. | Princeton University, DeepMind | Tree-of-Thought |
+| February 15, 2024 | Chain-of-Thought Reasoning Without Prompting | [🔗](https://arxiv.org/abs/2402.10200) | Xuezhi Wang, Denny Zhou | DeepMind | Chain-of-Thought Decoding |
+| March 21, 2024 | ChainLM: Empowering Large Language Models with Improved Chain-of-Thought Prompting | [🔗](https://arxiv.org/abs/2403.14238) | Xiaoxue Cheng et al. | Renmin University of China | CoTGenius |
+| May 2024 | Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning | [🔗](https://arxiv.org/pdf/2405.00451) | Yuxi Xie, et al. | National University of Singapore, DeepMind | MCTS |
+| September 18, 2024 | To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning | [🔗](https://arxiv.org/abs/2409.12183) | Zayne Sprague, et al. | The University of Texas at Austin, Johns Hopkins University, Princeton University | Meta-analysis of CoT |
+| September 25, 2024 | Chain-of-Thoughtlessness? An Analysis of CoT in Planning | [🔗](https://arxiv.org/abs/2305.12147) | Kaya Stechly, et al. | Arizona State University | Analysis of CoT in Planning |
+| October 18, 2024 | Supervised Chain of Thought | [🔗](https://arxiv.org/abs/2410.14198) | Xiang Zhang, Dujian Ding | University of British Columbia | Supervised Chain of Thought |
+| October 24, 2024 | On examples: A Theoretical Understanding of Chain-of-Thought: Coherent Reasoning and Error-Aware Demonstration | [🔗](https://arxiv.org/abs/2410.16540) | Zhiqiang Hu, et al. | Amazon, Michigan State University | Theoretical Analysis of CoT |
+
 
 
 
