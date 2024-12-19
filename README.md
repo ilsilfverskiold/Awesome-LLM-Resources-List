@@ -174,7 +174,7 @@ It goes without saying that these platforms can usually do more than LLM serving
 See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get stuck (not always needed)
 
 
-### Research Papers on CoT
+### Research Papers on Chain-of-Thought Prompting
 
 | Publication Date | Title | 🔗 | Authors | Organization | Technique |
 |------------------|-------|----|---------|--------------|-----------|
@@ -191,11 +191,14 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 | December 3, 2023 | Tree of Thoughts: Deliberate Problem Solving with Large Language Models | [🔗](https://export.arxiv.org/abs/2305.10601) | Shunyu Yao, et al. | Princeton University, DeepMind | Tree-of-Thought |
 | February 15, 2024 | Chain-of-Thought Reasoning Without Prompting | [🔗](https://arxiv.org/abs/2402.10200) | Xuezhi Wang, Denny Zhou | DeepMind | Chain-of-Thought Decoding |
 | March 21, 2024 | ChainLM: Empowering Large Language Models with Improved Chain-of-Thought Prompting | [🔗](https://arxiv.org/abs/2403.14238) | Xiaoxue Cheng et al. | Renmin University of China | CoTGenius |
+| June 2024 | Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models | [🔗](https://arxiv.org/pdf/2310.04406) | Andy Zhou, Kai Yan, Michal Shlapentokh-Rothman, Haohan Wang, Yu-Xiong Wang |  | Language Agent Tree Search (LATS) |
 | May 2024 | Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning | [🔗](https://arxiv.org/pdf/2405.00451) | Yuxi Xie, et al. | National University of Singapore, DeepMind | MCTS |
 | September 18, 2024 | To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning | [🔗](https://arxiv.org/abs/2409.12183) | Zayne Sprague, et al. | The University of Texas at Austin, Johns Hopkins University, Princeton University | Meta-analysis of CoT |
 | September 25, 2024 | Chain-of-Thoughtlessness? An Analysis of CoT in Planning | [🔗](https://arxiv.org/abs/2305.12147) | Kaya Stechly, et al. | Arizona State University | Analysis of CoT in Planning |
 | October 18, 2024 | Supervised Chain of Thought | [🔗](https://arxiv.org/abs/2410.14198) | Xiang Zhang, Dujian Ding | University of British Columbia | Supervised Chain of Thought |
 | October 24, 2024 | On examples: A Theoretical Understanding of Chain-of-Thought: Coherent Reasoning and Error-Aware Demonstration | [🔗](https://arxiv.org/abs/2410.16540) | Zhiqiang Hu, et al. | Amazon, Michigan State University | Theoretical Analysis of CoT |
+
+
 
 ### CoT Implementations
 
@@ -213,6 +216,26 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 | Graph of Thoughts | [graph-of-thoughts](https://github.com/spcl/graph-of-thoughts) | SPCL | [![Stars](https://img.shields.io/github/stars/spcl/graph-of-thoughts?style=flat-square&color=purple)](https://github.com/spcl/graph-of-thoughts) | [![Followers](https://img.shields.io/github/followers/spcl?style=flat-square&color=teal)](https://github.com/spcl) |
 | Other | [CPO](https://github.com/sail-sg/CPO) | SAIL SG | [![Stars](https://img.shields.io/github/stars/sail-sg/CPO?style=flat-square&color=purple)](https://github.com/sail-sg/CPO) | [![Followers](https://img.shields.io/github/followers/sail-sg?style=flat-square&color=teal)](https://github.com/sail-sg) |
 | Other | [Everything-of-Thoughts-XoT](https://github.com/microsoft/Everything-of-Thoughts-XoT) | Microsoft | [![Stars](https://img.shields.io/github/stars/microsoft/Everything-of-Thoughts-XoT?style=flat-square&color=purple)](https://github.com/microsoft/Everything-of-Thoughts-XoT) | [![Followers](https://img.shields.io/github/followers/microsoft?style=flat-square&color=teal)](https://github.com/microsoft) |
+
+### CoT Fine-Tuned Models & Datasets
+
+#### Models
+| Model Name | Author | Size | Link |
+|------------|--------|------|------|
+| CoT-T5-3B | KAIST AI | 3B | [🔗](https://huggingface.co/kaist-ai/CoT-T5-3B) |
+| CoT-T5-11B | KAIST AI | 11B | [🔗](https://huggingface.co/kaist-ai/CoT-T5-11B) |
+| Llama-3.2V-11B-cot | Xkev | 11B | [🔗](https://huggingface.co/Xkev/Llama-3.2V-11B-cot) |
+| Llama-3.1-8B-Instruct-Reasoner-1o1_v0.3 | Lyte | 8B | [🔗](https://huggingface.co/Lyte/Llama-3.1-8B-Instruct-Reasoner-1o1_v0.3) |
+
+
+#### Datasets
+| Dataset Name | Author | Data Size | Likes | Link |
+|--------------|--------|-----------|-------|------|
+| chain-of-thought-sharegpt | Isaiah Bjork | 7.14k rows | 🌟 8 | [🔗](https://huggingface.co/datasets/isaiahbjork/chain-of-thought-sharegpt) |
+| CoT-Collection | KAIST AI | 1.84 million rows | 🌟 122 | [🔗](https://huggingface.co/datasets/kaist-ai/CoT-Collection?row=4) |
+| Reasoner-1o1-v0.3-HQ | Lyte | 370 rows | 🌟 7 | [🔗](https://huggingface.co/datasets/Lyte/Reasoner-1o1-v0.3-HQ) |
+| OpenLongCoT-Pretrain | qq8933 | 103k rows | 🌟 86 | [🔗](https://huggingface.co/datasets/qq8933/OpenLongCoT-Pretrain?row=0) |
+
 
 
 
