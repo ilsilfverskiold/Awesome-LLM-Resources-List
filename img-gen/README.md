@@ -25,6 +25,7 @@
 | **DALL-E 2**             | 2022             | Commercial                   | High             | With API calls        | Yes, with paid credits           | -                                | -                                                                        |
 | **DALL-E 3**             | 2023             | Commercial                   | High             | With API calls        | Yes, with paid credits           | -                                | -                                                                        |
 
+**Model evaluation:** https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0#evaluation
 
 ## Popular Technologies
 
