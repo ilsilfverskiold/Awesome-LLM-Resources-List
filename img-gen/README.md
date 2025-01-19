@@ -27,6 +27,36 @@
 
 **Model evaluation:** https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0#evaluation
 
+| 🌟 **Checkpoint**                  | 🖼️ **Purpose/Notes**                                | 🔗 **Link**                                                                                     |
+|------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **FLUX.1-dev**                     | Experimental, versatile model for creative tasks   | [FLUX.1-dev on Hugging Face](https://huggingface.co/black-forest-labs/FLUX.1-dev)             |
+| **Stable Diffusion v1.5**          | Classic, widely-used model for general use         | [Stable Diffusion v1.5 on Hugging Face](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5) |
+| **Juggernaut-XL-v9**               | Advanced, high-quality XL model                   | [Juggernaut-XL-v9 on Hugging Face](https://huggingface.co/RunDiffusion/Juggernaut-XL-v9)      |
+| **Animagine XL 3.1**               | Focused on animations and creative illustrations  | [Animagine XL 3.1 on Hugging Face](https://huggingface.co/cagliostrolab/animagine-xl-3.1)     |
+| **COSXL (Change Image Style)**     | Flexible style adjustments, workflows available    | [COSXL on Civiti](https://civitai.com/models/397741?modelVersionId=443550) <br> [Workflows on Reddit](https://www.reddit.com/r/StableDiffusion/comments/1e2l6px/quickly_and_easily_change_image_style_with_cosxl/) |
+
+
+## Generative Image Tools
+
+| Feature             | ComfyUI                     | Automatic1111            | Fooocus/RuinedFooocus     | SD Next                   | SwarmUI                     |
+|---------------------|-----------------------------|--------------------------|---------------------------|---------------------------|-----------------------------|
+| Interface           | 🟢 Advanced                | 🟠 Friendly              | 🟠 Simplified             | 🟠 Simplified            | 🟠 Friendly                   |
+| Models              | 🌟 SD + Flux     | 🎯 Stable Diffusion only | 🎯 SD XL only             | 🌀 Various txt2img/img2img| 🌀 SD + Flux               |
+| Performance         | 🟢 Efficient               | 🟠 Optimizable           | 🟠 Solid                  | 🟢 Optimized              | 🟢 High                    |
+| Features            | 🧬 Graph workflows, memory | 🧩 Plugins, upscaling    | 🎨 Styles, Img2Img        | 🌐 Multi-platform, models | 🎥 Modular, AI video       |
+| License             | 🟢 Open-source (GPL)       | 🟢 Open-source (Free)    | 🟢 Open-source (Free)     | 🟢 Open-source (Free)     | 🟢 Open-source (Free)       |
+
+## Running ComfyUI
+
+| 🛠️ **Method**            | 🌐 **Ease of Use**             | 💸 **Cost**                | 🕒 **Setup Time**        | 🔗 **Details/Tutorial**                                                                                         |
+|--------------------------|--------------------------------|---------------------------|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| **RunComfy**            | 🟢 One-click deploy           | 💰 More expensive          | 🟢 Quick                 | [RunComfy](https://www.runcomfy.com/)                                                                         |
+| **Runpod**              | 🟠 Requires setup (tutorial)  | 💰 Expensive               | 🟠 Moderate               | [Runpod Tutorial](https://blog.runpod.io/how-to-run-flux-image-generator-with-comfyui-2/)                      |
+| **ComfyAI.run**         | 🟢 Very easy  (restrictive)               | 💰 Most expensive          | 🟢 Quick | [Visit ComfyAI.run](https://comfyai.run)                                 |
+| **GCP (VM)**            | 🟠 Manual (needs tutorial)    | 💵 ~$25-30/month           | 🟠 Moderate               | [GCP Tutorial](https://www.youtube.com/watch?v=PZwnbBaJH3I)                                                   |
+| **Vast.ai**             | 🟠 Needs setup (tutorial)     | 💵 Affordable              | 🟠 Moderate               | [Vast.ai Tutorial](https://www.youtube.com/watch?v=PvW0VbBK7CY)                                               |
+
+
 ## Popular Technologies
 
 | **Technology**          | **What It Does**                       | **How It Works**                                              | **Example Use Case**                                                 |
