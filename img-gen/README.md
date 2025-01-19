@@ -27,6 +27,8 @@
 
 **Model evaluation:** https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0#evaluation
 
+### Popular Checkpoints
+
 | 🌟 **Checkpoint**                  | 🖼️ **Purpose/Notes**                                | 🔗 **Link**                                                                                     |
 |------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | **FLUX.1-dev**                     | Experimental, versatile model for creative tasks   | [FLUX.1-dev on Hugging Face](https://huggingface.co/black-forest-labs/FLUX.1-dev)             |
