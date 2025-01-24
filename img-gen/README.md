@@ -152,6 +152,10 @@
 | **Topic**           | **Description**                              | **Link**                                                                                      |
 |----------------------|----------------------------------------------|----------------------------------------------------------------------------------------------|
 | **ControlNets**      | Comprehensive guide to using ControlNets.    | [Civitai Guide to ControlNet](https://education.civitai.com/civitai-guide-to-controlnet)     |
+| **IP Adapters**      | Comprehensive guide to using IP Adapters.    | [Stable Diffusion Art Guide to IP Adapter](https://stable-diffusion-art.com/ip-adapter/)     |
 | **ComfyUI Basics**   | Introduction to using ComfyUI for beginners. | [YouTube: ComfyUI Basics](https://www.youtube.com/)                                          |
-| **Style Prompts**    | Which styles suit you and then use them in your promps | [SDXL Prompt Artist Study](https://rikkar69.github.io/SDXL-artist-study/)         | 
+| **Style Prompts**    | Which styles suit you and then use them in your prompts | [SDXL Prompt Artist Study](https://rikkar69.github.io/SDXL-artist-study/)         | 
+| **Intermediate Prompting**    | How to work with image prompts | [Prompt-Crafting Guide Intermediate](https://education.civitai.com/civitais-prompt-crafting-guide-part-2-intermediate/)         | 
+
+
 
