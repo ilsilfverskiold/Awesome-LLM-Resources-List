@@ -159,6 +159,19 @@ It goes without saying that these platforms can usually do more than LLM serving
 | [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) | [![GitHub Repo stars](https://img.shields.io/github/stars/KoljaB/RealtimeSTT?style=flat-square&color=purple)](https://github.com/KoljaB/RealtimeSTT) | [![GitHub followers](https://img.shields.io/github/followers/KoljaB?style=flat-square&color=teal)](https://github.com/KoljaB) |
 | [Coqui TTS](https://github.com/coqui-ai/TTS) | [![GitHub Repo stars](https://img.shields.io/github/stars/coqui-ai/TTS?style=flat-square&color=purple)](https://github.com/coqui-ai/TTS) | [![GitHub followers](https://img.shields.io/github/followers/coqui-ai?style=flat-square&color=teal)](https://github.com/coqui-ai) |
 
+### Open Source TTS Models
+
+| Model | License | Stars/Likes | Downloads (Last Month) | Repository |
+|----------------------------------------------|------------------------------|----------------|-------------------------|----------------|
+| [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | Apache 2.0 | ⭐ 3.16k (HF) | 📥 557,392 | [Hugging Face](https://huggingface.co/hexgrad/Kokoro-82M) |
+| [Zonos-v0.1-transformer](https://huggingface.co/Zyphra/Zonos-v0.1-transformer) | Apache 2.0 | ⭐ 249 (HF) | 📥 24,240 | [Hugging Face](https://huggingface.co/Zyphra/Zonos-v0.1-transformer) |
+| [XTTS-v2](https://huggingface.co/coqui/XTTS-v2) | Non-Commercial | ❤️ 368 (HF) | 📥 2,545,850 | [Hugging Face](https://huggingface.co/coqui/XTTS-v2) |
+| [ChatTTS](https://github.com/2noise/ChatTTS) | AGPL-3.0 | N/A | N/A | [GitHub](https://github.com/2noise/ChatTTS) |
+| [MeloTTS](https://github.com/myshell-ai/MeloTTS) | MIT | N/A | N/A | [GitHub](https://github.com/myshell-ai/MeloTTS) |
+
+For more TTS models and rankings, check out the [TTS Leaderboard](https://huggingface.co/spaces/Pendrokar/TTS-Spaces-Arena).
+
+
 ### OS RAG Frameworks
 
 | Framework                                           | Organization              | Open Source                                                                                                                | Released | GitHub                                                                                   |
