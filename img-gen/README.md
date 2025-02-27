@@ -161,10 +161,10 @@
 
 | Base Model | Technology | Workflow               | Notes                                      | Link                                             |
 |------------|------------|------------------------|--------------------------------------------|--------------------------------------------------|
-| SDXL       | IP Adapter | Combine Images (styling only)        | Combine images in the IP Adapter  | [🔗](/comfyui/sdxl_ipadapter_combine_images.json) |
-| SD1.5       | IP Adapter | Styling Only               | Already set to only styling transfer     | [🔗](/comfyui/sd15_ipadapter_styling.json)        |
-| SD1.5       | IP Adapter | Simple     | Simple workflow for SD1.5 IP Adapter | [🔗](/comfyui/sd15_ipadapter_linear.json)         |
-| SDXL       | IP Adapter | Styling or standard   | Set the settings to styling only or linear | [🔗](/comfyui/sdxl_ip_adapter_plus_styling.json)  |
-| Flux       | IP Adapter | Redux Styling & Standard          | Set the strength of the styling at 0.05-0.10 for styling only | [🔗](/comfyui/flux_ipadapter_redux_styling.json)  |
-| Flux       | ControlNets | Interior designer workflow          | set the image you would like to change the interior of | [🔗](/comfyui/interior_designer.json)  |
+| SDXL       | IP Adapter | Combine Images (styling only)        | Combine images in the IP Adapter  | [🔗](/img-gen/comfyui/sdxl_ipadapter_combine_images.json) |
+| SD1.5       | IP Adapter | Styling Only               | Already set to only styling transfer     | [🔗](/img-gen/comfyui/sd15_ipadapter_styling.json)        |
+| SD1.5       | IP Adapter | Simple     | Simple workflow for SD1.5 IP Adapter | [🔗](/img-gen/comfyui/sd15_ipadapter_linear.json)         |
+| SDXL       | IP Adapter | Styling or standard   | Set the settings to styling only or linear | [🔗](/img-gen/comfyui/sdxl_ip_adapter_plus_styling.json)  |
+| Flux       | IP Adapter | Redux Styling & Standard          | Set the strength of the styling at 0.05-0.10 for styling only | [🔗](/img-gen/comfyui/flux_ipadapter_redux_styling.json)  |
+| Flux       | ControlNets | Interior designer workflow          | set the image you would like to change the interior of | [🔗](/img-gen/comfyui/interior_designer.json)  |
 
