@@ -157,5 +157,14 @@
 | **Style Prompts**    | Which styles suit you and then use them in your prompts | [SDXL Prompt Artist Study](https://rikkar69.github.io/SDXL-artist-study/)         | 
 | **Intermediate Prompting**    | How to work with image prompts | [Prompt-Crafting Guide Intermediate](https://education.civitai.com/civitais-prompt-crafting-guide-part-2-intermediate/)         | 
 
+## ComfyUI Workflows
 
+| Base Model | Technology | Workflow               | Notes                                      | Link                                             |
+|------------|------------|------------------------|--------------------------------------------|--------------------------------------------------|
+| SDXL       | IP Adapter | Combine Images (styling only)        | Combine images in the IP Adapter  | [🔗](/comfyui/sdxl_ipadapter_combine_images.json) |
+| SD1.5       | IP Adapter | Styling Only               | Already set to only styling transfer     | [🔗](/comfyui/sd15_ipadapter_styling.json)        |
+| SD1.5       | IP Adapter | Simple     | Simple workflow for SD1.5 IP Adapter | [🔗](/comfyui/sd15_ipadapter_linear.json)         |
+| SDXL       | IP Adapter | Styling or standard   | Set the settings to styling only or linear | [🔗](/comfyui/sdxl_ip_adapter_plus_styling.json)  |
+| Flux       | IP Adapter | Redux Styling & Standard          | Set the strength of the styling at 0.05-0.10 for styling only | [🔗](/comfyui/flux_ipadapter_redux_styling.json)  |
+| Flux       | ControlNets | Interior designer workflow          | set the image you would like to change the interior of | [🔗](/comfyui/interior_designer.json)  |
 
