@@ -1,0 +1,1143 @@
+{
+  "last_node_id": 24,
+  "last_link_id": 35,
+  "nodes": [
+    {
+      "id": 5,
+      "type": "Miaoshouai_Tagger",
+      "pos": [
+        397.65765380859375,
+        347.77789306640625
+      ],
+      "size": [
+        400,
+        400
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 5,
+          "shape": 7
+        },
+        {
+          "name": "filenames",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "filenames"
+          },
+          "shape": 7
+        },
+        {
+          "name": "captions",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "captions"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 6
+        },
+        {
+          "name": "filenames",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        },
+        {
+          "name": "captions",
+          "type": "STRING",
+          "links": [
+            6,
+            9
+          ],
+          "slot_index": 2,
+          "shape": 6
+        },
+        {
+          "name": "folder_path",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "batch_size",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Miaoshouai_Tagger"
+      },
+      "widgets_values": [
+        "promptgen_large_v1.5",
+        "Path to your image folder",
+        "extra_mixed",
+        1025,
+        4,
+        "never",
+        "",
+        "",
+        "",
+        "",
+        "replace_tags eg:search1:replace1;search2:replace2"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ShowText|pysssss",
+      "pos": [
+        833.24462890625,
+        257.92242431640625
+      ],
+      "size": [
+        550.927001953125,
+        264.5240478515625
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 6,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "A cute, chubby, cartoonish dragon character with large, expressive blue eyes and pink horns, sitting in the middle of the image. the dragon character has a small, fluffy tail and is wearing a striped, orange and white striped shirt. the background is a plain white, providing a clean and simple backdrop for the character. the character is centered in the image, looking directly at the viewer with a friendly smile, and its large, teal eyes are the focal point of the drawing. the drawing is done in a simple, clean style, with smooth shading and vibrant colors that bring the character to life.\n\n1girl, solo, looking at viewer, blush, smile, blue eyes, simple background, white background, animal ears, tail, closed mouth, sitting, horns, striped clothes, no humans, furry, animal focus\n\ncamera_angle: from front, art_style: digital illustration, location: NA, background: plain white background with no additional details, text: NA;NA, shoes: none;none, clothing: striped shirt;naked, accessory: pink and orange accents, hair_color: orange;pink, distance_to_camera: full body;full body"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "CR Prompt Text",
+      "pos": [
+        829.1895141601562,
+        572.5878295898438
+      ],
+      "size": [
+        566.4429931640625,
+        124.87611389160156
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            7
+          ]
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Prompt Text"
+      },
+      "widgets_values": [
+        "colorful plush toy made of soft fabric and felt, Stuffed animal, perfection style, movie still, film still cinematic, cinematic shot, cinematic lightning, detailed stitching and texture, vibrant pastel colors, Pixar-style, high-quality rendering, front view, sharp focus, professional image, professional marketing photo, cute toy"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "CR Text Concatenate",
+      "pos": [
+        1438.7802734375,
+        592.3362426757812
+      ],
+      "size": [
+        300.8275146484375,
+        78
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text1",
+          "type": "STRING",
+          "link": 9,
+          "widget": {
+            "name": "text1"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text2",
+          "type": "STRING",
+          "link": 7,
+          "widget": {
+            "name": "text2"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "*",
+          "links": [
+            8
+          ]
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Text Concatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 13,
+      "type": "VAEDecode",
+      "pos": [
+        2890.786376953125,
+        -18.902780532836914
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 14
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 15,
+      "type": "SaveImage",
+      "pos": [
+        3126.9130859375,
+        -30.615646362304688
+      ],
+      "size": [
+        471.65869140625,
+        467.65350341796875
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 16
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1838.9246826171875,
+        328.19140625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 13
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 8,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            32
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "CLIP Text Encode (Positive)",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 1,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        1020.441650390625,
+        62.32874298095703
+      ],
+      "size": [
+        315,
+        98
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1
+          ]
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            2
+          ]
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            20
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "sdxl/protovisionXLHighFidelity3D_releaseV660Bakedvae.safetensors"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LoraLoader",
+      "pos": [
+        1391.90185546875,
+        52.451202392578125
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            27
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            12,
+            13
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "sdxl-JuggerCineXL2.safetensors",
+        0.5,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "type": "LoadImage",
+      "pos": [
+        715.5750122070312,
+        -438.1370544433594
+      ],
+      "size": [
+        407.2383117675781,
+        427.4677429199219
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            5,
+            25,
+            30
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "kid1.png",
+        "image"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "CLIPTextEncode",
+      "pos": [
+        1843.1658935546875,
+        576.4379272460938
+      ],
+      "size": [
+        353.4150085449219,
+        111.4885025024414
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            33
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "CLIP Text Encode (Negative)",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "child, text, watermark, disfigured, childlike, unrealistic, child painting, childlike"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "PreviewImage",
+      "pos": [
+        1174.4287109375,
+        -430.71282958984375
+      ],
+      "size": [
+        333.6436462402344,
+        394.55316162109375
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 31
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 16,
+      "type": "EmptyLatentImage",
+      "pos": [
+        2503.593994140625,
+        382.6025390625
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            15
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "type": "KSamplerAdvanced",
+      "pos": [
+        2506.88232421875,
+        -35.23346710205078
+      ],
+      "size": [
+        315,
+        334
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 26
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 34
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 35
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 15
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            14
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerAdvanced"
+      },
+      "widgets_values": [
+        "enable",
+        36829154931839,
+        "randomize",
+        20,
+        8,
+        "euler",
+        "normal",
+        0,
+        10000,
+        "disable"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "ControlNetApplyAdvanced",
+      "pos": [
+        2155.025634765625,
+        -22.51363182067871
+      ],
+      "size": [
+        315,
+        186
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 32
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 33
+        },
+        {
+          "name": "control_net",
+          "type": "CONTROL_NET",
+          "link": 28
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 29
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            34
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            35
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetApplyAdvanced"
+      },
+      "widgets_values": [
+        0.5,
+        0,
+        0.6
+      ]
+    },
+    {
+      "id": 17,
+      "type": "IPAdapterAdvanced",
+      "pos": [
+        1757.6767578125,
+        -261.3121643066406
+      ],
+      "size": [
+        315,
+        278
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 27
+        },
+        {
+          "name": "ipadapter",
+          "type": "IPADAPTER",
+          "link": 23
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 25
+        },
+        {
+          "name": "image_negative",
+          "type": "IMAGE",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "attn_mask",
+          "type": "MASK",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "clip_vision",
+          "type": "CLIP_VISION",
+          "link": 24,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            26
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IPAdapterAdvanced"
+      },
+      "widgets_values": [
+        0.33,
+        "linear",
+        "concat",
+        0,
+        0.5,
+        "V only"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "IPAdapterModelLoader",
+      "pos": [
+        1759.1898193359375,
+        -410.7967224121094
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IPADAPTER",
+          "type": "IPADAPTER",
+          "links": [
+            23
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "IPAdapterModelLoader"
+      },
+      "widgets_values": [
+        "sdxl/ip-adapter-plus_sdxl_vit-h.safetensors"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "CLIPVisionLoader",
+      "pos": [
+        1687.8968505859375,
+        -544.267578125
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP_VISION",
+          "type": "CLIP_VISION",
+          "links": [
+            24
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPVisionLoader"
+      },
+      "widgets_values": [
+        "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "AIO_Preprocessor",
+      "pos": [
+        2153.05712890625,
+        -211.96560668945312
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            29,
+            31
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AIO_Preprocessor"
+      },
+      "widgets_values": [
+        "CannyEdgePreprocessor",
+        512
+      ]
+    },
+    {
+      "id": 23,
+      "type": "ControlNetLoader",
+      "pos": [
+        2162.88818359375,
+        -357.08966064453125
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CONTROL_NET",
+          "type": "CONTROL_NET",
+          "links": [
+            28
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetLoader"
+      },
+      "widgets_values": [
+        "sdxl/diffusers_xl_canny_full.safetensors"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "MODEL"
+    ],
+    [
+      2,
+      1,
+      1,
+      2,
+      1,
+      "CLIP"
+    ],
+    [
+      5,
+      4,
+      0,
+      5,
+      0,
+      "IMAGE"
+    ],
+    [
+      6,
+      5,
+      2,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      7,
+      9,
+      0,
+      10,
+      1,
+      "STRING"
+    ],
+    [
+      8,
+      10,
+      0,
+      11,
+      1,
+      "STRING"
+    ],
+    [
+      9,
+      5,
+      2,
+      10,
+      0,
+      "STRING"
+    ],
+    [
+      12,
+      2,
+      1,
+      12,
+      0,
+      "CLIP"
+    ],
+    [
+      13,
+      2,
+      1,
+      11,
+      0,
+      "CLIP"
+    ],
+    [
+      14,
+      14,
+      0,
+      13,
+      0,
+      "LATENT"
+    ],
+    [
+      15,
+      16,
+      0,
+      14,
+      3,
+      "LATENT"
+    ],
+    [
+      16,
+      13,
+      0,
+      15,
+      0,
+      "IMAGE"
+    ],
+    [
+      20,
+      1,
+      2,
+      13,
+      1,
+      "VAE"
+    ],
+    [
+      23,
+      18,
+      0,
+      17,
+      1,
+      "IPADAPTER"
+    ],
+    [
+      24,
+      19,
+      0,
+      17,
+      5,
+      "CLIP_VISION"
+    ],
+    [
+      25,
+      4,
+      0,
+      17,
+      2,
+      "IMAGE"
+    ],
+    [
+      26,
+      17,
+      0,
+      14,
+      0,
+      "MODEL"
+    ],
+    [
+      27,
+      2,
+      0,
+      17,
+      0,
+      "MODEL"
+    ],
+    [
+      28,
+      23,
+      0,
+      21,
+      2,
+      "CONTROL_NET"
+    ],
+    [
+      29,
+      22,
+      0,
+      21,
+      3,
+      "IMAGE"
+    ],
+    [
+      30,
+      4,
+      0,
+      22,
+      0,
+      "IMAGE"
+    ],
+    [
+      31,
+      22,
+      0,
+      24,
+      0,
+      "IMAGE"
+    ],
+    [
+      32,
+      11,
+      0,
+      21,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      33,
+      12,
+      0,
+      21,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      34,
+      21,
+      0,
+      14,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      35,
+      21,
+      1,
+      14,
+      2,
+      "CONDITIONING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.521359675478573,
+      "offset": [
+        108.90411450895473,
+        693.3421942438927
+      ]
+    }
+  },
+  "version": 0.4
+}
