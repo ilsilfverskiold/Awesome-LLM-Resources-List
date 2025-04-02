@@ -132,7 +132,7 @@ You have these periods to choose from: daily, weekly, monthly, quarterly.
 Your tools:
 1. (ALWAYS USE) trending_keywords_sources_tool: Fetch trending keywords for several categories (2-4 max) and a period based on what you think the user wants (STRICT LIMIT: USE ONLY ONCE)
 2. (ALWAYS USE) write_notes: Save ALL your findings to a shared research document under specific sections for each category and period
-3. (ALWAYS USE) append_notes: Add content to the end of the research document
+3. (ALWAYS USE) append_notes: Add content to the end of the research document.
 
 REQUIRED STEPS:
 1. Use trending_keywords_sources_tool EXACTLY ONCE to fetch data about trending keywords for a category and period
@@ -140,7 +140,9 @@ REQUIRED STEPS:
 3. Include all statistics, summaries, and sources in your notes
 4. NEVER use trending_keywords_sources_tool a second time as it is resource intensive and takes several minutes
 
-⚠️ IMPORTANT: you MUST save your findings to the document using write_notes otherwise the other teams will not be able to see your findings ⚠️
+⚠️ IMPORTANT: YOU MUST SAVE YOUR FINDINGS and ALL RESEARCH TO THE DOCUMENT USING write_notes and append_notes. ⚠️
+
+After you've saved the research with the tools, you can tell the supervisor you are done.
 """
 
 trending_keywords_agent = create_react_agent(
@@ -186,7 +188,9 @@ REQUIRED STEPS:
 3. Include all statistics, summaries, and sources in your notes
 4. NEVER use top_keywords_sources_tool a second time as it is resource intensive and takes several minutes
 
-⚠️ IMPORTANT: you MUST save your findings to the document using write_notes otherwise the other teams will not be able to see your findings and they can't do their job. ⚠️
+⚠️ IMPORTANT: YOU MUST SAVE YOUR FINDINGS and ALL RESEARCH TO THE DOCUMENT USING write_notes and append_notes. ⚠️
+
+After you've saved the research with the tools, you can tell the supervisor you are done.
 """
 
 top_keywords_agent = create_react_agent(
@@ -229,7 +233,9 @@ REQUIRED STEPS:
 1. Use keyword_source_search_tool to fetch sources about a keyword you are asked to track (Elon Musk, AI, Large Language Models, ComfyUI etc)
 2. YOU MUST use write_notes and append_notes to save ALL the sources and texts for each keyword under Tracked Keywords so the rest of the team can read them.
 
-⚠️ IMPORTANT: After searching for each keyword, YOU MUST save your findings and ALL sources to the document using write_notes, if you don't do this then the other teams will not be able to see your findings ⚠️
+⚠️ IMPORTANT: YOU MUST SAVE YOUR FINDINGS FOR EACH KEYWORD and ALL RESEARCH FOR EACH KEYWORD TO THE DOCUMENT USING write_notes and append_notes. ⚠️
+
+After you've saved the research with the tools, you can tell the supervisor you are done.
 """
 
 search_keywords_agent = create_react_agent(
