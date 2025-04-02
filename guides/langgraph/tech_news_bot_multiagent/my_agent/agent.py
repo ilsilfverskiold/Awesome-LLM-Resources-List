@@ -23,8 +23,8 @@ workflow.add_node("editing_supervisor", editing_supervisor_node)
 workflow.add_node("fact_checker", fact_checker_node)
 workflow.add_node("summarizer", summarizer_node)
 
-# Start edge (explicit)
+# Only need the starting edge
 workflow.add_edge(START, "supervisor")
 
-# compile
+# Compile the graph
 graph = workflow.compile()

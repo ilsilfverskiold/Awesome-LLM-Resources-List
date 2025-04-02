@@ -11,7 +11,6 @@ from datetime import datetime
 def fetch_keywords_data(period="daily", category=None, limit=3, sort="trending"):
     """Core function to fetch keyword data from the API."""
     
-    # Validate parameters
     valid_periods = ['daily', 'weekly', 'monthly', 'quarterly']
     valid_categories = ['companies', 'ai', 'tools', 'platforms', 'hardware', 'people', 
                       'frameworks', 'languages', 'concepts', 'websites', 'subjects']
@@ -25,7 +24,6 @@ def fetch_keywords_data(period="daily", category=None, limit=3, sort="trending")
     if not is_valid:
         return False, error_message
     
-    # Build parameters
     params = {
         "period": period,
         "slim": "true",
@@ -50,7 +48,6 @@ def fetch_keywords_data(period="daily", category=None, limit=3, sort="trending")
 def fetch_sources_data(keyword, source=None, period="daily", limit=5, type=None):
     """Core function to fetch source data from the API."""
 
-    # Validate parameters
     valid_periods = ['daily', 'weekly', 'monthly', 'quarterly']
     validation_dict = {
         "period": (period, valid_periods, True),
@@ -93,7 +90,6 @@ def fetch_keyword_summary(keyword, period="daily"):
     """Fetch an AI-generated summary for a keyword."""
     base_url = "https://public.api.safron.io/v2/ai-summary"
     
-    # Validate parameters
     valid_periods = ['daily', 'weekly', 'monthly', 'quarterly']
     validation_dict = {
         "period": (period, valid_periods, True),
@@ -136,8 +132,9 @@ def format_source_items(sources, standalone=False):
         if not isinstance(source, dict):
             formatted_text += f"{idx}. {source}\n\n"
             continue
-        
+            
         title = source.get('text', source.get('title', 'No title'))
+        
         published = source.get("published", "")
         if published:
             try:
@@ -150,10 +147,10 @@ def format_source_items(sources, standalone=False):
         formatted_text += f"{idx}. **{title}**\n"
         if published:
             formatted_text += f"   - Published: {published}\n"
-            formatted_text += f"   - Engagement: {source.get('engagement', 'Unknown')}\n"
-            formatted_text += f"   - Source: {source.get('source', 'Unknown')}\n"
-            formatted_text += f"   - Type: {source.get('type', 'Unknown type')}\n"
-
+        formatted_text += f"   - Engagement: {source.get('engagement', 'Unknown')}\n"
+        formatted_text += f"   - Source: {source.get('source', 'Unknown')}\n"
+        formatted_text += f"   - Type: {source.get('type', 'Unknown type')}\n"
+        
         link = source.get('link', source.get('url', '#'))
         source_name = source.get('source', 'Link')
         formatted_text += f"   - Link: [{source_name}]({link})\n\n"
@@ -184,8 +181,8 @@ def format_enhanced_report(all_results, report_title, category_suffix):
                     change = stats.get('change_in_count')
                     direction = "↑" if change > 0 else "↓" if change < 0 else "→"
                     formatted_response += f"- Trend: {direction} {abs(change)}%\n"
-                    formatted_response += f"- Engagement: {stats.get('engagement', 'N/A')}\n"
-                    formatted_response += f"- Sentiment: {stats.get('sentiment', 'N/A')}\n\n"
+                formatted_response += f"- Engagement: {stats.get('engagement', 'N/A')}\n"
+                formatted_response += f"- Sentiment: {stats.get('sentiment', 'N/A')}\n\n"
             
             if summary and summary != "No summary available":
                 formatted_response += "**Summary:**\n"
@@ -278,7 +275,7 @@ def get_keywords_sources_data(sort, categories=None, period="daily", limit=None)
                         print(f"Error parsing sources: {e}")
                         sources = [f"Error parsing sources: {str(e)}"]
                 else:
-                    sources = [sources_data]  # Error message
+                    sources = [sources_data]
                 
                 keyword_results[keyword] = {
                     "stats": stats,
@@ -296,8 +293,6 @@ def get_keywords_sources_data(sort, categories=None, period="daily", limit=None)
     return all_results, report_title, category_suffix
 
 # -------------------- TOOLS --------------------
-
-# Describe these well (!)
 
 @tool
 def trending_keywords_sources_tool(categories: Optional[List[str]] = None, period: str = "daily", limit: int = 3) -> str:
@@ -355,7 +350,7 @@ def top_keywords_sources_tool(categories: Optional[List[str]] = None, period: st
 
 @tool
 def keyword_source_search_tool(
-    keyword: str, 
+    keywords: str, 
     source: str = None, 
     period: str = "daily", 
     limit: int = 10,
@@ -363,44 +358,46 @@ def keyword_source_search_tool(
 ) -> str:
     """Search for keywords and their sources in tech social media platforms.
     
-    This tool searches across technology platforms for content about a specific keyword. It will return the highest engaged sources.
-    You can filter by platform (source), time period, content type, and control how many results to return.
-    
     Args:
-        keyword: The specific keyword to search for (e.g., "AI", "Kubernetes", "Apple")
+        keywords: Single keyword or comma-separated list (e.g., "AI" or "AI, Python, AWS")
         source: Optional platform to search (e.g., "reddit", "hackernews", "github", "medium")
         period: Time period - 'daily', 'weekly', 'monthly', or 'quarterly'. Default is 'daily'.
         limit: Maximum number of sources to return. Default is 10.
-        content_type: Optional filter for content type (e.g., "post", "comment")
+        content_type: Optional filter for content type
         
     Returns:
-        Formatted report of sources discussing the keyword.
+        Formatted report of sources discussing the keyword(s).
     """
-    sources_success, sources_data = fetch_sources_data(
-        keyword=keyword,
-        source=source,
-        period=period,
-        limit=limit,
-        type=content_type
-    )
-    
-    if not sources_success:
-        return f"Error fetching sources: {sources_data}"
-    
-    formatted_response = f"# Sources for '{keyword}'"
-    if source:
-        formatted_response += f" from {source}"
-    formatted_response += f"\n\nPeriod: {period} | Found: {sources_data.get('articles_found', 0)} articles\n\n"
-    
-    articles = sources_data.get("articles", [])
-    if not articles:
-        return formatted_response + "No sources found matching your criteria."
-    
-    formatted_response += format_source_items(articles, standalone=True)
-    
-    return formatted_response
 
-# global variable to store the current notes file path
+    keyword_list = [k.strip() for k in keywords.split(',')] if ',' in keywords else [keywords.strip()]
+
+    response = "# Keyword Search Results\n\n"
+    
+    for kw in keyword_list:
+        sources_success, sources_data = fetch_sources_data(
+            keyword=kw,
+            source=source,
+            period=period,
+            limit=limit,
+            type=content_type
+        )
+        
+        response += f"## Sources for '{kw}'\n\n"
+        
+        if not sources_success:
+            response += f"Error fetching sources: {sources_data}\n\n---\n\n"
+            continue
+            
+        articles = sources_data.get("articles", [])
+        if not articles:
+            response += f"No sources found matching your criteria.\n\n---\n\n"
+            continue
+            
+        response += format_source_items(articles, standalone=True)
+        response += "\n---\n\n"
+        
+    return response
+
 CURRENT_NOTES_FILE = None
 
 def get_or_create_notes_file():
@@ -485,31 +482,6 @@ def write_notes(content: str, section: str = "General") -> str:
     except Exception as e:
         return f"Error writing to notes file: {str(e)}"
 
-@tool
-def append_notes(content: str) -> str:
-    """Append content to the end of the research notes file.
-    
-    Args:
-        content: The content to append to the notes
-        
-    Returns:
-        Confirmation message.
-    """
-    notes_file = get_or_create_notes_file()
-    
-    try:
-        with open(notes_file, "a") as f:
-            f.write(f"\n{content}\n")
-        
-        with open(notes_file, "r") as f:
-            current_content = f.read()
-        print(f"\n----- NOTES FILE CONTENTS AFTER APPENDING -----\n")
-        print(current_content)
-        print(f"\n----- END OF NOTES FILE CONTENTS -----\n")
-        
-        return "Successfully appended to research notes."
-    except Exception as e:
-        return f"Error appending to notes file: {str(e)}"
 
 
 
