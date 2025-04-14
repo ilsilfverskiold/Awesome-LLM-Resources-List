@@ -2,7 +2,7 @@
 
 A Curated Collection of LLM resources. 💡✨
 
-**🌐 Updated: 12th of March 2025**
+**🌐 Updated: 14th of April 2025**
 
 ### 'Serverless' Hosting of Private/OS Models
 
