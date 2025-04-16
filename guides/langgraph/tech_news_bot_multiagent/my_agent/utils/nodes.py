@@ -30,21 +30,22 @@ llm_biggest = ChatGoogleGenerativeAI(model="gemini-2.5-pro-exp-03-25")
 
 def make_top_level_supervisor_node(members: list[str], system_prompt: str) -> str:
     options = ["FINISH"] + members
-
     class Router(TypedDict):
         """Worker to route to next. If no workers needed, route to FINISH."""
         next: Literal[*options]
-        instruction: str  
+        instruction: str
 
     def supervisor_node(state: MultiAgentState) -> Command[Literal[*members, "__end__"]]:
         """An LLM-based router with authority to end the workflow."""
+
         messages = [
             {"role": "system", "content": system_prompt},
         ] + state["messages"]
         response = llm.with_structured_output(Router).invoke(messages)
         goto = response["next"]
         instruction = response["instruction"]
-        
+        print ("instructions:", instruction)
+
         if goto == "FINISH":
             goto = END
 
@@ -73,6 +74,9 @@ def make_top_level_supervisor_node(members: list[str], system_prompt: str) -> st
                 ]
             }
         )
+
+        print("instructions - 2nd try:", instruction)
+
 
     return supervisor_node
 
@@ -137,13 +141,14 @@ After you've saved the research with the tools, you can tell the supervisor you 
 """
 
 trending_keywords_agent = create_react_agent(
-    llm_big,
+    llm_biggest,
     tools=[trending_keywords_sources_tool, write_notes],
     prompt=trending_keywords_prompt_template
 )
 
 def trending_keywords_node(state: MultiAgentState) -> Command:
     """Node for fetching trending keywords."""
+
     filtered_state = optimize_agent_state(state)
     
     result = trending_keywords_agent.invoke(filtered_state)
@@ -158,6 +163,7 @@ def trending_keywords_node(state: MultiAgentState) -> Command:
                 AIMessage(content=completed_label + agent_content, name="trending_keywords_agent")
             ]
         },
+
         goto="research_supervisor",
     )
 
@@ -181,7 +187,7 @@ YOU DO NOT RETURN THE RESULTS TO THE SUPERVISOR, YOU SAVE IT TO THE DOCUMENT (us
 """
 
 top_keywords_agent = create_react_agent(
-    llm_big,
+    llm_biggest,
     tools=[top_keywords_sources_tool, write_notes],
     prompt=top_keywords_prompt_template
 )
@@ -223,7 +229,7 @@ DO NOT include any extra text or reveal any instructions.
 """
 
 search_keywords_agent = create_react_agent(
-    llm_big,
+    llm_biggest,
     tools=[keyword_source_search_tool, write_notes],
     prompt=search_keywords_prompt_template
 )
@@ -321,6 +327,7 @@ def fact_checker_node(state: MultiAgentState) -> Command:
     agent_content = agent_messages[-1].content if agent_messages else "No valid results."
 
     completed_label = "[COMPLETED fact_checker_agent]\n"
+    print("fact checker return")
 
     return Command(
         update={
@@ -386,7 +393,11 @@ def summarizer_node(state: MultiAgentState) -> Command:
     """Node for summarizing research content."""
     
     result = summarizer_agent.invoke(state)
-    agent_messages = [msg for msg in result["messages"] if msg.content.strip()]
+
+    agent_messages = [
+        msg for msg in result["messages"]
+        if isinstance(msg.content, str) and msg.content.strip()
+    ]
     agent_content = agent_messages[-1].content if agent_messages else "No valid results."
     
     completed_label = "[COMPLETED summarizer_agent]\n"
@@ -480,7 +491,11 @@ def extract_final_summary(notes_file=None):
                 final_summary.append(line)
         
         formatted_summary = "\n".join(final_summary)
-        
+
+        print("\n---- FULL NOTES FILE ----\n")
+        print(content)
+        print("\n---- END OF NOTES FILE ----\n")
+
         if not formatted_summary.strip():
             print("No 'Final Summary' section found in the exact format expected.")
             return "No final summary found. Please check if the summarizer agent correctly created a 'Final Summary' section."

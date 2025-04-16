@@ -350,8 +350,8 @@ def top_keywords_sources_tool(categories: Optional[List[str]] = None, period: st
 
 @tool
 def keyword_source_search_tool(
-    keywords: str, 
-    source: str = None, 
+    keywords: str = "Python",
+    source: str = "medium",
     period: str = "daily", 
     limit: int = 10,
     content_type: str = None
