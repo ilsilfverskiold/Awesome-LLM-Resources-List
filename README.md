@@ -128,6 +128,7 @@ It goes without saying that these platforms can usually do more than LLM serving
 | [Parlant](https://github.com/emcie-co/parlant)     | [![GitHub Repo stars](https://img.shields.io/github/stars/emcie-co/parlant?style=flat-square&color=purple)](https://github.com/emcie-co/parlant) | ❌               | 2024     | [![GitHub followers](https://img.shields.io/github/followers/emcie-co?style=flat-square&color=teal)](https://github.com/emcie-co) |
 | [Rig](https://github.com/0xPlaygrounds/rig)        | [![GitHub Repo stars](https://img.shields.io/github/stars/0xPlaygrounds/rig?style=flat-square&color=purple)](https://github.com/0xPlaygrounds/rig) | ❌               | 2024     | [![GitHub followers](https://img.shields.io/github/followers/0xPlaygrounds?style=flat-square&color=teal)](https://github.com/0xPlaygrounds) |
 | [eliza](https://github.com/elizaOS/eliza) | [![GitHub Repo stars](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&color=purple)](https://github.com/elizaOS/eliza) | ✅ | 2024 | [![GitHub followers](https://img.shields.io/github/followers/elizaOS?style=flat-square&color=teal)](https://github.com/elizaOS) |
+| [TensorZero](https://www.tensorzero.com/) | [![GitHub Repo stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=flat-square&color=purple)](https://github.com/tensorzero/tensorzero) | ❌ | 2024 | [![GitHub followers](https://img.shields.io/github/followers/tensorzero?style=flat-square&color=teal)](https://github.com/tensorzero/tensorzero) |
 
 ### Top Agentic Frameworks
 
