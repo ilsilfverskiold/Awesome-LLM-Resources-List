@@ -20,6 +20,14 @@ A Curated Collection of LLM resources. 💡✨
 
 It goes without saying that these platforms can usually do more than LLM serving**
 
+### 🧮 Serverless Compute Pricing & Limits – Lambda vs Modal (on CPU)
+
+| Platform               | 💵 Compute Unit                                     | 📥 Per-Request Fee                                 | 🆓 Free Tier                                         | ⏱️ Max Timeout                           | 🚦 Concurrency Limit                                              |
+|------------------------|----------------------------------------------------|----------------------------------------------------|------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------|
+| **AWS Lambda + API GW**| GB-sec @ $0.000016667                              | $0.20/M Lambda + $1.00/M HTTP API calls            | 1M req + 400k GB-s/mo (12 mo) + 1M API calls/mo     | 15 min                                    | 1,000 per region (can request more)                               |
+| **Modal**              | CPU-s @ $0.0000131 + GiB-s @ $0.00000222           | ❌ No per-request fee                              | $30/mo compute credits (Starter)                   | Func: 24h ⎮ HTTP: 150s → 303 redirect    | Starter: 100 containers / 200 req/s ⎮ Team: 1,000 containers      |
+
+
 ### Access Off-the-Shelf OS Models (via API):
 
 | Platform/Tool                           | Released | GitHub |
@@ -269,8 +277,27 @@ For more TTS models and rankings, check out the [TTS Leaderboard](https://huggin
 | [KAG](https://github.com/OpenSPG/KAG)                | OpenSPG      | [![GitHub Repo stars](https://img.shields.io/github/stars/OpenSPG/KAG?style=flat-square&color=purple)](https://github.com/OpenSPG/KAG) | 2024     | [![GitHub followers](https://img.shields.io/github/followers/OpenSPG?style=flat-square&color=teal)](https://github.com/OpenSPG) |
 | [MemoRAG](https://github.com/qhjqhj00/MemoRAG)       | qhjqhj00     | [![GitHub Repo stars](https://img.shields.io/github/stars/qhjqhj00/MemoRAG?style=flat-square&color=purple)](https://github.com/qhjqhj00/MemoRAG) | 2023     | [![GitHub followers](https://img.shields.io/github/followers/qhjqhj00?style=flat-square&color=teal)](https://github.com/qhjqhj00) |
 
-
 See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get stuck (not always needed)
+
+### 🔍 Vector DBs – FOSS, Performance, Pricing, DevX
+
+| Vector DB        | License       | ⚡ Perf / Throughput                                                                 | ⏱️ Latency (Real-World)                                     | ☁️ Cloud Pricing / Free Tier                                                | 💻 Dev Experience                                                                                 |
+|------------------|----------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| **Qdrant**       | Apache 2.0     | 🥇 Highest RPS, lowest latency in single-node bench (≥4× vs prev. run)              | p95 < 10ms for 1M vecs (1 thread)                           | Always-on 1GB free; pay-go ≈ $0.014/hr                                     | REST + gRPC; 7 lang clients; filter-aware HNSW; hybrid support; Python “embedded” mode            |
+| **Milvus / Zilliz Cloud** | Apache 2.0 | 🚀 Fastest index build; RPS trails Qdrant for high-dim vecs                        | p95 ≈ 10–20ms @ 1M 768-dim (DiskANN, vendor data)            | 5GB free; serverless $0.30/GB-mo; dedicated from $99/mo                    | New SDK v2 (async, schema cache); Python/Go/Java/Node support                                      |
+| **Weaviate**     | BSD-3-Clause   | ⚙️ Least bench gains, but decent recall (95%+) and throughput                        | “Low-ms” claimed; users report 100–300ms if misconfigured    | Starts $25/mo; 14-day sandbox free                                         | GraphQL + REST; strong SDKs (Py/TS/Go/Java); easy RAG + hybrid templates                          |
+| **pgvector**     | MIT            | 🔥 28× lower p95 & 16× higher QPS vs Pinecone s1 @ 99% recall (50M)                  | p95 < 50ms @ 50M 768-dim (Timescale test)                   | Neon/Supabase offer free Postgres with pgvector (0.5–1GB, ~200h CPU)       | Pure SQL; supports joins + ACID; great for hybrid text + dense queries                            |
+| **Redis 8 Vector** | AGPLv3 / RSAL / SSPL | 🧵 3.4× higher QPS vs Qdrant, 4× vs Milvus @ ≥0.98 recall                           | Sub-ms avg, <10ms under load (vendor); 9.7× lower than Aurora+pgvector | Redis Cloud: 30MB free, pay-go from $5/mo; Flex $0.007/hr                  | Redis Vector Library + RAG helpers; OM clients for .NET/Py/JS; fast setup                         |
+
+### 💾 Vector DB Cloud Pricing (2000-char Chunks, ~768-dim)
+
+| # Chunks | Data Size   | 🟣 Milvus / Zilliz Cloud (Serverless)               | 🟢 Qdrant Cloud                                 | 🟡 Weaviate Cloud (“Standard”)                                 |
+|----------|-------------|------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------|
+| **10k**  | ~0.07 GB    | 🆓 Free – within 5 GB tier                           | 🆓 Free – fits in 1 GB RAM / 4 GB disk          | $25 base + $1.2 dim fee ≈ **$26**                              |
+| **100k** | ~0.67 GB    | 🆓 Still under 5 GB                                 | 🆓 Fits with compression in 4 GB disk           | $25 + $12.0 dim fee ≈ **$37**                                  |
+| **1M**   | ~6.7 GB     | 💵 ≈ $2 storage; add vCU fees or $99 dedicated      | 💵 Needs 10 GB cluster → ≈ **$20/mo**           | $25 + $120.5 dim fee ≈ **$145**                                |
+| **10M**  | ~67 GB      | 💵 ≈ $20 storage; + compute: **$100–150 total**     | 💵 Needs 64+ GB → **$120–150/mo** estimate      | $25 + $1,204 dim fee ≈ **$1,230**                              |
+
 
 ### AI Tools (for “using”)
 
