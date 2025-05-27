@@ -175,6 +175,18 @@ Please see this [google sheet](https://docs.google.com/spreadsheets/d/1zjcww1w0v
 | [PySpur](https://github.com/PySpur-Dev/pyspur) | PySpur-Dev | A tool to build and visualize AI agents seamlessly. | [![GitHub Repo stars](https://img.shields.io/github/stars/PySpur-Dev/pyspur?style=flat-square&color=purple)](https://github.com/PySpur-Dev/pyspur) | [![GitHub followers](https://img.shields.io/github/followers/PySpur-Dev?style=flat-square&color=teal)](https://github.com/PySpur-Dev) |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | FlowiseAI | A no‑code, visual platform for designing AI agent workflows. | [![GitHub Repo stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat-square&color=purple)](https://github.com/FlowiseAI/Flowise) | [![GitHub followers](https://img.shields.io/github/followers/FlowiseAI?style=flat-square&color=teal)](https://github.com/FlowiseAI) |
 
+### 💬 Model Call Pricing for agent systems (Text-only (2000 tokens in, 100 token out), Flat Rate)
+
+| Model               | 💵 $ / Call | 💯 100 Calls | 🧮 1,000 Calls | 🔁 30,000 Calls |
+|---------------------|------------:|-------------:|---------------:|----------------:|
+| **Gemini Flash 2.0**| $0.00000    | $0.02        | $0.24          | $7.20           |
+| **GPT-4o mini**     | $0.00144    | $0.14        | $1.44          | $43.20          |
+| **GPT-4.1**         | $0.00480    | $0.48        | $4.80          | $144.00         |
+| **Gemini Pro 2.5**  | $0.00350    | $0.35        | $3.50          | $105.00         |
+| **Claude Haiku 3.5**| $0.00200    | $0.20        | $2.00          | $60.00          |
+| **Claude Sonnet 4** | $0.00750    | $0.75        | $7.50          | $225.00         |
+| **GPT-4o**          | $0.01200    | $1.20        | $12.00         | $360.00         |
+| **OpenAI o3**       | $0.02400    | $2.40        | $24.00         | $720.00         |
 
 ### Agentic Tools (for “building”)
 
@@ -297,6 +309,16 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 | **100k** | ~0.67 GB    | 🆓 Still under 5 GB                                 | 🆓 Fits with compression in 4 GB disk           | $25 + $12.0 dim fee ≈ **$37**                                  |
 | **1M**   | ~6.7 GB     | 💵 ≈ $2 storage; add vCU fees or $99 dedicated      | 💵 Needs 10 GB cluster → ≈ **$20/mo**           | $25 + $120.5 dim fee ≈ **$145**                                |
 | **10M**  | ~67 GB      | 💵 ≈ $20 storage; + compute: **$100–150 total**     | 💵 Needs 64+ GB → **$120–150/mo** estimate      | $25 + $1,204 dim fee ≈ **$1,230**                              |
+
+### 🧠 Embedding Cost – OpenAI (Small Model, per Chunk Size)
+
+| # Chunks     | 📏 1,000 Chars | 📏 2,000 Chars | 📏 3,000 Chars |
+|--------------|---------------:|---------------:|---------------:|
+| **1,000**     | $0.01          | $0.01          | $0.01          |
+| **10,000**    | $0.05          | $0.10          | $0.15          |
+| **100,000**   | $0.50          | $1.00          | $1.50          |
+| **1,000,000** | $5.00          | $10.00         | $15.00         |
+| **10,000,000**| $50.00         | $100.00        | $150.00        |
 
 
 ### AI Tools (for “using”)
