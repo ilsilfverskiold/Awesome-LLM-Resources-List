@@ -2,7 +2,7 @@
 
 A Curated Collection of LLM resources. 💡✨
 
-**🌐 Updated: 14th of April 2025**
+**🌐 Updated: 22nd of June 2025**
 
 ### 'Serverless' Hosting of Private/OS Models
 
@@ -151,11 +151,13 @@ It goes without saying that these platforms can usually do more than LLM serving
 | [Agno](https://github.com/agno-agi/agno)    | [![GitHub Repo stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=flat-square&color=purple)](https://github.com/agno-agi/agno) | ✅                | 2024     | [![GitHub followers](https://img.shields.io/github/followers/pydantic?style=flat-square&color=teal)](https://github.com/agno-agi) |
 | [PydanticAI](https://github.com/pydantic/pydantic-ai)     | [![GitHub Repo stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=flat-square&color=purple)](https://github.com/pydantic/pydantic-ai) | ❌               | 2024     | [![GitHub followers](https://img.shields.io/github/followers/pydantic?style=flat-square&color=teal)](https://github.com/pydantic) |
 | [Mastra](https://github.com/mastra-ai/mastra)             | [![GitHub Repo stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat-square&color=purple)](https://github.com/mastra-ai/mastra) | ✅               | 2025     | [![GitHub followers](https://img.shields.io/github/followers/mastra-ai?style=flat-square&color=teal)](https://github.com/mastra-ai) |
+| [Mastra](https://github.com/mastra-ai/mastra)             | [![GitHub Repo stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat-square&color=purple)](https://github.com/mastra-ai/mastra) | ✅               | 2025     | [![GitHub followers](https://img.shields.io/github/followers/mastra-ai?style=flat-square&color=teal)](https://github.com/mastra-ai) |
+| [AgentDock](https://agentdock.ai/) | [![GitHub Repo stars](https://img.shields.io/github/stars/AgentDock/AgentDock?style=flat-square&color=purple)](https://github.com/AgentDock/AgentDock) | ✅ | 2025 | [![GitHub followers](https://img.shields.io/github/followers/AgentDock?style=flat-square&color=teal)](https://github.com/AgentDock) |
 
 ### Agentic Frameworks: Core Capabilities
-
 | Framework      | Memory & RAG                                  | Multimodality                                 | Multi-agent Support                           | Observability                                   |
 |----------------|-----------------------------------------------|-----------------------------------------------|-----------------------------------------------|-------------------------------------------------|
+| **AgentDock**  | Built-in RAG system; knowledge base integration | 🟢 Multi-modal (text, voice, tools, APIs)    | Visual workflow orchestration & agent chains  | Comprehensive LLM traceability & credit tracking |
 | **Agno**       | Integrated memory & vector DB/RAG             | 🟢 Native (text, image, audio, video)         | Supervisor-worker roles                       | Built-in cloud dashboard/logging                |
 | **LangGraph**  | Persistent state; easy external integration   | 🔸 Primarily text; extendable via nodes       | Hierarchical orchestration                    | LangSmith integration & graph editor            |
 | **SmolAgents** | Built-in short-term; custom long-term         | 🔸 Vision agents via VLMs                     | Modular multi-agent composition               | Minimal; relies on external logging             |
