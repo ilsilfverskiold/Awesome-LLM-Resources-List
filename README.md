@@ -227,6 +227,38 @@ Please see this [google sheet](https://docs.google.com/spreadsheets/d/1zjcww1w0v
 | [Multion](https://www.multion.ai/)                  | MULTI-ON                     | 🔴                                                                                                                          | N/A      | [![GitHub followers](https://img.shields.io/github/followers/MULTI-ON?style=flat-square&color=teal)](https://github.com/MULTI-ON) |
 | [Minion](https://minion.ai/)                        | Minion AI                    | 🔴                                                                                                                          | N/A      | [![GitHub followers](https://img.shields.io/github/followers/minionai?style=flat-square&color=teal)](https://github.com/minionai) |
 
+### Long-Term Memory
+
+| Provider     | Community             | Founded     | GitHub                                                                                          | ⭐ Stars | Open Source                 |
+|--------------|------------------------|-------------|--------------------------------------------------------------------------------------------------|---------|-----------------------------|
+| Mem0         | 🚀 Fast-growing        | June 2023   | [![GitHub followers](https://img.shields.io/github/followers/mem0ai?style=flat-square&color=teal)](https://github.com/mem0ai/mem0)         | 35.2k   | ✅ Apache-2.0               |
+| Letta        | 💬 Active dev community| Oct 2023    | [![GitHub followers](https://img.shields.io/github/followers/letta-ai?style=flat-square&color=teal)](https://github.com/letta-ai/letta)     | 17k     | ✅ Apache-2.0               |
+| Zep          | 🤝 Moderate community  | Aug 2024    | [![GitHub followers](https://img.shields.io/github/followers/getzep?style=flat-square&color=teal)](https://github.com/getzep/graphiti)      | 11.6k   | ⚠️ Graphiti CE (Apache-2.0) |
+| MemoRAG      | 🧪 Small research group| Sep 2024    | [![GitHub followers](https://img.shields.io/github/followers/qhjqhj00?style=flat-square&color=teal)](https://github.com/qhjqhj00/MemoRAG)    | 1.8k    | ✅ Apache-2.0               |
+| Memary       | 🧠 Niche community     | April 2024  | [![GitHub followers](https://img.shields.io/github/followers/kingjulio8238?style=flat-square&color=teal)](https://github.com/kingjulio8238/Memary) | 2.3k    | ✅ MIT                      |
+| Cognee       | 🔄 Moderate            | Aug 2023    | [![GitHub followers](https://img.shields.io/github/followers/topoteretes?style=flat-square&color=teal)](https://github.com/topoteretes/cognee)     | 5.8k    | ✅ Apache-2.0               |
+
+#### Memory Features Comparison
+
+| Provider  | Based   | Optional KG | Self-Editing / Agentic | Rolling Summaries            | Categories |
+|-----------|---------|-------------|-------------------------|-------------------------------|------------|
+| Mem0      | 🧮 Vector | ✅ Yes       | ✅ Yes                  | ❌ Not explicit               | ✅ Yes     |
+| Letta     | 🧮 Vector | ⚠️ Partial  | ✅ Yes                  | ⚠️ Partial (memory blocks)    | ✅ Yes     |
+| Zep       | 🧠 KG     |  -         | ✅ Yes                  | ✅ Auto chat summarization     | ✅ Yes     |
+| MemoRAG   | 🧮 Vector | ❌ No       | ✅ Yes                  | ❌ Uses long-range model      | ❌ No      |
+| Memary    | 🧠 KG     | -         | ✅ Yes                  | ⚠️ Plans “rewind” feature     | ✅ Yes     |
+| Cognee    | 🧠 KG     | -         | ✅ Yes                  | ❌ No auto summaries          | ✅ Yes     |
+
+#### Pricing by Monthly Message Volume
+
+| Provider   | 1K msgs/mo       | 10K msgs/mo        | 100K msgs/mo             | 1M msgs/mo               |
+|------------|------------------|---------------------|---------------------------|---------------------------|
+| Mem0       | 🆓 Free           | 🆓 Free–$29         | 💵 $249                   | 🏢 Enterprise (custom)    |
+| Letta      | 🆓 Free           | 💵 $20              | 💵 $750                   | 🏢 Enterprise (custom)    |
+| Zep        | 🆓 Free           | 🆓 Free             | 💵 ~ $112.50              | 💵 ~ $1,237               |
+| MemoRAG    | 💻 GPU Server (~$150–300/mo) | 💻 GPU Server (~$150–300/mo) | 💻 Multi-GPU ($500+)       | 🖥️ Cluster ($1K+/mo)       |
+| Self-host  | 🖥️ Small VM (~$15/mo) | 🖥️ Small VM (~$15–20/mo) | 🖥️ Medium VM ($50–$100/mo) | 🖥️ Large VM ($200+/mo)     |
+
 ### Co-Pilots
 
 | Framework                                  | Open Source                                                                                                                | GitHub                                                                                   |
