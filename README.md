@@ -249,6 +249,18 @@ Please see this [google sheet](https://docs.google.com/spreadsheets/d/1zjcww1w0v
 | Memary    | 🧠 KG     | -         | ✅ Yes                  | ⚠️ Plans “rewind” feature     | ✅ Yes     |
 | Cognee    | 🧠 KG     | -         | ✅ Yes                  | ❌ No auto summaries          | ✅ Yes     |
 
+#### Enterprise Security (Cloud-Based Use)
+
+| Provider  | Enterprise Security                                                                                   |
+|-----------|--------------------------------------------------------------------------------------------------------|
+| Mem0      | 🔐 Hosted with encryption, org/project roles, GDPR-friendly delete. Uses Graphlit (SOC 2 not stated). |
+| Letta     | ☁️ Self-hosted or managed server. User auth & ID-partitioned memory. Graphlit-based. No public SSO details. |
+| Zep       | ✅ SOC 2 Type 2. Encrypted at rest/in transit, access controls, JWT, and deletion API ("Right to be Forgotten"). |
+| MemoRAG   | 🏠 Self-host                                                                                           |
+| Memary    | 🏠 Self-host                                                                                           |
+| Cognee    | 🏠 Self-host                                                                                           |
+
+
 #### Pricing by Monthly Message Volume
 
 | Provider   | 1K msgs/mo       | 10K msgs/mo        | 100K msgs/mo             | 1M msgs/mo               |
