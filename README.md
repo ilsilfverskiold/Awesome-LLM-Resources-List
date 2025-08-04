@@ -168,16 +168,6 @@ It goes without saying that these platforms can usually do more than LLM serving
 
 Please see this [google sheet](https://docs.google.com/spreadsheets/d/1zjcww1w0vARZz9Z6GDxNMp-PKyg7iRyNYAnDo59HjzI/edit?usp=sharing) with more columns. 
 
-### Evaluation Frameworks: Core Differences
-
-| Framework        | Pytest / CLI Runner                          | Metrics<br/>Ready-made                                | Synthetic<br/>Data Gen       | Offline / Local Judge         | Model-Agnostic | Safety Checks                   | Adversarial / Red-Team     |
-| ---------------- | -------------------------------------------- | ----------------------------------------------------- | ---------------------------- | ----------------------------- | -------------- | ------------------------------- | -------------------------- |
-| **DeepEval**     | 🟢 `deepeval test` (pytest)                  | **40 +** (RAG, chat, agents, safety)                  | 🟢 `deepeval create-dataset` | 🟢 Ollama / HF                | 🟢             | 🟢 Toxicity, bias, harmlessness | 🟢 Built-in red-team flows |
-| **RAGAS**        | ✖ (script asserts)                           | 6 core RAG ＋ `AspectCritic` customs                   | 🟢 KG-based Q-gen            | 🟢                            | 🟢             | 🔸 DIY via `AspectCritic`       | ✖                          |
-| **MLflow Eval**  | ✖ (use `mlflow.evaluate` inside any harness) | 3–4 (Relevance, Guideline, Safety, Groundedness)      | ✖                            | 🔸 possible but cloud-leaning | 🔸             | 🟢 `SafetyScorer`               | ✖                          |
-| **OpenAI Evals** | 🟢 CLI orchestrator                          | \~10 template rubrics (prompt-follow, JSON, toxicity) | 🔸 helper script only        | ✖ (OpenAI API)                | 🟢             | ✖                               | ✖                          |
-
-
 ### Visual AI Agent Builders
 
 | Tool | Organization | Description | Open Source | GitHub |
@@ -280,6 +270,17 @@ Please see this [google sheet](https://docs.google.com/spreadsheets/d/1zjcww1w0v
 | Zep        | 🆓 Free           | 🆓 Free             | 💵 ~ $112.50              | 💵 ~ $1,237               |
 | MemoRAG    | 💻 GPU Server (~$150–300/mo) | 💻 GPU Server (~$150–300/mo) | 💻 Multi-GPU ($500+)       | 🖥️ Cluster ($1K+/mo)       |
 | Self-host  | 🖥️ Small VM (~$15/mo) | 🖥️ Small VM (~$15–20/mo) | 🖥️ Medium VM ($50–$100/mo) | 🖥️ Large VM ($200+/mo)     |
+
+
+### Evaluation Frameworks: Core Differences
+
+| Framework           | Pytest / CLI Runner   | Metrics Ready-made | Synthetic Data Gen           | Offline Judge | Model-Agnostic | Safety | Red-Team | **Custom Metrics (setup speed)**                   |
+| ------------------- | --------------------- | ------------------ | ---------------------------- | ------------- | -------------- | ------ | -------- | -------------------------------------------------- |
+| **DeepEval**        | 🟢 `deepeval test`    | **40 +**           | 🟢 `deepeval create-dataset` | 🟢            | 🟢             | 🟢     | 🟢       | 🟢 **G-Eval builder — minutes (one function)**     |
+| **RAGAS**           | ✖ (script asserts)    | 6 core RAG + 🔸    | 🟢 KG-based Q-gen            | 🟢            | 🟢             | 🔸 DIY | ✖        | 🟢 **`AspectCritic` one-liner — minutes**          |
+| **MLflow Evaluate** | ✖ (`mlflow.evaluate`) | 3-4                | ✖ BYO                        | 🔸 possible   | 🔸             | 🟢     | ✖        | 🟢 **Subclass scorer — few lines, \~hour**         |
+| **OpenAI Evals**    | 🟢 CLI orchestrator   | \~10 templates     | 🔸 helper script             | ✖             | 🟢             | ✖      | ✖        | 🟢 **Full Python/YAML eval — flexible but slower** |
+
 
 ### Co-Pilots
 
