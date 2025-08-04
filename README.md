@@ -168,6 +168,16 @@ It goes without saying that these platforms can usually do more than LLM serving
 
 Please see this [google sheet](https://docs.google.com/spreadsheets/d/1zjcww1w0vARZz9Z6GDxNMp-PKyg7iRyNYAnDo59HjzI/edit?usp=sharing) with more columns. 
 
+### Evaluation Frameworks: Core Differences
+
+| Framework        | Pytest / CLI Runner                          | Metrics<br/>Ready-made                                | Synthetic<br/>Data Gen       | Offline / Local Judge         | Model-Agnostic | Safety Checks                   | Adversarial / Red-Team     |
+| ---------------- | -------------------------------------------- | ----------------------------------------------------- | ---------------------------- | ----------------------------- | -------------- | ------------------------------- | -------------------------- |
+| **DeepEval**     | 🟢 `deepeval test` (pytest)                  | **40 +** (RAG, chat, agents, safety)                  | 🟢 `deepeval create-dataset` | 🟢 Ollama / HF                | 🟢             | 🟢 Toxicity, bias, harmlessness | 🟢 Built-in red-team flows |
+| **RAGAS**        | ✖ (script asserts)                           | 6 core RAG ＋ `AspectCritic` customs                   | 🟢 KG-based Q-gen            | 🟢                            | 🟢             | 🔸 DIY via `AspectCritic`       | ✖                          |
+| **MLflow Eval**  | ✖ (use `mlflow.evaluate` inside any harness) | 3–4 (Relevance, Guideline, Safety, Groundedness)      | ✖                            | 🔸 possible but cloud-leaning | 🔸             | 🟢 `SafetyScorer`               | ✖                          |
+| **OpenAI Evals** | 🟢 CLI orchestrator                          | \~10 template rubrics (prompt-follow, JSON, toxicity) | 🔸 helper script only        | ✖ (OpenAI API)                | 🟢             | ✖                               | ✖                          |
+
+
 ### Visual AI Agent Builders
 
 | Tool | Organization | Description | Open Source | GitHub |
