@@ -1,20 +1,59 @@
+import os
 from functools import lru_cache
+from datetime import datetime
+
 from langchain_anthropic import ChatAnthropic
 from langchain_openai import ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
-from my_agent.utils.tools import all_tools
-from langgraph.prebuilt import ToolNode
-from datetime import datetime
 from langchain_core.messages import SystemMessage
+from langgraph.prebuilt import ToolNode
+
+from my_agent.utils.tools import all_tools
+
+MODEL_ENV_VARS = {
+    "openai": "OPENAI_API_KEY",
+    "anthropic": "ANTHROPIC_API_KEY",
+    "gemini": "GOOGLE_API_KEY",
+}
+
+_MODEL_PRIORITY = ("openai", "anthropic", "gemini")
+
+
+def _detect_default_model() -> str | None:
+    """Pick the first model with credentials configured."""
+    for model_name in _MODEL_PRIORITY:
+        env_var = MODEL_ENV_VARS[model_name]
+        if os.getenv(env_var):
+            return model_name
+    return None
+
+
+DEFAULT_MODEL_NAME = _detect_default_model()
+
+
+def _ensure_credentials(model_name: str) -> str:
+    env_var = MODEL_ENV_VARS.get(model_name)
+    if not env_var:
+        raise ValueError(f"Unsupported model type: {model_name}")
+    api_key = os.getenv(env_var)
+    if not api_key:
+        raise RuntimeError(
+            f"{model_name!r} selected but {env_var} is not set. "
+            "Add the key to your environment/.env or choose a different model."
+        )
+    return api_key
 
 @lru_cache(maxsize=4)
 def _get_model(model_name: str):
     if model_name == "openai":
+        _ensure_credentials(model_name)
         model = ChatOpenAI(temperature=0, model_name="gpt-4o")
     elif model_name == "anthropic":
+        _ensure_credentials(model_name)
         model = ChatAnthropic(temperature=0, model_name="claude-3-sonnet-20240229")
     elif model_name == "gemini":
-        model = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001")
+        api_key = _ensure_credentials(model_name)
+        model = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001", google_api_key=api_key)
     else:
         raise ValueError(f"Unsupported model type: {model_name}")
     
@@ -68,7 +107,14 @@ def call_model(state, config):
     system_message = SystemMessage(content=system_prompt)
     full_messages = [system_message] + messages
     
-    model_name = config.get('configurable', {}).get("model_name", "anthropic")
+    configurable = (config or {}).get("configurable", {})
+    model_name = configurable.get("model_name") or DEFAULT_MODEL_NAME
+    if not model_name:
+        raise RuntimeError(
+            "No LLM credentials found. Set one of OPENAI_API_KEY, ANTHROPIC_API_KEY, "
+            "or GOOGLE_API_KEY (for Gemini) or pass `configurable.model_name` when "
+            "invoking the graph."
+        )
     model = _get_model(model_name)
     
     try:
