@@ -1,40 +1,31 @@
-from typing import Literal
-from typing_extensions import TypedDict
-from dotenv import load_dotenv
-
-load_dotenv()  # Make .env variables (API keys, etc.) available at import time
-
-from my_agent.utils.state import AgentState
-from langgraph.graph import StateGraph, END
-from my_agent.utils.nodes import call_model, should_continue, tool_node
-
-
-# Define config
-class GraphConfig(TypedDict):
-    model_name: Literal["openai", "anthropic", "gemini"]
-
-# Define a new graph
-workflow = StateGraph(AgentState, config_schema=GraphConfig)
-
-# Define the nodes
-workflow.add_node("agent", call_model)
-workflow.add_node("tools", tool_node)
-
-# Set the entrypoint as `agent`
-workflow.set_entry_point("agent")
-
-# Simplified routing
-workflow.add_conditional_edges(
-    "agent",
-    should_continue,
-    {
-        "continue": "tools",
-        "end": END,
-    },
+from langgraph.graph import StateGraph, START, END
+from my_agent.utils.nodes import (
+    supervisor_node, 
+    research_supervisor_node, trending_keywords_node, top_keywords_node, search_keywords_node, github_keywords_node,
+    editing_supervisor_node, fact_checker_node, summarizer_node
 )
+from my_agent.utils.state import MultiAgentState
 
-# Add edge back to agent
-workflow.add_edge("tools", "agent")
+# Create the main graph
+workflow = StateGraph(MultiAgentState)
+
+# Add all nodes 
+workflow.add_node("supervisor", supervisor_node)
+
+# Research team nodes
+workflow.add_node("research_supervisor", research_supervisor_node)
+workflow.add_node("trending_keywords_agent", trending_keywords_node)
+workflow.add_node("top_keywords_agent", top_keywords_node)  
+workflow.add_node("keyword_search_agent", search_keywords_node)
+workflow.add_node("trending_github_repos_agent", github_keywords_node)
+
+# Editing team nodes
+workflow.add_node("editing_supervisor", editing_supervisor_node)
+workflow.add_node("fact_checker", fact_checker_node)
+workflow.add_node("summarizer", summarizer_node)
+
+# Only need the starting edge
+workflow.add_edge(START, "supervisor")
 
 # Compile the graph
 graph = workflow.compile()
