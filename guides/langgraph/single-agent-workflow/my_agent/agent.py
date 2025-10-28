@@ -1,4 +1,8 @@
-from typing import TypedDict, Literal
+from typing import Literal
+from typing_extensions import TypedDict
+from dotenv import load_dotenv
+
+load_dotenv()  # Make .env variables (API keys, etc.) available at import time
 
 from my_agent.utils.state import AgentState
 from langgraph.graph import StateGraph, END
@@ -7,7 +11,7 @@ from my_agent.utils.nodes import call_model, should_continue, tool_node
 
 # Define config
 class GraphConfig(TypedDict):
-    model_name: Literal["openai", "gemini"]
+    model_name: Literal["openai", "anthropic", "gemini"]
 
 # Define a new graph
 workflow = StateGraph(AgentState, config_schema=GraphConfig)
