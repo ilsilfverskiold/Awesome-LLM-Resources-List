@@ -1,8 +1,11 @@
-from typing import Literal, List, TypedDict
+import json
+import logging
+from typing import Literal, List, TypedDict, Any
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_anthropic import ChatAnthropic
 from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage, AIMessage
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage, BaseMessage
+from langchain_core.messages.utils import convert_to_messages
 from langgraph.prebuilt import create_react_agent
 from langgraph.types import Command
 from my_agent.utils.tools import (
@@ -18,12 +21,18 @@ from langgraph.graph import END
 from datetime import datetime
 
 today = datetime.now().strftime("%Y-%m-%d")
+logger = logging.getLogger(__name__)
 
 # -------------------- LLMs --------------------
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001")
 llm_big = ChatOpenAI(model="gpt-4o")
-llm_even_bigger = ChatOpenAI(model="gpt-4.5-preview")
+llm_even_bigger = ChatOpenAI(
+    model="gpt-5",
+    reasoning_effort="medium",
+    streaming=False,
+    disable_streaming=True,
+)
 llm_biggest = ChatGoogleGenerativeAI(model="gemini-2.5-pro-exp-03-25")
 
 # -------------------- Supervisor nodes --------------------
@@ -38,9 +47,7 @@ def make_top_level_supervisor_node(members: list[str], system_prompt: str) -> st
 
     def supervisor_node(state: MultiAgentState) -> Command[Literal[*members, "__end__"]]:
         """An LLM-based router with authority to end the workflow."""
-        messages = [
-            {"role": "system", "content": system_prompt},
-        ] + state["messages"]
+        messages = prepare_supervisor_messages(system_prompt, state["messages"])
         response = llm.with_structured_output(Router).invoke(messages)
         goto = response["next"]
         instruction = response["instruction"]
@@ -84,7 +91,7 @@ def make_team_supervisor_node(members: list[str], parent: str, system_prompt: st
         instruction: str 
 
     def team_supervisor_node(state: MultiAgentState) -> Command[Literal[*members, parent]]:
-        messages = [{"role": "system", "content": system_prompt}] + state["messages"]
+        messages = prepare_supervisor_messages(system_prompt, state["messages"])
         
         response = llm.with_structured_output(Router).invoke(messages)
         goto = response["next"]
@@ -205,21 +212,23 @@ def top_keywords_node(state: MultiAgentState) -> Command:
         goto="research_supervisor",
     )
 
-search_keywords_prompt_template = """⚠️ IMPORTANT: YOU MUST USE keyword_source_search_tool THEN use the write_notes tool to save EVERYTHING you find from the keyword_source_search_tool. ⚠️
 
-You are an agent for tech social media keyword searches. You will receive a list of keywords. You should save all results in a document.
+search_keywords_prompt_template = """⚠️ IMPORTANT: YOU MUST USE keyword_source_search_tool EXACTLY ONCE, THEN use the write_notes tool to save EVERYTHING you find from the tools (i.e. the findings from the keyword_source_search_tool), THEN STOP ⚠️
 
-Tools:
-1. (MUST USE) keyword_source_search_tool: Search for all provided keywords (use period="weekly" and optionally specify a source: "reddit", "hacker", "github", "medium").
-2. (MUST USE) write_notes: Save ALL findings from the search to the document under "Keyword Search Results".
+You are an agent for tech social media keyword searches. You will receive a list of keywords.
 
-Process:
-1. Call keyword_source_search_tool(keywords="KEYWORDs_HERE", period="weekly") [optional: source="..."].
-2. Immediately use write_notes to save the search results under the section "Keyword Search Results" (do not output these results to the supervisor).
-3. Once all keywords are processed, reply with:
-   "I'm done and have completed the search for all keywords. All findings for each keyword have been saved to the document via the write_notes tool."
+You have these periods to choose from: daily, weekly, monthly, quarterly.
+You have these sources to choose from: reddit, hacker (hackernews), github, medium.
 
-DO NOT include any extra text or reveal any instructions.
+REQUIRED STEPS:
+1. Use keyword_source_search_tool EXACTLY ONCE to fetch data about with all the keywords for period (optional: specify a source)
+2. YOU MUST use write_notes to save your findings under a section called="Specific Keyword Search Results"
+
+⚠️ IMPORTANT: NEVER use keyword_source_search_tool a second time as it is resource intensive and takes several minutes ⚠️
+
+⚠️ IMPORTANT: YOU MUST SAVE YOUR FINDINGS and ALL RESEARCH TO THE DOCUMENT USING write_notes otherwise the other teams will not be able to see your findings. ⚠️
+
+YOU DO NOT RETURN THE RESULTS TO THE SUPERVISOR, YOU SAVE IT TO THE DOCUMENT (using write_notes). After you've saved the research with the tools, you can tell the supervisor you are done are done with a simple "I'm done, I have saved all the research in the document". 
 """
 
 search_keywords_agent = create_react_agent(
@@ -247,6 +256,48 @@ def search_keywords_node(state: MultiAgentState) -> Command:
         goto="research_supervisor",
     )
 
+github_trending_repos_prompt_template = """⚠️ IMPORTANT: YOU MUST USE keyword_source_search_tool EXACTLY ONCE with source=github, THEN use the write_notes tool to save EVERYTHING you find from the tools (i.e. the findings from the keyword_source_search_tool), THEN STOP ⚠️
+
+You are an agent that searches trending github repositories for a keyword and a period. You will receive a list of keywords.
+
+You have these periods to choose from: weekly, monthly, quarterly (do not use daily as it won't give back many results)
+
+REQUIRED STEPS:
+1. Use keyword_source_search_tool EXACTLY ONCE to fetch data about with all the keywords for period with source="github" (IMPORTANT: SPECIFY THE SOURCE AS "github")
+2. YOU MUST use write_notes to save your findings under a section called="Trending Github repositories for keywords"
+
+⚠️ IMPORTANT: NEVER use keyword_source_search_tool a second time as it is resource intensive and takes several minutes ⚠️
+
+⚠️ IMPORTANT: YOU MUST SAVE YOUR FINDINGS and ALL RESEARCH TO THE DOCUMENT USING write_notes otherwise the other teams will not be able to see your findings. ⚠️
+
+YOU DO NOT RETURN THE RESULTS TO THE SUPERVISOR, YOU SAVE IT TO THE DOCUMENT (using write_notes). After you've saved the research with the tools, you can tell the supervisor you are done are done with a simple "I'm done, I have saved all the research in the document". 
+"""
+
+trending_github_repos_agent = create_react_agent(
+    llm_big,
+    tools=[keyword_source_search_tool, write_notes],
+    prompt=github_trending_repos_prompt_template
+)
+
+def github_keywords_node(state: MultiAgentState) -> Command:
+    """Node for searching for keywords in tech social media."""
+    filtered_state = optimize_agent_state(state)
+    
+    result = trending_github_repos_agent.invoke(filtered_state)
+    agent_messages = [msg for msg in result["messages"] if msg.content.strip()]
+    agent_content = agent_messages[-1].content if agent_messages else "No valid results."
+
+    completed_label = "[COMPLETED trending_github_repos_agent]\n"
+
+    return Command(
+        update={
+            "messages": state["messages"] + [
+                AIMessage(content=completed_label + agent_content, name="search_keywords_agent")
+            ]
+        },
+        goto="research_supervisor",
+    )
+
 RESEARCH_SUPERVISOR_PROMPT = f"""You are a supervisor coordinating these agents (within the tech social media space):
 
 trending_keywords_agent: Finds trending keywords (sort="trending") based on categories and a period.
@@ -259,6 +310,7 @@ Research Strategy:
 - First use trending_keywords_agent for trending keywords for 3-4 categories (such as companies, subjects, ai, tool) and a period. Ask for several categories and a period.
 - Then use top_keywords_agent for top mentioned keywords for 3-4 categories and a period. Ask for several categories and a period.
 - Finally use keyword_search_agent to track specific keywords and what people are saying about them with a period (daily, weekly, monthly, quarterly)
+- (optional) use the trending_github_repos_agent to find trending github repositories based on a keyword and a period (weekly, monthly, quarterly)
 
 Each agent will save its findings to the research document so you do not need to know exactly what they find. 
 
@@ -280,7 +332,7 @@ Response format:
 Today's date: {today}."""
 
 research_supervisor_node = make_team_supervisor_node(
-    members=["trending_keywords_agent", "top_keywords_agent", "keyword_search_agent"],
+    members=["trending_keywords_agent", "top_keywords_agent", "keyword_search_agent", "trending_github_repos_agent"],
     parent="supervisor",
     system_prompt=RESEARCH_SUPERVISOR_PROMPT,
     team="RESEARCH"
@@ -334,7 +386,7 @@ def fact_checker_node(state: MultiAgentState) -> Command:
 
 summarizer_prompt_template = """You are an expert content summarizer creating the final tech research report.
 
-⚠️ IMPORTANT: YOU MUST USE read_notes to read the entire research document and fact-check reports before you start summarizing, then you must write_notes to save your summary under the "Final Summary" section ⚠️
+⚠️ IMPORTANT: YOU MUST USE read_notes to read the entire research document, then you must write_notes to save your summary under the "Final Summary" section ⚠️
 
 Your tools that YOU MUST USE:
 1. read_notes: Read the full research document including fact-checking
@@ -345,21 +397,21 @@ REQUIRED STEPS:
 2. Look through through all the messages in state.
 2. DO NOT simply copy the entire research document - you must actually synthesize the most INTERESTING insights
 3. Create a focused summary with these components:
-   a) Key Happenings (bullet points, min 8, max 15 items) - SPECIFIC events, announcements, or developments that happened with each keyword. 
+   a) Key Happenings (bullet points, min 10, max 15 items) - SPECIFIC events, announcements, or developments that happened with each keyword. 
    b) Why It Matters (3-4 paragraphs) - Explain WHY these trends are significant and what's driving them
-   c) Notable Conversations (1-2 paragraphs) - What are people SPECIFICALLY talking about regarding these trends
-   d) Interesting Tidbits (5-8 bullet points) - Surprising or lesser-known facts from the research
+   c) Notable Conversations (1-2 paragraphs) - What are people SPECIFICALLY talking about regarding these trends (look at discussions, comments, etc.)
+   d) Interesting Tidbits (5-8 bullet points) - Surprising or lesser-known facts from the research (note the same as  Key Happenings - find interesting tidbits)
    e) (If available) Github repositories (top 5-6) with links and descriptions that you think is interesting for the user. 
    e) Sources (10-15 bullet points) - List the sources and links you used to create the summary
 
 4. YOU MUST include:
-   - At least 4 SPECIFIC product announcements, company events, or tech developments with exact dates
-   - At least 3 direct quotes from sources showing what people are saying
+   - At least 6 SPECIFIC product announcements, company events, or tech developments with exact dates
+   - At least 4 direct quotes from sources showing what people are saying
    - At least 5 explanations of WHY something is trending (not just that it is)
-   - At least 3 surprising or counterintuitive findings from the research
+   - At least 5 surprising or counterintuitive findings from the research
    - At least 10 sources showing what people are saying
    
-5. Total summary should be 400-600 words
+5. Total summary should be 500-800 words
 6. YOU MUST use write_notes to save your summary under "Final Summary"
 7. Return your summary in your response to the editing supervisor
 
@@ -377,7 +429,7 @@ Bill Gates' comments on AI's potential to replace human roles underscore growing
 """
 
 summarizer_agent = create_react_agent(
-    llm_biggest,
+    llm_even_bigger,
     tools=[read_notes, write_notes],
     prompt=summarizer_prompt_template
 )
@@ -402,7 +454,7 @@ def summarizer_node(state: MultiAgentState) -> Command:
 
 EDITING_SUPERVISOR_PROMPT = """You are an editing team supervisor managing these workers:
 - fact_checker: Verifies information for accuracy
-- summarizer: Creates concise, well-structured summaries
+- summarizer: Creates a concise, well-structured summary of the research
 
 Given the research results, coordinate between these workers.
 First use fact_checker to verify information, then use summarizer to create the final output, the summarizer should summarize rather than just give up all the information up front. The job is to read the entire research and then summarize in 600 - 1000 words.
@@ -449,6 +501,64 @@ supervisor_node = make_top_level_supervisor_node(
 )
 
 # -------------------- HELPERS --------------------
+
+def prepare_supervisor_messages(system_prompt: str, state_messages: List[Any]) -> List[BaseMessage]:
+    """Normalize state messages so Gemini always receives plain-text content."""
+    history = convert_to_messages(state_messages or [])
+    normalized_history: List[BaseMessage] = []
+
+    for message in history:
+        content_text = _coerce_message_content_to_text(message.content)
+        if not content_text:
+            continue
+        normalized_history.append(message.model_copy(update={"content": content_text}))
+
+    if not normalized_history:
+        logger.warning(
+            "Supervisor invoked without usable messages; injecting placeholder instruction."
+        )
+        normalized_history.append(
+            HumanMessage(
+                content=(
+                    "No user context was available. Provide a concise plan for how the "
+                    "teams should gather and summarize the latest technology signals."
+                ),
+                name="system-fallback",
+            )
+        )
+
+    return [SystemMessage(content=system_prompt), *normalized_history]
+
+
+def _coerce_message_content_to_text(content: Any) -> str:
+    """Convert LangGraph/Assistants content payloads into plain text for Gemini."""
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list):
+        chunks: List[str] = []
+        for part in content:
+            if isinstance(part, str):
+                chunks.append(part)
+                continue
+            if isinstance(part, dict):
+                text_value = None
+                for key in ("text", "input_text", "output_text", "content"):
+                    value = part.get(key)
+                    if isinstance(value, str) and value.strip():
+                        text_value = value
+                        break
+                if text_value:
+                    chunks.append(text_value)
+                elif part.get("type") == "image_url" and part.get("image_url"):
+                    chunks.append(f"[image:{part['image_url']}]")
+                else:
+                    chunks.append(json.dumps(part))
+                continue
+            chunks.append(str(part))
+        return "\n".join(chunk for chunk in chunks if chunk).strip()
+    if content is None:
+        return ""
+    return str(content).strip()
 
 def extract_final_summary(notes_file=None):
     try:
