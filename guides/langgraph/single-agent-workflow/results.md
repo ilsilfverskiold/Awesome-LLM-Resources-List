@@ -36,9 +36,6 @@ AI:
     Midjourney:
      Midjourney remains a popular AI art generator, with discussions around training techniques and comparisons to other models.
 
-    Regina Sil2:
-     There was an error fetching sources for Regina Sil2.
-
 
 Platforms:
 
@@ -54,9 +51,6 @@ Platforms:
 
     AWS:
      AWS experienced an outage that caused issues for various services and sparked discussions about system resilience.
-
-    GitHub:
-     There were no specific trends identified for Github other than general mentions.
 
 
 In summary, the week saw significant developments in AI models, mixed reactions to company decisions like GM ditching CarPlay and Samsung adding ads to appliances, and discussions around cloud platform reliability following the AWS outage.
