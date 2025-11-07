@@ -37,6 +37,14 @@ Rule of thumb:
 
 # RAG Pipeline
 
+**Latency Breakdown:**
+
+- Query optimizer: 3.07 s (boots up Qdrant client in parallel)
+- Retrieve: 1.14 s
+- Rerank: 0.62 s
+- Context expansion: 1.03 s
+- LLM answer: 14–20 s
+
 ## Query Optimizer (3.07s)
 
 **Tech:** GPT-4o-mini, structured responses
