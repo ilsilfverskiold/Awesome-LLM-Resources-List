@@ -1,6 +1,8 @@
 # Query 3
 
-## Result (latency is ~23.16s seconds end-to-end)
+## Result 
+(latency is ~23.16s seconds end-to-end)
+(retrieval is ~5.3 seconds)
 
 **Original Query:** does long context windows now remove the need for RAG?
 
