@@ -1,6 +1,8 @@
 # Query 5
 
-## Result (latency is ~23.66s seconds end-to-end)
+## Result 
+(latency is ~23.66s seconds end-to-end)
+(Retrieval stack is ~7–8 s total)
 
 **Original Query:** how are people trying to make RAG give more accurate and less made-up answers?
 
