@@ -4,7 +4,7 @@
 (latency is ~23.16s seconds end-to-end)
 (retrieval is ~5.3 seconds)
 
-**Original Query:** does long context windows now remove the need for RAG?
+**Original Query:** why is everyone saying RAG doesn’t scale? how are people fixing that?
 
 **LLM answer:**
 
