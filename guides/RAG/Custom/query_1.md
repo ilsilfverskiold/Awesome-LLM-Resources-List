@@ -1,6 +1,6 @@
 # Query 1
 
-## Result (latency is ~19.9–25.9 seconds end-to-end.)
+## Result (latency is ~19.9–25.9 seconds end-to-end)
 
 **Original Query:** knowledge graphs vs plain rag, which is better?
 
@@ -35,7 +35,7 @@ Rule of thumb:
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-# Pipeline
+# RAG Pipeline
 
 ## Query Optimizer (3.07s)
 
