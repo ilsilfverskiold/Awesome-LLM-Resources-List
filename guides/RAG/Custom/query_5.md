@@ -1,7 +1,7 @@
 # Query 5
 
 ## Result 
-(latency retrieval stack is ~7–8 s total)
+(latency retrieval stack is ~5.3s total)
 
 **Original Query:** how are people trying to make RAG give more accurate and less made-up answers?
 
