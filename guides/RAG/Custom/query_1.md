@@ -1,7 +1,7 @@
 # Query 1
 
 ## Result 
-(latency retrieval is ~5.3 seconds)
+(latency retrieval is ~4.5 seconds)
 
 **Original Query:** knowledge graphs vs plain rag, which is better?
 
@@ -40,13 +40,13 @@ Rule of thumb:
 
 **Latency Breakdown:**
 
-- Query optimizer: 3.07 s (boots up Qdrant client in parallel)
-- Retrieve: 1.14 s
-- Rerank: 0.62 s
-- Context expansion: 1.03 s
-- LLM answer: 14–20 s
+- Query optimizer: 2.07s (boots up Qdrant client in parallel)
+- Retrieve: 1.14s
+- Rerank: 0.62s
+- Context expansion: 0.8s
+- LLM answer: 11–15s
 
-## Query Optimizer (3.07s)
+## Query Optimizer (2.07s)
 
 **Tech:** GPT-4o-mini, structured responses
 
@@ -154,7 +154,7 @@ Reranked Relevant (6/20 kept ≥ 0) top 6 for query: knowledge graphs vs plain r
 [6] score=0.7551 doc=docs_ingestor/docs/arxiv/2508.10391.pdf chunk=S5::C01::251104161739
   text: Knowledge Graph Based Retrieval-Augmented Generation To better capture the relational nature of information, KGbased RAG has emerged as a prominent research direction. By representing knowledge as a graph of entities and relations, these methods aim to provide a more structured and semantically rich context for the LLM (Peng et al. 2024). Early approaches in this domain focused on leveraging graph structures for improved retrieval. For instance, GraphRAG (Edge et al. 2024) organizes documents into community-based KGs to preserve local context, while other methods like FastGraphRAG utilize graph-centrality metrics such as PageRank (Page et al. 1999) to prioritize more important nodes during retrieval. This subgraph retrieval approach has also proven effective in industrial applications like customer service, where KGs are constructed from historical support tickets to provide structured context (Xu et al. 2024). These methods marked a significant step forward by imposing a macro-structure onto the knowledge base, moving beyon
   
-## Context Expansion (1.03s)
+## Context Expansion (0.8s)
 
 **Tech:** Redis (to fetch neighbors and additional informtion)
 
@@ -237,7 +237,7 @@ Reranked Relevant (6/20 kept ≥ 0) top 6 for query: knowledge graphs vs plain r
     Recognizing the need for more fine-grained control and abstraction, subsequent works have explored more sophisticated hierarchical structures. HiRAG, the current stateof-the-art, clusters entities to form multi-level summaries (Huang et al. 2025a), while LightRAG (Guo et al. 2024) proposes a dual-level framework to balance global and local information retrieval. While these hierarchical methods have progressively improved retrieval quality, a critical gap persists in how the constructed graph structures are leveraged at query time. The retrieval process is often decoupled from the indexing structure; for instance, an initial search may be performed over a 'flattened' list of all nodes, rather than being directly guided by the indexed community or hierarchical relations. This decoupling means the rich structural information is primarily used for post-retrieval context expansion, rather than for guiding the initial, crucial step of identifying relevant information. This can limit performance on complex queries where the relations between entities are paramount, highlighting the need for a new paradigm where the retrieval process is natively co-designed with the knowledge structure.
 [end on page 3]
 ```
-## LLM Answers (14.00s - 20.00s)
+## LLM Answers (10s - 15s)
 **Tech:** OpenAI's GPT-5 (reasoning low)
 
 **Result:**
