@@ -39,13 +39,13 @@ Here are unconventional RAG innovations from recent papers:
 
 **Latency Breakdown:**
 
-- Query optimizer: 3.09s (boots up Qdrant client in parallel)
+- Query optimizer: 2.6s (boots up Qdrant client in parallel)
 - Retrieve: 0.87s
 - Rerank: 0.59s
-- Context expansion: 1.11 s
-- LLM answer: 14–20 s
+- Context expansion: 0.8s
+- LLM answer: 10–15s
 
-## Query Optimizer (3.09s)
+## Query Optimizer (2.6s)
 
 **Tech:** GPT-4o-mini, structured responses
 
@@ -154,7 +154,7 @@ Reranked Relevant (6/20 kept ≥ 0) top 6 for query: give me innovations in RAG 
   text: 5 Generation-time feedback RAG systems face two fundamental challenges: determining when to retrieve external knowledge, since not all queries benefit from it, and how to retrieve relevant content effectively (Su et al., 2024b). Classical RAG pipelines rigidly follow a fixed sequence of retrieval, optionally ranking, followed by generation, limiting their ability to adapt to the context or task. To address these limitations, recent work has introduced adaptive RAG , where the retrieval strategy is dynamically adjusted according to the query, the model feedback, or the complexity of the task. We categorize this emerging line of work into three main classes.
 
   
-## Context Expansion (1.18s)
+## Context Expansion (0.8s)
 
 **Tech:** Redis (to fetch neighbors and additional informtion)
 
@@ -247,7 +247,7 @@ Reranked Relevant (6/20 kept ≥ 0) top 6 for query: give me innovations in RAG 
 ```
 
 
-## LLM Answers (20.72s)
+## LLM Answers (12.72s)
 **Tech:** OpenAI's GPT-5 (reasoning low)
 
 **Result:**
