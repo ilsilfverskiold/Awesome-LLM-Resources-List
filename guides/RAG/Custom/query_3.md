@@ -37,8 +37,8 @@ How people are fixing it:
 - Query optimizer: 2.70s (boots up Qdrant client in parallel)
 - Retrieve: 0.71s
 - Rerank: 0.74s
-- Context expansion: 1.11 s
-- LLM answer: 14–20 s
+- Context expansion: 0.8s
+- LLM answer: 10–15s
 
 ## Query Optimizer (2.70s)
 
@@ -309,7 +309,7 @@ Reranked Relevant (6/31 kept ≥ 0) top 6 for query: why is everyone saying RAG 
 [6] score=0.1277 doc=docs_ingestor/docs/arxiv/2508.05100.pdf chunk=S3::C06::251104155301
   text: Introduction Empirical analyses across multiple real-world benchmarks reveal that BEE-RAG fundamentally alters the entropy scaling laws governing conventional RAG systems, which provides a robust and scalable solution for RAG systems dealing with long-context scenarios. Our main contributions are summarized as follows: We introduce the concept of balanced context entropy, a novel attention reformulation that ensures entropy invariance across varying context lengths, and allocates attention to important segments. It addresses the critical challenge of context expansion in RAG.
   
-## Context Expansion (1.18s)
+## Context Expansion (0.8s)
 
 **Tech:** Redis (to fetch neighbors and additional informtion)
 
@@ -513,7 +513,7 @@ Reranked Relevant (6/31 kept ≥ 0) top 6 for query: why is everyone saying RAG 
 ```
 
 
-## LLM Answers (17.83s)
+## LLM Answers (14s)
 **Tech:** OpenAI's GPT-5 (reasoning low)
 
 **Result:**
