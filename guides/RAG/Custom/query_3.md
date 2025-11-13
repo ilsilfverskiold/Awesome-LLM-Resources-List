@@ -1,8 +1,7 @@
 # Query 3
 
 ## Result 
-(latency is ~23.16s seconds end-to-end)
-(retrieval is ~5.3 seconds)
+(latency retrieval is ~5.3 seconds)
 
 **Original Query:** why is everyone saying RAG doesn’t scale? how are people fixing that?
 
