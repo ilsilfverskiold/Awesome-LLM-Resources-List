@@ -40,13 +40,13 @@ Researchers are improving RAG accuracy and reducing made-up answers with a mix o
 
 **Latency Breakdown:**
 
-- Query optimizer: 4.93s (boots up Qdrant client in parallel)
+- Query optimizer: 2.93s (boots up Qdrant client in parallel)
 - Retrieve: 0.80s
 - Rerank: 0.73s
-- Context expansion: 1.04 s
-- LLM answer: 14–20 s
+- Context expansion: 0.8s
+- LLM answer: 10–15s
 
-## Query Optimizer (4.93s)
+## Query Optimizer (2.93s)
 
 **Tech:** GPT-4o-mini, structured responses
 
@@ -341,7 +341,7 @@ Reranked Relevant (6/40 kept ≥ 0) top 6 for query: How are people trying to ma
   text: 4 Experiment 4.3.2 Confident RAG As shown in Figure 2, there exists a positive correlation between confidence and accuracy. Therefore, the Confident RAG method improves overall accuracy by integrating multiple embedding models to generate answers and selecting the highestconfidence results using the most effective metric. This process effectively filters out low-confidence
 
   
-## Context Expansion (1.04s)
+## Context Expansion (0.8s)
 
 **Tech:** Redis (to fetch neighbors and additional informtion)
 
@@ -582,7 +582,7 @@ Reranked Relevant (6/40 kept ≥ 0) top 6 for query: How are people trying to ma
 [end on page 2]
 ```
 
-## LLM Answers (16.15s)
+## LLM Answers (11.15s)
 **Tech:** OpenAI's GPT-5 (reasoning low)
 
 **Result:**
