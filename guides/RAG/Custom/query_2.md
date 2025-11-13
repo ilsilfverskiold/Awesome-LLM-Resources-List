@@ -37,13 +37,13 @@ When long context may suffice: If the relevant information already sits neatly i
 
 **Latency Breakdown:**
 
-- Query optimizer: 3.83s (boots up Qdrant client in parallel)
+- Query optimizer: 2.83s (boots up Qdrant client in parallel)
 - Retrieve: 0.78s
 - Rerank: 0.76 s
-- Context expansion: 1.11 s
-- LLM answer: 14–20 s
+- Context expansion: 0.7s
+- LLM answer: 10–15s
 
-## Query Optimizer (3.83s)
+## Query Optimizer (2.83s)
 
 **Tech:** GPT-4o-mini, structured responses
 
@@ -152,7 +152,7 @@ Reranked Relevant (6/20 kept ≥ 0) top 6 for query: does long context windows n
 [6] score=0.0233 doc=docs_ingestor/docs/arxiv/2507.19102.pdf chunk=S10::C06::251104143003
   text: 1 Introduction To this end, we propose a distilling approach that jointly learn pseudo-answer generation and utility judgments from teacher LLMs. For utility judgments with the student selector on a long initial ranking list, we propose a sliding window method that moves from higher to lower positions. At each step, the selector generates pseudo answers based on the selected useful results, and slides to the next window, which is comprised of the so-far selected useful results and the unseen passages. New selected useful results will be prepended to the selected result pool, and duplicates in the pool will be deleted, maintaining an ordered list of selected useful results. This process is repeated until all the candidate results are judged. This process ensures that the final selected useful results are based on the information of the entire candidate results. It also incurs a smaller cost than the above-mentioned ranking distillation due to smaller overlap between windows.
   
-## Context Expansion (1.03s)
+## Context Expansion (0.7s)
 
 **Tech:** Redis (to fetch neighbors and additional informtion)
 
@@ -338,7 +338,7 @@ Reranked Relevant (6/20 kept ≥ 0) top 6 for query: does long context windows n
 [end on page 3]
 ```
 
-## LLM Answers (14.00s - 20.00s)
+## LLM Answers (10–15s)
 **Tech:** OpenAI's GPT-5 (reasoning low)
 
 **Result:**
