@@ -1,7 +1,7 @@
 # Query 4
 
 ## Result 
-(latency retrieval is ~5.3 seconds)
+(latency retrieval is ~4.9 seconds)
 
 **Original Query:** give me innovations in RAG from the papers anything unconventional?
 
