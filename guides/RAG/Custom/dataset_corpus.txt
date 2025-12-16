@@ -1,7 +1,6 @@
 What are the three progressively hierarchical abilities that a Retrieval-Augmented Generation (RAG) model should possess according to the HIRAG method?
 How does the HIRAG method improve a model's performance in RAG scenarios?
 What is the main objective of the Multi-Agent Retrieval-Augmented Framework proposed against health misinformation?
-How does the proposed framework ensure that the generated counterspeech is up-to-date and relevant?
 What are the five specialized agents involved in the DrugMCTS framework and their primary functions?
 How does the DrugMCTS framework improve model performance compared to general-purpose LLMs and deep learning baselines on the DrugBank dataset?
 What is the central challenge addressed by the FRUGALRAG framework in multi-hop question answering?
@@ -10,7 +9,6 @@ What limitations do naive RAG implementations face regarding answer accuracy?
 What improvements does the K2RAG framework offer compared to naive RAG implementations?
 What is the average execution accuracy achieved by the schema-level RAG framework with XiYanSQL for system operator queries and user queries?
 What are the key components of the cloud-based e-mobility platform described in the text?
-When did big air snowboarding become an Olympic sport?
 What is the main contribution of the EviOmni framework?
 What is the main purpose of the Step-Audio 2 model?
 How does Step-Audio 2 achieve responsiveness to paralinguistic information?
