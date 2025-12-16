@@ -1,0 +1,256 @@
+What are the three progressively hierarchical abilities that a Retrieval-Augmented Generation (RAG) model should possess according to the HIRAG method?
+How does the HIRAG method improve a model's performance in RAG scenarios?
+What is the main objective of the Multi-Agent Retrieval-Augmented Framework proposed against health misinformation?
+How does the proposed framework ensure that the generated counterspeech is up-to-date and relevant?
+What are the five specialized agents involved in the DrugMCTS framework and their primary functions?
+How does the DrugMCTS framework improve model performance compared to general-purpose LLMs and deep learning baselines on the DrugBank dataset?
+What is the central challenge addressed by the FRUGALRAG framework in multi-hop question answering?
+How does FRUGALRAG achieve efficiency in retrieval-augmented generation during inference?
+What limitations do naive RAG implementations face regarding answer accuracy?
+What improvements does the K2RAG framework offer compared to naive RAG implementations?
+What is the average execution accuracy achieved by the schema-level RAG framework with XiYanSQL for system operator queries and user queries?
+What are the key components of the cloud-based e-mobility platform described in the text?
+When did big air snowboarding become an Olympic sport?
+What is the main contribution of the EviOmni framework?
+What is the main purpose of the Step-Audio 2 model?
+How does Step-Audio 2 achieve responsiveness to paralinguistic information?
+What are the three key stages of the HypoChainer collaborative framework for hypothesis-driven scientific discovery?
+What challenge in traditional hypothesis-driven research does HypoChainer aim to address?
+What is the main performance challenge of current GraphRAG methods as addressed by GeAR?
+What mechanism is used to align passages with triples from Wikidata in the GeAR framework?
+What are the two methods proposed to enhance Retrieval-Augmented Generation (RAG)?
+What improvements does the Confident RAG method demonstrate compared to vanilla LLMs and vanilla RAG?
+What are the two steps involved in the TAI Scan Tool's assessment process?
+What are the three components of Trustworthy AI (TAI) as defined by the High Level Expert Group (HLEG) of the European Commission?
+What three notable contributions does the VERIRAG framework make to healthcare claim verification?
+How does VERIRAG assess the methodological rigor of healthcare research claims?
+What is the main challenge addressed by the TimelyHLS framework in FPGA-targeted High-Level Synthesis (HLS)?
+How does TimelyHLS improve the process of generating HLS code for FPGAs?
+What method is proposed for detecting and filtering poisoned documents in Retrieval-Augmented Generation systems?
+What is the effectiveness of GMTP in filtering poisoned documents according to the experiments conducted?
+What is the main focus of the GenAI-empowered approach in automotive software development?
+How does the proposed workflow enhance requirements consistency checking in automotive software development?
+What is the primary function of the CLEAR tool in relation to Large Language Models (LLMs)?
+How does the Key Point Analysis (KPA) module work within the CLEAR framework?
+What are the main findings regarding the effectiveness of retrieval-augmented generation (RAG) methods in closed-source code completion environments?
+How many internal repositories were collected for the retrieval corpus in the empirical study on RAG methods for code completion?
+What is the main goal of the PrismRAG framework in improving retrieval-augmented generation (RAG)?
+How much does PrismRAG improve the average factuality compared to baseline models?
+What is the primary function of a retriever in a Retrieval-Augmented Generation (RAG) system?
+How does the RAG system improve the accuracy of generated responses?
+What is the primary distinction between relevance and utility in the context of Retrieval-Augmented Generation (RAG)?
+What approach is proposed for distilling utility judgment capabilities from large language models to smaller models in Retrieval-Augmented Generation?
+What is the main objective of the proposed Passage Injection method in retrieval-augmented generation systems?
+How does Passage Injection perform compared to Vanilla RAG under noisy passage conditions?
+What is PennyCoder designed to address in quantum programming frameworks?
+How does PennyCoder achieve efficiency in quantum code generation?
+What is the purpose of the RoD-TAL dataset in Romanian driving license exams?
+What are the main components included in the RoD-QA dataset?
+What is the goal of semantic compression in vector retrieval systems?
+How does graph-augmented vector retrieval improve upon traditional nearest neighbor methods?
+What is the purpose of the DisasterMobLLM framework in predicting human mobility during disasters?
+How much improvement did DisasterMobLLM achieve in terms of Acc@1 and F1-score for immobility compared to baseline models?
+What are structural drawings primarily used for in civil engineering?
+What limitations are identified for large language models (LLMs) in the context of generating structural drawings?
+What is the primary advantage of the RaGS framework over traditional instance-based and BEV-based fusion methods in 3D object detection?
+How does the Frustum-based Localization Initiation (FLI) contribute to the RaGS framework?
+What is the main advantage of retrieval-augmented generation (RAG) for large language models (LLMs)?
+What are the critical limitations identified when evaluating RAG systems using MASSIVEDS?
+What is the primary goal of the KDD Cup 2025 Meta Comprehensive RAG Benchmark for Multi-modal, Multi-turn challenge?
+What components are included in the CRAG-MM benchmark to evaluate multimodal RAG systems?
+What are the primary challenges faced by robotic platforms in underwater environments according to the text?
+What is the core innovation introduced by the CONCAP model in multilingual image captioning?
+How does CONCAP's performance on low- and mid-resource languages compare to the original mBLIP model?
+What is the primary functionality of the MMGraphRAG framework as described in the document 2507.20804.pdf?
+What specific dataset was built and released to address the early-stage research challenges in cross-modal entity linking?
+What is the primary focus of the code completion approach proposed by Le Deng and colleagues?
+What evaluation metric showed that the proposed code completion approach outperformed the baseline?
+What benefits does the use of an AI retrieval augmented generation (RAG) tool provide for analysts working on information extraction tasks?
+How do annotator skills influence the performance in tasks using AI tools for information extraction?
+What is pharmacogenomics and how does it improve personalized medicine?
+What are the two main resources integrated into Sherpa Rx's knowledge base?
+What is the primary aim of the MAGIC benchmark proposed by Jungyeon Lee and colleagues?
+How do existing benchmarks for knowledge conflict detection fall short according to the authors?
+What is the purpose of the SafeDriveRAG method?
+How many examples does the SafeDrive228K benchmark consist of, and what are its main categories?
+Quels types de défaillances sont identifiés dans le système RAG Alban lors des évaluations en due diligence?
+Comment le système RAG Alban acquiert-il sa base documentaire pour le processus de due diligence?
+What is the primary goal of HRIPBench according to the research?
+What are the three tasks covered by the HRIP-Basic dataset in evaluating LLMs?
+What are the three key challenges faced by existing GraphRAG methods as discussed in the document?
+How does the proposed Graph-R1 framework enhance the retrieval process compared to traditional methods?
+What is the primary objective of the MMAT-1M dataset?
+How does the One-turn Rationale and Reflection (ORR) format improve inference speed compared to the multi-turn format?
+What is the primary aim of cross-cultural recipe adaptation according to the document?
+What limitation of the standard Retrieval-Augmented Generation (RAG) framework is highlighted in the text?
+What are the four key components of the DeepSieve framework?
+How does DeepSieve ensure retrieval precision across heterogeneous knowledge sources?
+What is the primary aim of the CliCARE framework in the context of clinical decision support?
+What are the main challenges faced by Large Language Models (LLMs) in processing longitudinal cancer Electronic Health Records (EHRs)?
+What educational institution did Mashonda Tifrere attend?
+What model is proposed to improve reasoning in multi-hop question answering tasks?
+What are the three key techniques integrated into the DocsRay document understanding system?
+How does the efficiency of DocsRay compare in terms of query latency before and after implementation?
+What significant privacy risk is associated with retrieval-augmented generation (RAG) systems when they integrate external knowledge bases?
+What is the privacy extraction rate achieved by the novel black-box attack framework in single-domain scenarios?
+What is the main purpose of the RL-QR framework introduced for retriever-specific query rewriting?
+How does RL-QR achieve improvements in retrieval performance for multi-modal and text-modal indices?
+What are the two main domain adaptation strategies commonly used for Large Language Models (LLMs) in music question answering tasks?
+What is MusWikiDB and how does it contribute to music question answering?
+What is DiffLoRA and what does it aim to achieve in the context of large language models?
+In which specific NLP tasks does DiffLoRA show interesting results compared to other parameter-efficient fine-tuning methods?
+What are the main components of the proposed e-commerce Product Question Answering framework?
+What novel metrics are introduced to evaluate the performance of the e-commerce PQA framework?
+What is CRINN and how does it optimize approximate nearest neighbor search algorithms?
+On how many benchmark datasets did CRINN achieve superior performance compared to state-of-the-art open-source ANNS algorithms?
+What is the purpose of the Patho-AgenticRAG framework in the field of pathology?
+How does Patho-AgenticRAG enhance the retrieval process compared to traditional text-only retrieval systems?
+What are the two critical limitations faced by current Retrieval-Augmented Generation (RAG) systems as outlined in the document titled '2508.04057.pdf'?
+How does the PAIRS framework enhance the efficiency of RAG systems according to the document '2508.04057.pdf'?
+What are the significant challenges of using Generative AI for educational content creation in the context of low-resource languages like Bahasa Melayu?
+How does the dual evaluation framework assess the generated multiple-choice questions?
+What is the novel deepfake detection framework introduced in the document 2508.04524.pdf?
+How does RAIDX enhance the interpretability of its predictions in deepfake detection?
+What is the main purpose of the BEE-RAG framework in retrieval-augmented generation (RAG)?
+How does the intrinsic multi-importance inference strategy function in the BEE-RAG framework?
+What is the primary function of the Query-Aware Dynamic RAG System named QA-Dragon?
+How does QA-Dragon improve reasoning performance compared to baseline models in the Meta CRAG-MM Challenge?
+What are the two primary error categories identified in LLM-generated RTL code due to misinterpretation of design specifications?
+What accuracy did the enhanced LLM-based RTL code generation framework achieve on the VerilogEval benchmark?
+What is the main objective of the mKG-RAG framework proposed for knowledge-intensive Visual Question Answering (VQA) tasks?
+What innovative feature does the mKG-RAG framework introduce for enhancing retrieval precision in VQA tasks?
+What is the primary investigation of the research conducted at the BioASQ CLEF 2025 challenge?
+What types of questions are included in the BioASQ challenge, and how are they formatted?
+What is the main objective of the GRAIL framework in the context of knowledge graphs?
+What significant performance improvements does GRAIL achieve compared to existing baselines?
+What critical limitations do retrieval-augmented generation (RAG) systems face when handling complex questions?
+How does Logic-Augmented Generation (LAG) synthesize its final answer?
+What is the primary purpose of the Indian Bail Prediction System (IBPS) as described in the document 2508.07592.pdf?
+How many High Court bail judgments were curated and released in the dataset associated with IBPS?
+What is the primary goal of the Source-aware Membership Audit (SMA) framework proposed for RAG and MRAG systems?
+How does SMA improve upon traditional membership inference methods in detecting source-specific membership leakage?
+What is the Dynamic Passage Selector (DPS) designed to improve in retrieval-augmented generation systems?
+How does the performance of DPS compare to traditional reranking methods on multi-hop question answering datasets?
+What is the primary function of the AI Blob! system?
+How many unique videos were included in the dataset for AI Blob! after the filtering process?
+What innovative method does the RAG framework use for decomposing complex multihop questions?
+How does the document's answerable question generation process utilize the Qwen3-8B model?
+What is LibRec and its primary purpose in library migration?
+What does the LibEval benchmark comprise and its role in the evaluation of LibRec?
+What remarkable achievement did Faria accomplish at the age of 12 at the University of Bologna?
+What charge was Faria faced with after being captured by the French gendarmerie?
+What is the primary goal of the Memory Decoder during its pre-training phase?
+How does Memory Decoder maintain efficiency during inference compared to traditional retrieval-augmented methods?
+What key challenges do knowledge graph-based retrieval-augmented generation methods still face?
+How does LeanRAG improve the retrieval process compared to traditional methods?
+What is the main challenge of long-context narrative comprehension as described in the document titled '2508.10419.pdf'?
+What cognitive process does ComoRAG imitate for achieving true stateful reasoning?
+What are the two main types of errors identified in LLM-generated SPARQL queries when dealing with Scholarly Knowledge Graphs?
+What is the primary evaluation framework used to assess the performance of the FIRESPARQL system?
+What is the main challenge faced by security teams in incident response due to high alert volumes?
+How does the proposed Retrieval-Augmented Generation (RAG) framework improve incident response?
+What is the primary benefit of personalization in information-seeking tasks such as question answering?
+How does the VAC framework improve the training process for personalized response generation?
+What are the three core challenges in training Large Language Models for preventing 1-day/n-day exploitations as described in the REFN framework?
+How does REFN ensure scalability in generating network filters for preventing vulnerabilities?
+What is the primary purpose of the MedKGent framework?
+How many entities and relational triples are contained in the constructed medical knowledge graph?
+What is the main objective of the Semantic Anchoring framework proposed in document 2508.12630?
+How does the Semantic Anchoring approach improve factual recall and discourse coherence compared to traditional RAG systems?
+What is the main advantage of using the GridCodex framework for grid code reasoning and compliance?
+How does GridCodex enhance retrieval accuracy compared to traditional methods?
+What is the primary limitation of current medical large vision-language models (Med-LVLMs) as discussed in the document 2508.12778.pdf?
+What innovative component does the HeteroRAG framework introduce for effective report retrieval?
+What is the primary motivation behind introducing Atomic Thought in the context of large language models?
+How does Atom-Searcher improve performance over traditional reinforcement learning approaches for agentic deep research?
+What are the three clinical tasks described for evaluating retrieval-augmented generation in EHRs?
+How does retrieval-augmented generation (RAG) compare to using the most recent clinical notes for the performance of LLMs?
+What does the Select2Know (S2K) framework aim to address in domain-specific question answering?
+How does the S2K framework generate domain QA data from unstructured corpus?
+What are the two main components of the Conflict-Aware Retrieval-Augmented Generation (CARE) framework?
+How does the context assessor in the CARE framework help mitigate context-memory conflicts?
+What is the main innovation of the RAG-SEG framework for camouflaged object detection?
+How does RAG-SEG maintain competitive performance with lower resource consumption?
+What limitations do static RAG pipelines face in addressing complex tasks requiring iterative lookups and high-precision retrieval?
+How is feedback in Retrieval-Augmented Generation (RAG) defined and categorized?
+What is the primary goal of the Deep-DxSearch system in medical diagnostics?
+What are the key components of the medical retrieval corpus used in Deep-DxSearch?
+What is the main purpose of the SurveyGen dataset?
+What limitations do prior approaches in LLM survey generation face according to the document?
+What challenges are addressed by the RepoTransAgent framework concerning repository-aware code translation?
+What are the main components of the RAG Agent in RepoTransAgent and their functions?
+What is the purpose of the Internal State Analyzer for Copyrighted training Data Leakage (ISACL)?
+What are the primary contributions of the ISACL framework as described in the document?
+What is the main purpose of Retrieval-Augmented Generation (RAG) in large language models (LLMs)?
+How does Layer Fused Decoding (LFD) improve the utilization of external knowledge in LLMs?
+What is the main advantage of LLM fingerprinting compared to LLM watermarking in terms of model modification?
+What are the two main categories of LLM fingerprinting methods based on the auditor's access level to the suspicious model?
+What is the main objective of the new poisoning paradigm DISARMRAG introduced in the document?
+How does the self-correction ability (SCA) of large language models affect their vulnerability to data poisoning attacks?
+What are the two main components of the DentalBench benchmark introduced for evaluating large language models in the dental domain?
+How many questions are included in the DentalQA benchmark and what does it cover?
+What is the key limitation of conventional Retrieval-Augmented Generation (RAG) in visual question answering (VQA)?
+How does the Multimodal Iterative RAG (MI-RAG) framework enhance the retrieval process in VQA tasks?
+What framework is proposed for generating tailored counterspeech adapted to different health literacy levels?
+How does health literacy affect the accessibility and effectiveness of counterspeech?
+What are the two main steps involved in constructing Error Notebooks for part retrieval in 3D CAD assemblies?
+What percentage improvement in absolute accuracy did GPT-4o (Omni) achieve on the human preference dataset using the proposed framework?
+What specific cognitive challenges do software engineers with ADHD face in their work environments?
+What are the four key components of the Tether application designed to support software engineers with ADHD?
+What critical vulnerability is introduced by the design of Retrieval Augmented Generation (RAG) systems?
+How does the type of retrieved context influence the robustness of LLMs in health-related queries?
+What is the primary purpose of the SAMVAD Multi-Agent System in the context of the Indian justice system?
+How does the SAMVAD system ensure the legal grounding of its Judge and Counsel agents' outputs?
+What are the three key challenges faced by current mobile agents according to the text?
+What is the purpose of the MobileRAG framework?
+What are the main drawbacks of the Chain of Thought (CoT) and Tree of Thought (ToT) reasoning structures as discussed in the document?
+What is the proposed solution to the shortcomings of existing thought structures in Large Language Models (LLMs)?
+What is the primary issue that arises during fine-tuning large language models in Retrieval-Augmented Generation scenarios?
+How does the SelfAug method mitigate catastrophic forgetting in large language models during fine-tuning?
+What is Technical-Embeddings designed to optimize in technical documentation retrieval?
+Which datasets were used to evaluate the performance of the Technical-Embeddings framework?
+What method is proposed to enhance the traditional RAG framework for legal tasks in the document 2509.06356.pdf?
+How many expert-annotated training and test instances are included in the multi-task legal dataset constructed in the research?
+What is the main innovation introduced by TextlessRAG?
+What types of datasets are included in the SV-DOC benchmark?
+What is the main contribution of the proposed adaptive weight optimization framework for seed implant brachytherapy (SIBT) planning?
+How does the proposed method for SIBT planning compare to fixed-weight optimization in terms of planning quality?
+What are the three distinct phases of the BioASQ competition?
+How does the performance of ensemble approaches compare to individual large language models in the context of biomedical question answering?
+Which methodology demonstrated superior reasoning abilities according to the experimental results?
+What is MetaRAG and how does it operate in hallucination detection?
+How do the identity-aware safeguards in MetaRAG work?
+What phenomenon is significantly threatening the potential of large language models (LLMs) in the legal field?
+How do generative AI and consultative AI differ in their approach to knowledge and information generation?
+What is the primary goal of the proposed Retrieval-Augmented Generation (RAG) pipeline in the domain of radio regulations?
+What is the primary purpose of GeoGPT as described in the technical report?
+What are the two core components of RAG mentioned in the GeoGPT technical report?
+What is HiCBench and what does it aim to evaluate in RAG systems?
+How does the HiChunk framework improve the quality of retrieval in RAG systems?
+What is the percentage of adolescents affected by Adolescent Idiopathic Scoliosis (AIS)?
+What are the three tasks included in the 'Divide and Conquer' framework for evaluating Multimodal Large Language Models (MLLMs) in AIS self-management?
+What is the primary advantage of the Directed corpus augmentation approach compared to Non-Directed augmentation in improving retrieval quality?
+What are the two main phases of the Dynamic Self-reinforcing Calibration for Hallucination Suppression (DSCC-HS) framework?
+What performance metrics were achieved by DSCC-HS on the TruthfulQA benchmark?
+What is the primary function of RAGOrigin in relation to Retrieval-Augmented Generation systems?
+How does the responsibility attribution system evaluate the responsibility of texts in the attribution scope?
+What are the three main contributions of the reference architecture for a provenance-aware AI agent framework described in the document?
+How does the Dynamic Dataflow Schema aid the LLM-powered provenance agent during runtime queries?
+What is the main purpose of the DeKeyNLU dataset presented in document 2509.14507?
+How much did fine-tuning with DeKeyNLU improve SQL generation accuracy on the BIRD dev dataset?
+What risk does fine-tuning large language models (LLMs) on sensitive internal data introduce in enterprise settings?
+What approach is proposed for preventing data leakage during the fine-tuning of LLMs?
+What does the Adversarial Collaboration RAG (AC-RAG) framework aim to mitigate in retrieval-augmented generation systems?
+How does the dynamic interaction between the Detector and Resolver agents in AC-RAG work?
+What are the three goals that the Adversarial Instructional Prompt (AIP) attack aims to achieve?
+What are the three sequential stages that AIP operates through?
+What is the new task formulated in the field of complaint mining to help users articulate their concerns?
+How many complaint videos and corresponding descriptions does the ComVID dataset contain?
+What is the main purpose of the retrieval-augmented generation (RAG) system developed in the document?
+What is the primary goal of the retrieval-augmented generation (RAG)-based system for provenance analysis designed by Tuo Zhang and colleagues?
+What are the limitations of traditional NLP techniques in app review analysis?
+How does the proposed LLM-driven review analysis framework improve upon traditional methods?
+What is the purpose of the CLAUSE framework in knowledge graph question answering?
+Which algorithm is employed by CLAUSE to coordinate the three agents involved in graph reasoning?
+What percentage of users found iatroX useful according to the survey?
+How many unique web users adopted the iatroX platform during the evaluation period?
