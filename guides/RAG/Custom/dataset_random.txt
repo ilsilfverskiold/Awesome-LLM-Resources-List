@@ -1,0 +1,66 @@
+does hybrid retrieval help more for methods questions or results questions
+when does using titles/abstracts beat full text retrieval
+how do i stop duplicate evidence from inflating confidence in the answer
+how do i evaluate quality vs latency without making a fake single number
+how do i test prompt injection risks if the bad text is inside retrieved pdfs
+how do i benchmark how much pdf parsing noise is ruining downstream answers
+when does rag actually make answers worse because retrieval brings distractors
+how do i evaluate agentic rag loops without it just burning cycles forever
+how do i measure “this helped the user” when the task is research, not fact lookup
+does compressing retrieved context help faithfulness or just hide missing evidence
+how do i benchmark prompts that force the model to list contradictions explicitly
+does retrieval order matter a lot, and how do i make it less brittle
+how do i evaluate “i don’t know” behavior in scientific qa
+how do i evaluate non-question research queries like “find me papers like X but with Y”
+What are pros and cons of hybrid vs knowledge-graph RAG for vague queries?
+How do reranker-based RAG pipelines trade off latency, cost, and context precision?
+Which benchmarks best capture hallucination rates in hybrid RAG systems?
+When does knowledge-graph RAG outperform dense retrievers on long-tail entity queries?
+What retrieval settings help reduce needle-in-a-haystack issues for medical QA?
+How does Reciprocal Rank Fusion compare to weighted hybrid scoring on arXiv-style corpora?
+What’s the impact of chunk size and overlap on faithfulness for academic PDFs?
+How do retrieval-augmented summarizers handle conflicting evidence across papers?
+When should we prefer sparse BM25 over dense embeddings for acronym-heavy queries?
+What are effective reranker thresholds to balance recall vs precision in RAG?
+why is everyone saying RAG doesn’t scale? how are people fixing that?
+are there ways to make rag more accurate without retraining the llm?
+fine-tuning vs RAG which does better when?
+does long context windows now removed the need for RAG?
+give me innovations in RAG from the papers anything unconventional?
+any results in these papers on fine-tuning an embedder for RAG?
+rag pipeline noisy answers cause?
+my retrieval gets irrelevant stuff even though embeddings are good — normal?
+context too long model forgets info fix?
+how does agentic rag differ from normal rag?
+when should you not use rag?
+how are people combining rag with graph databases?
+any papers that say rag doesn’t help factuality?
+what are examples of rag working really well in production?
+rag latency problems and how to optimize it
+hallucinations in rag vs normal llms and how to reduce them
+long context rag performance drop and possible fixes
+hybrid retrieval in rag pros and cons
+retriever reranker differences and which helps rag more
+best rag eval benchmarks and why?
+neighbor expansion for chunks in rag is that a thing?
+my query rewriting sometimes makes results worse, how do i tell when it’s hurting
+how do i check if a question is even answerable from my corpus without having gold answers
+how do i verify citations are actually backing the claim, not just random “looks related” refs
+what metric catches when it uses the right info but credits the wrong paper
+how often does entity linking mess up acronyms and lookalikes, and how do i test that
+does retrieval make the model more “honest” or just more confident sounding
+how do i measure if i’m getting diverse sources instead of 10 chunks from the same pdf
+what chunking works best when papers have math and symbols everywhere
+how should i chunk tables/figures/captions so retrieval doesn’t ignore them
+should i retrieve whole papers first or just chunks, what actually works better
+when it fails, is it usually because it missed the right paper or the right paragraph
+how do i stop retrieval from drifting during a multi-turn convo
+how do i evaluate multi-hop questions without manually labeling the chain
+what’s a good way to score faithfulness when the answer pulls from multiple papers
+how do i test it on “new paper contradicts old paper” situations
+does reranking bias toward certain writing styles/venues/authors or am i paranoid
+how do i measure retrieval consistency when users paraphrase the same question
+top-k: is “more context” helping or just adding noise and confusion
+how do i catch when the model ignores retrieved context and answers from memory
+how do i evaluate quote-level grounding, like “show me the exact sentence”
+how much do negatives matter when training an embedder for scientific text
