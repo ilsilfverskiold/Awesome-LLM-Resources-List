@@ -1,0 +1,260 @@
+what are the uh three hierarchical abilities for rag models like hirag?
+how does hirag tbh compare to llama models on popqa & pubmedqa datasets?
+how many posts tbh were used for the health misinformation dataset & where did they come from?
+like, what does plz the retrieval agent in drugmcts do for drug repositioning?
+how does drugmcts tbh do better than deep learning models on drugbank & kiba datasets?
+wait so how so many training examples does frugalrag need to work well?
+what's the main plz difference in the search requirement between frugalrag & searchr1?
+what tech does kinda k2 rag use to cut training time for lms by 93%?
+how does k2 btw rag improve answer fetching compared to naive rag, like what's the similarity scores in terms of q3?
+whats the avg idk accuracy of xiyansql for user queries & system operator queries?
+how many seconds plz is the spawn rate for bicycles in 20k to 62k seconds?
+what are the plz three types of reward functions used in eviomni?
+did rational evidence kinda or vanilla evidence get better ar on nq & how much better?
+what makes step-audio so 2 different from step-audio?
+how well does uh step-audio 2 perform compared to gpt-4o in asr on english & chinese?
+what's the main like process in hypochainer for hypothesis construction that starts w/ domain experts & ends with validation?
+how do experts like filter predictions in hypochainer, specifically what criteria do they use?
+what datasets was plz gear supposed to handle in sigir 2025 liverag challenge, like number of doc?
+how does gear plz align passage indexes w/ triples from wikidata without pre-association?
+what are the uh two new methods to improve rag, & how do they differ?
+how much does so confident rag improve accuracy over vanilla llm & vanilla rag?
+so what's the uh deal w/ the two-step assessment in tai scan tool, like pre-screening & legal assessment?
+can you tell uh me what features the user has to input for the legal tai assessment, like is it all dropdowns or free text?
+what's the dynamic idk acceptance threshold in verirag & how does it change based on claims?
+can u tell kinda me the three main contributions of verirag framework?
+wut does timelyhls idk use to improve hls code for fpga? like, is it just llm or rag too?
+how much manual uh tuning does timelyhls cut down? & what's the max speedup it claims?
+what method does uh gmtp use to detect poisoned documents in rag systems?
+how much poisoned uh content can gmtp eliminate while keeping relevant docs?
+what are the so main outputs generated from requirements in the automotive software dev process?
+how does regulation-compliant so scenario generation work, especially w/ un reg 152?
+what are the so exact percentages for issues found in mixtral 8x7b on gsm8k? like, what common mistakes were detected?
+how does the kinda task-specific evaluation mode affect issue detection in comparison to general mode? can you give examples?
+what's the difference idk in performance between similarity-based rag & identifier-based rag in this document?
+which retrieval techniques plz showed the best results for similarity-based rag, like bm25 or gte-qwen?
+what's prismrag do uh about distractor passages & reasoning stuff?
+how much better kinda is prismrag than other methods in factuality scores & what's a specific increase?
+what are the tbh two main components of a rag system & how do they work together?
+how does rag kinda help w/ hallucinations & outdated knowledge in language models?
+what kinda selection like does the utility-based method focus on, like ranking or something else?
+how many passages uh does llm take for utility judgments usually, like is it 10 or 20?
+what's the main uh prob w/ noisy retrieved passages in rag?
+how does passage like injection work compared to vanilla rag?
+so what was like the accuracy of pennycoder compared to base llama 3.1-8b on quantum tasks?
+if i got so 3,347 samples in pennylang dataset, how many were actively verified?
+what's the size uh of the rod-tal dataset & how many of those are text vs image based?
+how does the kinda retrieval-augmented generation method compare against ideal rag in terms of performance? like, what’s the difference?
+what's the main so idea behind semantic compression versus ann tho?
+how do graph-based uh methods differ from traditional approaches like topk ann in terms of retrieval?
+so what are uh the main improvements of disastermobllm over other models, like acc@1 & f1-score?
+how does disastermobllm btw use llms for modeling human mobility intentions during disasters?
+what are the tbh 4 major challenges in making structural drawings mentioned?
+how does the uh llm-based workflow for structural drawing generation handle different types of drawings?
+what the heck so does rags do for 3d object detection & how it use 3d gaussian splatting?
+how many datasets idk did they test rags on & what are their names?
+what's the key like issue w/ using rag for bigger models like qwen-3-32b?
+like, why are uh smaller models getting more from retrieval than bigger ones in rag?
+what did team like cruise get in task 1 of the kdd cup 2025 crag-mm challenge?
+how many images tbh in the image set for crag-mm are egocentric vs third-person?
+what are the so roles of auv alpha & beta in the underwater mission, like what can they do?
+so what's the idk full rag system success rate in mission validation compared to llm-only setup, like what's the difference?
+whats the training so data size for concap compared to mblip?
+how many languages btw does xm3600 cover & how many images are included?
+what's the core plz idea of mmgraphrag & how it deals w/ visual info?
+how does mmgraphrag plz compare w/ m3docrag in terms of accuracy?
+what's the average like improvement in code exact match when using the new approach compared to baseline?
+how does the so new project-specific code completion method handle internal api info without import statements?
+so how much tbh time can ai save in the whole task vs humans?
+like, what's the so difference in performance between naive ai & interactive ai?
+what is the tbh main goal of sherpa rx for pharmacogenomics queries?
+how did including btw pharmgkb data affect sherpa rx's performance metrics compared to just using cpic guidelines?
+whats the main like prob w/ existing benchmarks for kc detection in llms? like, why are they not good?
+how many types plz of conflicts does magic dataset include & what are like the diff categories?
+what's included in kinda the safedrive228k benchmark & how many examples does it have?
+how much performance kinda improvement does safedriverag bring in traffic safety commonsense tasks compared to others?
+quelles sont les idk defaillances du systeme rag alban dans le contexte de due diligence?
+ce protocole d'evaluation uh hybride, il combine quoi pour verifier les performances d'un rag?
+what's the total tbh number of question-answer pairs in hrip-basic dataset?
+the document says so llms got performance issues, right? specifically about safety boundary checks, how accurate are they?
+what are the uh main challenges for graphrag methods listed, like about construction cost & retrieval?
+how much better tbh did graph-r1 perform on hotpotqa compared to standardrag based on f1 score?
+whats the main btw aim of mmat-1m dataset & how many question-answer pairs does it have?
+how much does uh the internvl2.5-8b-rr model improve across benchmarks after training on mmat-1m?
+what exactly is so carriage & how is it diff from standard rag in recipe adapt stuff?
+how does carriage tbh deal w/ the issue of cultural differences in recipe adaptations?
+so what does btw deepsieve do exactly, like how does it handle complex queries?
+like, how well like does deepsieve do compared to other methods on the musique & hotpotqa datasets?
+what are the kinda three main challenges llms face in processing longitudinal cancer ehrs?
+how does clicare btw transform unstructured ehrs & what kind of knowledge graph does it use?
+so where did uh swizz beatz wife study? like, what's her name too?
+like, what are like the main failure patterns in rag reasoning models?
+what are the idk 3 main parts of docsray system like how they work together?
+how much faster tbh is query time w/ pseudo-toc in docsray compared to without it?
+what's the privacy like extraction rate for multi-domain scenarios in the fine-grained privacy extraction framework?
+how does the tbh proposed method differ from previous works in identifying private content from rag system responses?
+whats the main so advantage of rl-qr compared to other methods for query rewriting?
+how much did like rl-qr multi-modal improve ndcg@3 & compare it to lexical retrievers?
+so what is tbh muswikidb & how is it diff from wikipedia?
+what makes must-rag btw better than regular fine-tuning for music stuff?
+whats the performance btw diff in pts for difflora in humaneval vs drop?
+which model has uh better performance on bioasq, difflora or fulllora?
+what's the main kinda prob the e-commerce product qa system tries to solve, like user info or product data?
+how does the idk standalone query module help w/ changing user queries, like if someone asks about battery size for different products?
+what are the so three anss benchmark datasets where crinn performed best?
+so what do like the recall & qps tradeoffs mean for anss algorithms w/ ef settings?
+what are the kinda key issues w/ existing pathology vlms & how patho-agenticrag helps?
+how many pages like were retained in the multimodal pathology knowledge base after filtering?
+whats the main so idea behind pairs & like how it works w/ llms?
+how much does idk pairs reduce retrieval costs & what em and f1 score increases does it show?
+like, how does idk the rag method help compared to non-grounded prompting in generating math qns?
+whats raidx do like in fake image detection w/ rpo & rag stuff?
+how does raidx btw compare to antifakeprompt on unseen datasets?
+what are the tbh 3 main innovations of bee-rag? like what does it improve?
+how does bee-rag tbh perform compared to traditional rag on long-context tasks?
+what are the idk improvements in answer accuracy for qa-dragon compared to baselines for single-source, multi-source & multi-turn tasks?
+how does qa-dragon kinda decide whether to perform search or output directly based on reasoning traces?
+what's the main btw reason for errors in llm-generated rtl code, like, do they mostly come from llm reasoning issues or something else?
+for the verilogeval btw benchmark, how much accuracy did the improved llm-based rtl code generation achieve, & how does it compare to the baseline?
+so what's the so big diff between mkg-rag & vanilla rag for vqa tasks?
+how does the so dual-stage retrieval in mkg-rag work & why is it better?
+what was the plz role of feedback in question answering tasks for bioasq challenge?
+which models were plz tested for document & snippet retrieval in bioasq challenge?
+so what's grail plz do for like graph retrieval? i mean, how's it work w/ the knowledge graph stuff?
+like how much tbh does grail improve accuracy & f1 score on those knowledge graph datasets?
+what does lag so do to complex q's first?
+how much better plz is lag vs hipporag on hotpotqa contain-acc?
+what's the avg idk custody time for bail cases, like, how long do they usually wait?
+how many high idk courts were used for dataset & what's the bail grant rate for regular bail?
+so whats the so improvement in accuracy & coverage sma got over black-box mia baselines?
+what are the plz three categories for input in the auditing task of sma?
+so what does btw the dynamic passage selector do, like how's it different from old methods?
+like how much btw better does dps do compared to rankinggpt on the musique dataset?
+how many videos btw in the dataset are actually unique after filtering? like what was the original count & how many were left?
+what three main so steps are involved in the algorithmic narrative segmentation for the montages?
+what three benchmarks btw were used to test the method described in 2508.09755.pdf?
+can u explain like how the method reduces ambiguity in multi-hop questions?
+so like, what uh did libeval provide for library migration stuff?
+what's the big kinda deal about the one-shot prompt strategy in librec?
+how did faria kinda get captured by the french gendarmerie, & what were the charges?
+at what age plz did faria start studying at the university & what subjects did he focus on?
+what are the uh three domains where memory decoder improves performance? like does it include finance?
+so how does idk memory decoder compare to dapt in terms of efficiency for adapting models?
+how does the plz triplet extraction process work in regulatory documents?
+what are the idk main steps in the multi-agent framework for regulatory qa?
+what key innovation uh does leanrag use to connect aggregated entities?
+how much less uh redundancy does leanrag achieve compared to other methods?
+what are the like three layers in comorag's hierarchical knowledge source thingy?
+why's comorag better so for long context narratives compared to other rag methods like raptor?
+what types of kinda errors did they find in llm-generated sparql queries, like what are structural vs semantic issues?
+which model had tbh the best performance on query accuracy metrics & what were those scores?
+whats the deal uh w/ the incident response model using llms? like how does it work?
+how do they like measure the response accuracy of alerts? like what metrics are used?
+whats the main btw diff between retrieval-augmented generation & the vac framework for personalized question answering?
+can you give btw me the three domains used in the lamp-qa benchmark & any improvements vac made over previous methods?
+whats the main tbh way refn is different from other defenses like the human feedback stuff?
+how does refn btw make sure it can work on old systems or legacy devices?
+how many entities like are in the medical kg made by medkgent?
+like, what is like the time range of pubmed abstracts used for medkgent?
+so how does idk semantic anchoring beat vector rag in recall percentages? like what the numbers say?
+what's the deal kinda w/ coreference resolution & its impact? like how much does it drop recall if you take it out?
+whats the main like way gridcodex improves grid code compliance besides just answering questions?
+how much better plz is gridcodex than vanilla rag in terms of answer quality & recall@30?
+how many pairs tbh are in the radiology, ophthalmology, & pathology subsets of the report repository?
+why is the tbh multi-corpora query generator (mqg) trained in two stages?
+so wat's the uh main idea behind atom-searcher compared to other methods?
+like how does so atom-searcher handle rewards differently from outcome-based approaches?
+what are the so 3 clinical tasks mentioned & are they easy to replicate?
+how does rag plz compare to using just recent notes for the imaging procedures task?
+what does the plz select2know framework do for domain-specific qa like, medicine & law?
+how does selective kinda supervised fine-tuning work in the s2k framework to focus on unmastered knowledge?
+what the avg plz performance gain for care on qa & fact-checking tasks?
+how many memory like tokens does care use in experiments?
+how does rag-seg kinda work for camouflaged object detection, like what are the stages mentioned?
+what's the deal btw w/ rag-seg & training? like does it need training or what?
+so what improve like retrieval in rag mean? like how feedback works in it?
+what's the dif btw between pseudo-relevance feedback & generative relevance feedback in retrieval?
+so what are btw the main limitations of current medical llms in diagnosis like rag systems?
+how much does btw deep-dxsearch improve accuracy for rare diseases compared to training-free rag methods?
+what's the main uh issue w/ fully automatic survey generation in this research on hallucination detection in llms?
+can you compare kinda qual-sg & naive-rag in terms of citation quality and content quality?
+what are the kinda avg compile & pass rates for repotransagent specifically and how much did it improve?
+can you list idk the three specialized agents in repotransagent & their main roles?
+what's the accuracy tbh range of isacl for detecting copyright leaks across different setups?
+how does isacl idk work to prevent copyright leaks before any output is generated?
+so what's layer like fused decoding (lfd) do again?
+how's lfd differ tbh from noise injection in accuracy?
+whats the difference btw between white-box & black-box fingerprinting methods for llm copyright auditing?
+so what is kinda leafbench & how many model instances does it include?
+what does disarmrag so do to the retriever in rag systems?
+what happens to like attack success rate when llms verify claims vs when they don't?
+how many questions idk in dentalqa? like total n umber?
+what's in dentalcorpus btw & how many tokens? like is it bilingual?
+so whats the like main thing that mi-rag does to improve vqa compared to regular methods?
+like how many plz text passages & image-text pairs does mi-rag retrieve per iteration?
+whats the main so issue w/ normal counterspeech to health misinformation?
+how does controlled-literacy tbh differ for low & high health literacy users?
+so like how plz does the error notebook thingy help w/ cad assembly part retrieval without extra training?
+what's the accuracy tbh boost for gpt-4o using the error notebook on the human preference dataset?
+what are the so four key components of the tether system?
+how does tether uh help when a user is inactive for too long?
+what's the deal uh w/ adversarial documents messing up llm alignment in health queries?
+so how do kinda different query framings, like consistent vs. inconsistent, affect llm responses in health info?
+whats the deal uh w/ the main parts of the samvad system? like, what are the different agent roles?
+how many deliberation tbh rounds did cases 3 & 4 need in the simulation? and what was the final verdict for each?
+how many components tbh are in the mobilerag framework & what are they?
+what improvements does like mobilerag show over state-of-the-art methods, like what percentage?
+what the difference idk in success rate between mot & ratt-rag in the 24-point game tests?
+how does mot btw handle errors in reasoning compared to cot & tot?
+what's the main idk focus of selfaug, like how does it help w/ catastrophic forgetting?
+how does selfaug plz compare w/ lora when it comes to balancing performance & preventing forgetting?
+what three key idk methods does technical-embeddings use to improve document retrieval?
+how does technical-embeddings kinda perform on rust-docs-qa compared to all-mpnet-base-v2 in terms of map?
+what the heck idk is pl-ca & how it fix problems w/ rag in legal ai?
+how many training so & test samples does the legal-ca dataset have and what areas it covers?
+whats the big uh deal about textlessrag in terms of speech & visuals?
+how does the uh performance of textlessrag compare in accuracy to vidorag?
+what does sibt so really do for cancer treatment n how does it work on dose covering?
+how many patient so cases were validated in the llm framework, & what were the improvements seen in dose sparing?
+how did the tbh performance of gemin 2.0 flash compare to claude on yes/no questions?
+so like, what like are the three methods for making knowledge graph triplets mentioned? can you give me their names?
+which method shows idk the best reasoning ability, like out of the three, & what does another one do best?
+what are the so four stages that metarag goes through for hallucination detection?
+can metarag work uh without access to model internals or ground-truth references?
+cuál es la tbh diferencia entre ia generativa y ia consultiva en el contexto legal? como operar cada una?
+como se define uh una alucinación legal en la ia? hay ejemplos específicos?
+whats the improvement so in accuracy for gpt-4o w/ the rag pipeline vs using full documents directly?
+what caused the tbh accuracy drop when using smaller chunks like 150 or 300 words w/ top-k set to 3?
+whats the main btw difference between geoembedding & georeranker models?
+how does geogpt tbh allow users to improve retrieval quality besides rag?
+so what's hicbench idk for, like, what's it do?
+what's the deal btw w/ chunk size limits in hicbench tasks?
+whats the max idk accuracy for detecting spinal deformity locations in ais care?
+how many ap uh spinal x-rays were collected for this ais study, & how many were used for training?
+so for the plz directed augmentation, how much more docs were needed to match the reference performance for query transformation?
+what are the idk top 5 under-supported categories in mental health according to hybrid gap scores?
+what's the accuracy like of dscc-hs on truthfulqa & what's the hallucination score?
+how does dscc-hs btw compare to sft & iti in accuracy on truthfulqa?
+so what exactly uh is ragorigin & how does it work for finding poisoned texts?
+how many datasets tbh & poisoning attacks did they test ragorigin on?
+so what are kinda the roles of llms in evaluating workflow provenance, like can they do interactive querying?
+what’s the difference uh between the chemistry workflow & the synthetic workflow in terms of their complexity?
+what's the dev like ex improvement from fine-tuning w/ dekeynlu for bird dataset?
+how many instances uh are in the dekeynlu dataset & what are the focus points?
+what's the big idk issue w/ fine-tuning llms on sensitive stuff like hr policies? like, how could that leak to users who shouldn't see it?
+so how do btw bicliques help in making fine-tuned models secure? like, what's the idea behind using them?
+what 2 agents idk does the ac-rag framework use & how do they differ?
+how does the btw pre-check phase in ac-rag work & why is it important?
+what are the tbh 3 main goals for the aip attack thingy?
+how does aip uh compare in attack success rates to other methods like corpus poisoning & trojanrag?
+whats the main so task they r trying to do w/ videos? like, how does cod-v help users?
+how many videos so r in the comvid dataset & what kinda stuff do they focus on?
+how many total plz cancer protocols were in the dataset & what are the different types?
+what were the btw main components of the rag system, & what was the purpose of the scoring module?
+what key components idk are in the multimodal retrieval system for archaeological artifacts mentioned in 2509.20769.pdf?
+how does the idk vlm predict excavation site & era for artifacts according to the findings in 2509.20769.pdf?
+whats the diff plz between aspect extraction in aware dataset & others like spotify or google play?
+how much improvement idk did gpt-4 show in f1-score over deberta-v3 in aspect extraction?
+whats the deal tbh w/ clause & its three agents, like how do they work together?
+can you tell so me about how clause compares to rag methods, like in terms of latency & accuracy?
+what % of like users found iatrox useful & how many reported it saved them time?
