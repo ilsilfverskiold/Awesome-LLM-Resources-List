@@ -438,6 +438,7 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 |------|--------------|-------------|-------------|--------|
 | [gpustack](https://github.com/gpustack/gpustack) | gpustack | A toolkit for managing GPU infrastructure for AI workloads. | [![GitHub Repo stars](https://img.shields.io/github/stars/gpustack/gpustack?style=flat-square&color=purple)](https://github.com/gpustack/gpustack) | [![GitHub followers](https://img.shields.io/github/followers/gpustack?style=flat-square&color=teal)](https://github.com/gpustack) |
 | [harbor](https://github.com/av/harbor) | av | A repository for containerized AI infrastructure management. | [![GitHub Repo stars](https://img.shields.io/github/stars/av/harbor?style=flat-square&color=purple)](https://github.com/av/harbor) | [![GitHub followers](https://img.shields.io/github/followers/av?style=flat-square&color=teal)](https://github.com/av) |
+| [Deploybase](https://deploybase.ai/) | Deploybase | A dashboard to track real-time GPU and LLM pricing across cloud and inference providers. | N/A | N/A |
 
 
 ### Research Papers on Chain-of-Thought Prompting
