@@ -11,6 +11,18 @@ A one-shot comparison of two systems generating a landing page for the same prod
 
 ![hero comparison](./mobile_hero.png)
 
+## Mobile and Desktop 
+
+### Stitch
+
+![Desktop](./stitch_desktop_full.png)
+![Mobile](./stitch_mobile_full.png)
+
+### Claude Code (w/ Frontend-design Skill)
+
+![Desktop](./claude_skill_desktop_full.png)
+![Mobile](./claude_skill_mobile_full.png)
+
 ## Files in this repo
 
 - `mobile_hero.png` - hero-only comparison, Stitch on the left and Claude skill on the right
