@@ -9,6 +9,8 @@ A one-shot comparison of two systems generating a landing page for the same prod
 **Audience:** Mid-size to enterprise companies. Buyers are CTOs, Heads of Ops, and technical product leaders. Users are internal teams.  
 **Core tension:** The product is technically advanced, but the landing page must not feel cold, sterile, or overloaded with jargon.
 
+## Direct comparison (Stitch to the left, Claude Code with the design skill to the right).
+
 ![hero comparison](./mobile_hero.png)
 
 ## Mobile and Desktop 
