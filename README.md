@@ -4,6 +4,7 @@ A Curated Collection of LLM resources. 💡✨
 
 **🌐 Updated: 22nd of June 2025**
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code multi-agent orchestration. Applied AI engineering resource. MIT licensed.
 ### 'Serverless' Hosting of Private/OS Models
 
 | Platform/Tool                   | Rel. | Scale Down | OS 🔓 | GH | Start | One-Click | Dev Exp. | Free-Tier |
