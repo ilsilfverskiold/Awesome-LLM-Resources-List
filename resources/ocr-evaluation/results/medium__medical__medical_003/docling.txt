@@ -1,0 +1,177 @@
+Daniel
+
+Anderson
+
+First Name
+
+Last Name
+
+Single Married Divorced Separated Widowed
+
+Marital Status
+
+2213 1/2 Mulberry Dr
+
+Address
+
+Waimanalo
+
+IH
+
+96795
+
+City
+
+State
+
+Zip
+
+9065807172
+
+September 29,1962
+
+Phone
+
+DOB
+
+Spouse Name
+
+Spouse Phone
+
+Is the requested medication NEW or a CONTINUATION of THERAPY? If so, start date:
+
+Have you been hospitalized in the past year?  Yes No
+
+## Review of Symptoms
+
+- [ ] Allergies
+
+- [x] Black Outs
+
+- [ ] Blurred Vision
+
+- [ ] Calf Pain
+
+- [ ] Chest Pain
+
+- [ ] Chills
+
+- [x] Coughing
+
+- [x] Coughing Up Blood
+
+Dental Problems
+
+- [ ] Difficulty Emptying Bowel Or Bladder
+
+- [ ] Double Vision
+
+- [x] Enlarged Glands
+
+- [ ] Excessive Bruising 口
+
+- [x] Excessive Stress
+
+- [ ] Excessive Thirst
+
+- [x] Eye Pain
+
+- [ ] Fatigue
+
+- [ ] Fever
+
+- [x] Headaches
+
+- [ ] Hearing Loss
+
+IrregularHeart Rate
+
+- [x] Joint Swelling
+
+- [ ] Muscle Pain
+
+- [ ] Seizures
+
+- [x] ShortnessOf Breath
+
+- [ ] StomachTroubleOrUlcers
+
+- [x] Tuberculosis Exposure
+
+- [ ] WeightGainOrLossGreaterThan10Lbs
+
+## Social History
+
+Do you smoke?  Yes No
+
+If yes, how many times per week:
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10+
+
+Do you drink? Yes No
+
+If yes, how many times per week:
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10+
+
+Do you exercise? Yes No
+
+If yes, how many times per week:
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10+
+
+Do you have a social support system?  Yes No

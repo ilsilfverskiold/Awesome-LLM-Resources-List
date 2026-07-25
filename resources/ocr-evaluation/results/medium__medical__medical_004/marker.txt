@@ -1,0 +1,70 @@
+| <b>Patient Demographics Form</b> |  |  |
+|----------------------------------|--|--|
+|                                  |  |  |
+
+| Daniel                                                            | Miller         |                                                                                                |  |  |
+|-------------------------------------------------------------------|----------------|------------------------------------------------------------------------------------------------|--|--|
+| First Name                                                        | Last Name      |                                                                                                |  |  |
+| Single □ Married □ Divorced □ Separated □ Widowed ■               |                |                                                                                                |  |  |
+| <b>Marital Status</b>                                             |                |                                                                                                |  |  |
+| 7098 West Eagle St                                                |                |                                                                                                |  |  |
+| Address                                                           |                |                                                                                                |  |  |
+|                                                                   |                |                                                                                                |  |  |
+| Waimanalo                                                         | H <sub>I</sub> | 96795                                                                                          |  |  |
+| City                                                              | State          | Zip                                                                                            |  |  |
+| 603 916-8665                                                      | July 20, 1972  |                                                                                                |  |  |
+| Phone                                                             | <b>DOB</b>     |                                                                                                |  |  |
+|                                                                   |                |                                                                                                |  |  |
+|                                                                   |                |                                                                                                |  |  |
+| Spouse Name                                                       | Spouse Phone   |                                                                                                |  |  |
+|                                                                   |                | Is the requested medication NEW $\Box$ or a CONTINUATION $\Box$ of THERAPY? If so, start date: |  |  |
+|                                                                   |                |                                                                                                |  |  |
+| Have you been hospitalized in the past year? Yes $\Box$ No $\Box$ |                |                                                                                                |  |  |
+| <b>Review of Symptoms</b>                                         |                |                                                                                                |  |  |
+| Allergies 2                                                       |                |                                                                                                |  |  |
+| Blurred Vision 2                                                  |                | Black Outs $\Box$                                                                              |  |  |
+| Chest Pain $\Box$                                                 |                | Calf Pain $\Box$                                                                               |  |  |
+| Coughing $\Box$                                                   |                | Chills <b>Z</b>                                                                                |  |  |
+| Dental Problems $\Box$                                            |                | Coughing Up Blood □                                                                            |  |  |
+| Double Vision <b>Z</b>                                            |                | Difficulty Emptying Bowel Or Bladder                                                           |  |  |
+| Excessive Bruising $\blacksquare$                                 |                | Enlarged Glands □                                                                              |  |  |
+| Excessive Thirst $\Box$                                           |                | Excessive Stress $\Box$                                                                        |  |  |
+| Fatigue $\blacksquare$                                            |                | Eye Pain $\Box$<br>Fever 2                                                                     |  |  |
+| Headaches 7                                                       |                | Hearing Loss 7                                                                                 |  |  |
+| Irregular Heart Rate                                              |                |                                                                                                |  |  |
+| Muscle Pain $\Box$                                                |                | Joint Swelling $\Box$<br>Seizures 2                                                            |  |  |
+| Shortness Of Breath                                               |                | Stomach Trouble Or Ulcers                                                                      |  |  |
+| Tuberculosis Exposure $\Box$                                      |                |                                                                                                |  |  |
+|                                                                   |                | Weight Gain Or Loss Greater Than 10 Lbs $\Box$                                                 |  |  |
+
+## **Previous Health History**
+
+| Dr. Emily Anderson                                                   | 08/30/1958                    |
+|----------------------------------------------------------------------|-------------------------------|
+| Primary Care Physician                                               | <b>Last Seen Date</b>         |
+| Have you received chiropractic care? Yes $\blacksquare$ No $\square$ |                               |
+| Have you received acupuncture care? Yes $\Box$ No $\Box$             |                               |
+| Prescription Drugs:                                                  |                               |
+| Antidepressants $\Box$                                               | Anti Inflammatory $\Box$      |
+| Birth Control Pills                                                  | Blood Pressure Medication     |
+| Diet Pills                                                           | Blood Sugar Medication $\Box$ |
+
+Muscle Relaxers 2
+
+Pain Pills  $\hfill\Box$ 
+
+Other: amoxicillin
+
+ $D$ 1000 Sugar Medication  $\Box$ 
+
+Insulin  $\blacksquare$ 
+
+Sleeping Pills  $\blacktriangledown$ 
+
+Over-the-Counter Drugs
+
+Accidents or Injuries
+
+resveratrol, vitamin b3
+
+Vitamins or Supplements

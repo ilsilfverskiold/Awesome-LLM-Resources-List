@@ -1,0 +1,62 @@
+Patient Demographics Form
+
+Daniel
+First Name
+Miller
+Last Name
+
+Single ☐ Married ☐ Divorced ☐ Separated ☐ Widowed ✓
+Marital Status
+
+7098 West Eagle St
+Address
+
+Waimanalo ☐ State HI ☐ Zip 96795
+City
+
+603 916-8665
+Phone
+
+July 20, 1972
+DOB
+
+Spouse Name
+Spouse Phone
+
+Is the requested medication NEW ☐ or a CONTINUATION of THERAPY? If so, start date: _______________
+Have you been hospitalized in the past year? Yes ☐ No ✓
+
+Review of Symptoms
+
+Allergies ✓ Blurred Vision ✓ Calf Pain ☐
+Chest Pain ☐ Chills ✓ Coughing Up Blood ☐
+Dental Problems ☐ Difficulty Emptying Bowel Or Bladder ✓
+Excessive Bruising ✓ Excessive Thirst ☐
+Fatigue ✓ Eye Pain ☐
+Headaches ✓ Fever ✓
+Irregular Heart Rate ✓ Hearing Loss ☐
+Muscle Pain ☐ Joint Swelling ☐
+Shortness Of Breath ✓ Seizures ✓
+Tuberculosis Exposure ☐ Weight Gain Or Loss Greater Than 10 Lbs ☐
+
+Previous Health History
+
+Dr. Emily Anderson
+Primary Care Physician
+08/30/1958
+Last Seen Date
+
+Have you received chiropractic care? Yes ✓ No ☐
+Have you received acupuncture care? Yes ☐ No ✓
+
+Prescription Drugs:
+Antidepressants ☐ Birth Control Pills ✓
+Diet Pills ☐ Muscle Relaxers ✓
+Pain Pills ☐ Other: amoxicillin
+
+Over-the-Counter Drugs
+
+Accidents or Injuries
+resveratrol, vitamin b3
+
+Vitamins or Supplements

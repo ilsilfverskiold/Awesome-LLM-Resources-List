@@ -1,0 +1,79 @@
+Personal Health Record
+Jessica
+Brown
+First Name
+Last Name
+Single
+Married
+Divorced
+Separated
+Widowed
+Marital Status
+6306 Upper Mountain Circle
+Address
+Limestone
+PA
+16234
+City
+State
+Zip
+796-895-8529
+10/25/1954
+Phone
+DOB
+Spouse Name
+Spouse Phone
+Is the requested medication □NEW or a □CONTINUATION of THERAPY? If so, start date: ___
+Have you been hospitalized in the past year? □Yes □No
+Review of Symptoms
+Allergies
+Black Outs
+Blurred Vision
+Calf Pain
+Chest Pain
+Chills
+Coughing
+Up Blood
+Dental Problems
+Difficulty Emptying Bowel Or Bladder
+Double Vision
+Enlarged Glands
+Excessive Bruising
+Excessive Thirst
+Fatigue
+Fever
+Headaches
+Hearing Loss
+Irregular Heart Rate
+Joint Swelling
+Muscle Pain
+Seizures
+Shortness Of Breath
+Stomach Trouble Or Ulcers
+Tuberculosis Exposure
+Weight Gain Or Loss Greater Than10 Lbs
+Previous Health History
+Dr. Sarah Moore
+03-20-1998
+Primary Care Physician
+Last Seen Date
+Have you received chiropractic care? □Yes □No
+Have you received acupuncture care? □Yes □No
+PRESCRIPTION DRUGS:
+□ Antidepressants
+□ Anti Inflammatory
+□ Birth Control Pills
+□ Blood Pressure Medication
+□ Diet Pills
+□ Blood Sugar Medication
+□ Muscle Relaxers
+□ Insulin
+□ Pain Pills
+□ Sleeping Pills
+Other:  metformin, simvastatin
+pepto-bismol
+Over-the-Counter Drugs
+poisoning
+Accidents or Injuries
+vitamin b9, msm, fish oil
+Vitamins or Supplements

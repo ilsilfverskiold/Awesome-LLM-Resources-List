@@ -1,0 +1,92 @@
+## Health Intake Questionnaire
+
+FIRST NAME: Daniel
+
+LAST NAME: Brown
+
+MARITAL STATUS: Single □ Married □ Divorced □ Separated ☑ Widowed □ 
+
+ADDRESS: 8574 Aspen Ave
+
+CITY: Waimanalo
+
+STATE: HI
+
+ZIP: 96795
+
+PHONE: (493) 716-1180
+
+DOB: 10-06-1961
+
+SPOUSE NAME:  
+
+SPOUSE PHONE:  
+
+Is the requested medication NEW □  or a CONTINUATION ☑  of THERAPY? If so, start date: \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Have you been hospitalized in the past year? Yes ☑  No □ 
+
+#### Review of Symptoms
+
+Allergies ☑ 
+
+Black Outs ☑ 
+
+Blurred Vision □ 
+
+Calf Pain □ 
+
+Chest Pain ☑ 
+
+Chills ☑ 
+
+Coughing ☑ 
+
+Coughing Up Blood □ 
+
+Dental Problems □ 
+
+Difficulty Emptying Bowel Or Bladder ☑ 
+
+Double Vision □ 
+
+Enlarged Glands ☑ 
+
+Excessive Bruising ☑ 
+
+Excessive Stress ☑ 
+
+Excessive Thirst □ 
+
+Eye Pain □ 
+
+Fatigue □ 
+
+Fever □ 
+
+Headaches □ 
+
+Hearing Loss □ 
+
+Irregular Heart Rate □ 
+
+Joint Swelling □ 
+
+Muscle Pain □ 
+
+Seizures □ 
+
+Shortness Of Breath □ 
+
+Stomach Trouble Or Ulcers ☑ 
+
+Tuberculosis Exposure ☑ 
+
+Weight Gain Or Loss Greater Than10 Lbs ☑ 
+
+#### Family Health History
+
+| **Relation** | **Age If Living** | **Age At Death** | **Chronic Health Problems** |
+| ------------ | ----------------- | ---------------- | --------------------------- |
+| Father       | 55                |                  | diabetes, dementia          |
+| Sister       | 27                |                  | adhd                        |

@@ -1,0 +1,58 @@
+## Patient Information Form
+<!-- layout: vrns, kqlg -->
+First Name: Jessica | Last Name: Smith
+Marital Status: Single ☐ Married ☐ Divorced ☐ Separated ☑ Widowed ☐
+<!-- layout: ejkw, hred, dosc -->
+Address: 9665A Otter Dr | State: Oregon | Zip: 97394
+<!-- layout: yxci, lepj -->
+City: Waldport | DOB: November 2, 1997
+<!-- layout: cfyl, doom -->
+Phone: 2719832850 | Spouse Phone:
+Spouse Name:
+<!-- layout: pnan, lcuy -->
+Is the requested medication NEW ☐ or a CONTINUATION ☑ of THERAPY? If so, start date: _______________
+<!-- layout: wdyo, ywob -->
+Have you been hospitalized in the past year? Yes ☐ No ☑
+### Previous Health History
+<!-- layout: qoem, vpgf -->
+Primary Care Physician: Dr. Emily Brown | Last Seen Date: 03/29/1959
+Have you received chiropractic care? Yes ☐ No ☑
+<!-- layout: oerj, lljg -->
+Have you received acupuncture care? Yes ☐ No ☑
+Prescription Drugs:
+* Antidepressants ☐
+
+* Birth Control Pills ☐
+
+* Diet Pills ☑
+
+* Muscle Relaxers ☐
+
+* Pain Pills ☐
+
+* Other:
+
+* Anti Inflammatory ☑
+
+* Blood Pressure Medication ☐
+
+* Blood Sugar Medication ☑
+
+* Insulin ☑
+
+* Sleeping Pills ☐
+<!-- layout: jofx, fvyk -->
+Over-The-Counter Drugs: monistat, motrin
+<!-- layout: ovdx, gndr -->
+Accidents Or Injuries: dog bite
+<!-- layout: pbgh, kwcg -->
+Vitamins Or Supplements: vitamin b3
+### Financial Responsibility
+<!-- layout: abwe, kmfv, muum -->
+Responsible Party: Other | Type Of Insurance: Automobile | Insurance Company: Priority Health
+Insurance Address: 5339 Sequoia Square
+<!-- layout: sqpj, hntb, lvsn, ubyy, wtip, glwa, xlws, fkjz -->
+Insurance Phone: 705 188-7583 | Group #: LN59C | Member ID: 1QOSXUU56G
+<!-- layout: pbgf, dpml, bqbs, nwlt, uwbg, tptu -->
+Patient Signature: Jessica Smith | Social Security #: 811476374 | Date: 10/30/1957
+Guardian Signature: | Guardian Social Security #: | Date:

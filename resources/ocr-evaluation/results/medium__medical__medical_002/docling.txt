@@ -1,0 +1,151 @@
+## Personal Health Record
+
+Jessica
+
+Brown
+
+First Name
+
+Last Name
+
+Single Married Divorced  Separated  Widowed
+
+Marital Status
+
+6306 Upper Mountain Circle
+
+Address
+
+Limestone
+
+PA
+
+16234
+
+City
+
+State
+
+Zip
+
+796-895-8529
+
+10/25/1954
+
+Phone
+
+DOB
+
+Spouse Name
+
+SpousePhone
+
+Is the requested medication NEW or a CONTINUATION of THERAPY? If so, start date:.
+
+## Review of Symptoms
+
+- [x] Allergies
+
+- [ ] Black Outs
+
+- [x] Blurred Vision
+
+- [x] Calf Pain
+
+- [ ] Chest Pain
+
+- [ ] Chills
+
+- [ ] Coughing
+
+Coughing Up Blood
+
+Dental Problems
+
+Difficulty Emptying Bowel Or Bladder
+
+Double Vision
+
+Enlarged Glands
+
+- [x] Excessive Bruising
+
+- [ ] Excessive Stress
+
+- [x] Excessive Thirst
+
+- [ ] Eye Pain
+
+- [ ] Fatigue
+
+- [x] Fever
+
+- [ ] Headaches
+
+- [ ] Hearing Loss
+
+- [x] Irregular Heart Rate
+
+Joint Swelling
+
+Muscle Pain
+
+- [x] Seizures
+
+- [x] Shortness Of Breath
+
+- [ ] Stomach Trouble Or Ulcers
+
+- [x] Tuberculosis Exposure
+
+- [ ] Weight Gain Or Loss Greater Than10 Lbs
+
+## Previous Health History
+
+Dr. Sarah Moore
+
+03-20-1998
+
+Primary Care Physician
+
+Last Seen Date
+
+Have you received chiropractic care?Yes  No
+
+Have you received acupuncture care?  Yes No
+
+PRESCRIPTION DRUGS:
+
+- [x] Antidepressants
+
+- [ ] Anti Inflammatory
+
+- [ ] Birth Control Pills
+
+- [x] Blood Pressure Medication
+
+- [ ] Diet Pills
+
+- [x] Blood Sugar Medication
+
+- [x] Muscle Relaxers
+
+- [x] Insulin
+
+- [ ] Pain Pills
+
+- [ ] Sleeping Pills
+
+Other: metformin,simvastatin
+
+pepto-bismol
+
+Over-the-Counter Drugs
+
+poisoning
+
+Accidents or Injuries
+
+vitamin b9, msm, fish oil
+
+Vitamins or Supplements
