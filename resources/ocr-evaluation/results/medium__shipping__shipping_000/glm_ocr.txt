@@ -1,0 +1,28 @@
+Fiscal Invoice
+
+Department Number: 1022170189
+Floor Number: 1111111111
+Phone Number: (111) 1111111111
+
+Dispartment Number | Sender / Reference Number | Date | Dispatch Station / Sender | Receiving Station / Receipt | Type of Service / Charge | Weight in Kg | Number of Shippers | Bust Charge | Description of Additional Charges | Additional Charges | VAT / Code | Group Value
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+6012542241 | 10-20-1952 | | Rushhousen, Benton and Bain | Rushhousen, Benton and Bain | Economy Select | 29.5 | 8 | 134.24 | Export Sackage | 2.11 | 1.23 | 37.24
+| | | | 531 Alexis Camp Yuma, 14256 | 790 Abnormally Oval Speckan Valley, 5144139 | | | | Dangerous Goods Handling Fee | 3.55 | 2.66 | 47.11
+| | | | | | | | Workday Delivery Fee | 9.91 | 1.74 | 17.49 |
+| 6032742109 | 10-22-1957 | | Roeb LLC | Kernool LLC | Express Worldwide | 43.7 | 8 | 41.38 | Export Sackage | 4.27 | 1.6 | 11.21 |
+| | | | 841 Anchial Vista, V7131 Windsill Ln | Rhinamberg, 65574 | Wildmendhead, 78436 | | | Dangerous Goods Handling Fee | 7.97 | 2.78 | 42.95 |
+| 60327420905 | 12-20-1958 | | Marquette Inc | Frankie LLC | Express Worldwide | 17.9 | 5 | 69.1 | Export Handling Fee | 8.54 | 0.83 | 17.33 |
+| | | | 6028 Quinton Union, 71318 Brosco Crested | Fort Fahnfurt, 88222-7411 | New Jamaica Center, 91281 | | Special Handling Fee | 6.45 | 0.83 | 20.87 |
+| 60327421216 | 06-19-1966 | | Owilly, Schulart And Bain | Rolly, Greenbill And Pinewood | Economy Select | 13.3 | 3 | 35.55 | Insurance Premium | 4.19 | 3.11 | 25.94 |
+| 60327421216 | TRQWRC277 | | Rai Rancho, 76292-9418 | Oklaville, 07772-9418 | | | Signature Confirmation Fee | 9.48 | 2.94 | 22.18 |
+| 60327421216 | TRQWRC277 | | 10-30-1976 | Jenkins, Yont and Bain | Skins, Mueller and Bain | Domestic Primary | 5.5 | 10 | 39.31 | Fragile Item Fee | 7.53 | 3.23 | 14.83 |
+| | | | 633 Lande Drive Domesticland, 88444 | 9098 Third Leaf New Windsfield, 64181-6097 | | | Declarated Value Charge | 3.76 | 1.27 | 21.89 |
+| 60327421779 | 00-17-1992 | | Peak - Kaita | Hammil - Guest | Domestic Primary | 34.5 | 2 | 128.61 | Export Sackage | 2.77 | 4.63 | 43.71 |
+| 60327421779 | EVCFEDZSMR | 10-29-1997 | Vanadore, Lehner and Kaita | Heidenreich - Wickert | Domestic Primary | 27.4 | 6 | 29.92 | Holiday Delivery Fee | 8.7 | 3.47 | 45.9 |
+| | | | 81390 Vandervort Plaza | 66845 Johnny Via Plaza | Fort Jordahear, 80569-9971 | | | Declarated Value Charge | 4.84 | 4.02 | 27.98 |
+| 60327421572 | 06-08-1998 | | Dargan Group | Mechane, Black And Pine | Domestic Select | 6.4 | 8 | 183.13 | Peak Season Sackage | 6.23 | 0.92 | 40.31 |
+| | | | 1349 Barton Parkways | 7691 E Front Street North Sammafurt, 88126 | Wellington, 40549-8277 | | Repacking Fee | 2.35 | 2.92 | 10.41 |
+| | | | | | | | Address Correction Fee | 3.58 | 1.85 | 25.52 |
+| | | | | | | | Perishable Item Sackage | 9.72 | 4.01 | 36.56 | |
+
+FedEx

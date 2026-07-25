@@ -1,0 +1,28 @@
+<!-- image -->
+
+Document Number:GOBLH2SNVT
+
+Client Number:419355310
+
+IssueDate:07-07-2004
+
+Page:43of75
+
+## VATBILLINGRECEIPT
+
+|   Shipment Number | Sender/Reference Number   | Date       | Dispatch Station/ Sender                | Recelsing Station/ Recipient      | Type of Serrice/ Charge   |   WeghtinKg | Nsmherat Shipsnents   |   Base Charge | Deserfption of Additioul ChurgesAdditonl Charges   |      | VAT/Code   | GrosValte   | GrosValte   |
+|-------------------|---------------------------|------------|-----------------------------------------|-----------------------------------|---------------------------|-------------|-----------------------|---------------|----------------------------------------------------|------|------------|-------------|-------------|
+|        7763076164 |                           | 09-21-1963 |                                         |                                   | EXPRESS WORLDWIDE         |          40 |                       |         78.51 | HANDLING CHARGE                                    |   74 | 0.99       | 11:47 2831  | 11:47 2831  |
+|                   |                           | 08-141982  | POUROS. KSHLERIN 2477 Bemhand fonctions | HANE.HEGMANN 54816NJefferm Streel |                           |             |                       |               | REMOTEAREA SURCHARGE                               | 8.44 | 0.85       |             |             |
+|                   |                           |            |                                         |                                   |                           |             |                       |               | STORAGEFEE                                         |  342 | 0.91       | 2152        | 2152        |
+|                   |                           |            | EASTDARIOFURT,COSTAMESA. 55052-4067     | 33645.7445                        |                           |             |                       |               | FUELEFFKCIENCYLEVY                                 | 2.97 | 3.13       | 21.19       | 21.19       |
+|                   |                           |            |                                         |                                   |                           |             |                       |               | OUT-OF-HOURSDELIVERYFEE6.03                        |      | 4.95       | 47.74       | 47.74       |
+|        3615423143 |                           |            |                                         |                                   | BCONOMYSELECT7S           |             |                       |        199.78 | EXPRESSHANDLINGFEE                                 | 9.52 | 213        | 34.57       | 34.57       |
+|                   |                           |            | BAYER.CORMIER ANDTERRY                  | SCHOWALTER STEHRAND               |                           |             |                       |               | CUSTOMSDUTY                                        | 2.23 | 2.52       | 43.92       | 43.92       |
+|                   |                           |            | 2922-Mante Key                          | GUSIKOWSKI 551StJobn'i Road PORT  |                           |             |                       |               | WEEKENDDELIVERYFEE                                 | 8.08 | 334        | 49.37 23:41 | 49.37 23:41 |
+|                   |                           |            | NEWNORWOOD. 23585-4721                  | KENNEDYWORTH.                     |                           |             |                       |               | SECURITY SURCHARGE                                 | 5.08 | 1.94       |             |             |
+|                   |                           |            |                                         | 27259.2342                        |                           |             |                       |               | OVERSIZED PACKAGE FEE                              |   64 | 2:36       | 14.36       | 14.36       |
+|        0199849294 | WH4EHYLISO                | 01-13-1987 |                                         |                                   | DOMESTIC                  |        10.1 |                       |         85.85 | LATEPAYMENTPENALTY                                 | 2.84 | 32         | 27.94       | 27.94       |
+|                   |                           |            | WEST-HUDSON                             | BEIERLLC                          | PRORITY                   |             |                       |               | URBANCONGESTIONCHARGE 9.16                         |      |            |             |             |
+|                   |                           |            | 1611 Libety Street 0058                 | 527Emard Common 76630-3695        |                           |             |                       |               |                                                    |      | 1.66       |             |             |
+|                   |                           |            |                                         | CLINTFORT,29SO5-FORTDELLAFURT,    |                           |             |                       |               |                                                    |      |            | 14.27       | 14.27       |

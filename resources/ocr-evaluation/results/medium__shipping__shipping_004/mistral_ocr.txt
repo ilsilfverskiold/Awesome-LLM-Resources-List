@@ -1,0 +1,72 @@
+UPS
+
+VAT BILLING RECEIPT
+
+Document Number: GOBLH2SNVT
+
+Client Number: 419355310
+
+Issue Date: 07-07-2004
+
+Page: 43 of 75
+
+|  Shipment Number | Sender / Reference Number | Date | Dispatch Station / Sender | Receiving Station / Recipient | Type of Service / Charge | Weight in Kg | Number of Shipments | Base Charge | Description of Additional Charges | Additional Charges | VAT / Code | Gross Value  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  7783076164 |  | 09-21-1963 | POUROS - KSHLERIN
+2477 Bernhard Junctions
+EAST DARIOFURT, 55052-4067 | HANE, HEGMANN AND JASKOLSKI
+54816 N Jefferson Street
+COSTA MESA, 33645-7445 | EXPRESS WORLDWIDE | 40 | 7 | 78.51 | HANDLING CHARGE
+REMOTE AREA SURCHARGE
+STORAGE FEE
+FUEL EFFICIENCY LEVY
+OUT-OF-HOURS DELIVERY FEE | 7.4
+8.44
+3.42
+2.97
+6.03 | 0.99
+0.85
+0.91
+3.13
+4.95 | 11.47
+28.31
+21.52
+21.19
+47.74  |
+|  5615423843 |  | 08-14-1982 | BAYER, CORMIER AND TERRY
+2922 Maate Key
+NEW NORWOOD, 23585-4721 | SCHOWALTER, STEHR AND GUSIKOWSKI
+551 St John's Road
+PORT KENNEDYWORTH, 27259-2342 | ECONOMY SELECT | 7.5 | 4 | 199.78 | EXPRESS HANDLING FEE
+CUSTOMS DUTY
+WEEKEND DELIVERY FEE
+SECURITY SURCHARGE
+OVERSIZED PACKAGE FEE | 9.52
+2.23
+8.08
+5.08
+6.4 | 2.13
+2.52
+3.34
+1.94
+2.36 | 34.57
+43.92
+49.37
+23.41
+14.36  |
+|  0199849294 | WH4EHYLISO | 01-13-1987 | WEST - HUDSON
+1611 Liberty Street
+CLINTFORT, 29805-0058 | BEIER LLC
+527 Emard Common
+PORT DELLAFURT, 76630-3695 | DOMESTIC PRIORITY | 10.1 | 9 | 85.85 | LATE PAYMENT PENALTY
+URBAN CONGESTION CHARGE | 2.84
+9.16 | 3.2
+1.66 | 27.94
+14.27  |
+|  |   |   |   |   |   |   |   |   |   |   |   |   |
+|  |   |   |   |   |   |   |   |   |   |   |   |   |
+|  |   |   |   |   |   |   |   |   |   |   |   |   |
+|  |   |   |   |   |   |   |   |   |   |   |   |   |
+|  |   |   |   |   |   |   |   |   |   |   |   |   |
+
+Page 43

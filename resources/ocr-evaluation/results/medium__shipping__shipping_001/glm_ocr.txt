@@ -1,0 +1,50 @@
+TAX INVOICE
+
+Document Number: PFB25LLJSJO
+Client Number: 757905590
+Issue Date: 12-21-1968
+Page: 12 of 98
+
+Shipment Number 85137296962  ZAUXC7WOO 08-13-1961  Date 08-13-1961  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+85137296962  ZAUXC7WOO 08-13-1961  Date 08-13-1961  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+85756577329  R70YNXSHOF 07-10-1963  Date 07-10-1963  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+82235307666  04-24-1969  Date 04-24-1969  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+10623138588  11-19-1970  Date 11-19-1970  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+10911232526  PGZYYSUAT9  05-21-1976  Date 05-21-1976  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+0577302192  JNKYNXMU1EH 01-25-1978  Date 01-25-1978  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+4213530118  06-11-1986  Date 06-11-1986  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+2233889161  05-22-1998  Date 05-22-1998  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+8223530118  ZAUXC7WOO 08-13-1961  Date 08-13-1961  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+8223530118  R70YNXSHOF 07-10-1963  Date 07-10-1963  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+8223530118  Effortz - Cronin 24696 Halinger Street  Perth Amboy, 12458-2496  Weigand - Treistel 42561 Buckingham Road  Armstronggenter, 66288  Economy Select 46.8 8 69.47  Holiday Delivery Fee 8.94 3.72 48.96  Urban Congestion Charge 5.47 4.67 32.74  Delivery Fee 5.58 1.4 44.71  Out-Of-Hours Delivery Fee 4.31 2.01 40.17
+
+8223530118  Halvonson LLC  461100 Stanton Ford  Kuneyborough, 41102  Weigand, Rosenbaum 641 Jones  Armstronggenter, 66288  Economy Select 49.1 10 94.29  Fuel Efficiency Levy 7.13 1.62 34.85  Address Correction Fee 2.46 4.65 29.37  Address Correction Fee 4.74 1.99 10.47  Express Handling Fee 4.95 4.43 38.48  Storage Fee 7.57 4.59 30.04
+
+8223530118  Halvonson LLC  461100 Stanton Ford  Kuneyborough, 41102  Weigand, Rosenbaum 641 Jones  Armstronggenter, 66288  Economy Select 49.1 10 94.29  Signature Confirmation Fee 3.04 2.07 39.89  Insurance Premium 3.6 1.06 45.41
+
+8223530118  Kuhman And Sons 12814 Stall Overpass 6931 Bernier Key  Heybury, 58597-8832  Weigand, Rosenbaum 641 Jones  Armstronggenter, 66288  Economy Select 46.4 3 53.76  Address Correction Fee 5.26 2.31 44.33  Special Handling Fee 4.4 3.61 30.95  Remote Area Surcharge 3.72 4.47 29.48  Special Handling Fee 4.98 3.75 14.79
+
+8223530118  Kuhman And Sons 12814 Stall Overpass 6931 Bernier Key  Cnuckshankton, 40196-8247  Weigand, Rosenbaum 641 Jones  Armstronggenter, 66288  Economy Select 46.4 3 53.76  Address Correction Fee 5.26 2.31 44.33  Special Handling Fee 4.4 3.61 30.95  Remote Area Surcharge 3.72 4.47 29.48  Special Handling Fee 4.98 3.75 14.79
+
+8223530118  PGZYYSUAT9  05-21-1976  Date 05-21-1976  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+8223530118  Cremin, Platley And Emard 7730 Ouniki Flat  East Johnathan, 84696  Pollich, Ondricka And Comnelly 1717 Hour II Divide Sawyerpele, 34212  Economy Select 8.8 3 196.32  Weekend Pickup Charge 4.62 0.58 14.09  Perishable Item Surcharge 7.63 2.21 36.04  Special Handling Fee 5.97 1.61 39.18  Late Payment Penalty 3.85 1.01 12.84
+
+8223530118  JNKYNXMU1EH 01-25-1978  Date 01-25-1978  Dispatch Station / Sender  Receiving Station / Receipt  Type of Service / Charge  Weight in Kg  Number of Shipments  Base Charge  Description of Additional Charges  Additional Charges  VAT / Code  Gross Value
+
+8223530118  Cartwright - Feil 660 The Oval  Belleville, 47271  Mills - Hartmann 570 Jamison Shores Lake Murl, 35036-6468  Economy Select 25 5 57.08  Environmental Surcharge 9.73 2.47 24.55  Address Correction Fee 6.95 1.48 26.89  Perishable Item Surcharge 8.45 4.92 49.22  Weight Overcharge 9.91 4.52 30.61
+
+8223530118  Medhurst, Smitham And Chargon 925 Reilly Drives University, 03557  Barrows Inc 58056 Makenzie Turtle  Haggecenter, 38613-4120  Economy Select 24.8 8 138.97  Delivery Fee 1.48 3.44 12.66  Paul Charge 4.47 1.55 34.39  Weekend Delivery Fee 4.06 0.9 19.68  Over-sized Package Fee 6.26 3.67 39.7  Urban Congestion Charge 3.24 2.66 13.11
+
+8223530118  Herrog Inc 755 Woodlands 755 Woodlands 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Timothy Johnson 69240 Tim

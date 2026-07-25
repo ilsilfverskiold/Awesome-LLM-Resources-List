@@ -1,0 +1,19 @@
+Fiscal Invoice
+
+Document Number: 7JEZY07MSY
+Client Number: 166236947
+Issue Date: 03-11-1993
+Page: 50 of 56
+
+| Shipment Number | Sender / Reference Number | Date | Dispatch Station / Sender | Receiving Station / Recipient | Type of Service / Charge | Weight in Kg | Number of Shipments | Base Charge | Description of Additional Charges | Additional Charges | VAT / Code | Gross Value |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0715547543 | | 10-20-1952 | Runolfsson, Bernier And Rau 531 Alexis Camp Yuma, 14256 | Rosenbaum, Boehm And Francy 790 Abernathy Oval Spokane Valley, 51148-7339 | Economy Select | 29.5 | 8 | 134.24 | Export Surcharge Seasonal Surcharge Dangerous Goods Handling Fee Weekend Delivery Fee Export Surcharge | 2.11 1.03 3.55 9.91 4.27 | 1.52 2.63 2.66 0.73 1.6 | 37.74 24.76 47.11 17.49 11.21 |
+| 5357425199 | | 10-22-1957 | Roob LLC 841 Archibald Vista Rhiannonberg, 46574 | Kovacek LLC 71713 Windmill Lane Weldonstead, 76436 | Express Worldwide | 43.7 | 8 | 41.38 | Dangerous Goods Handling Fee Export Surcharge | 9.77 7.91 | 2.78 1.58 | 42.95 24.37 |
+| 9632670905 | SMYKMGQZMT | 12-20-1958 | Marquardt Inc 6024 Quinten Union Fort Fabianfort, 88222-7411 | Franecki LLC 71386 Bosco Crescent New Jammiechester, 91281 | Express Worldwide | 17.9 | 5 | 69.1 | Express Handling Fee Special Handling Fee Insurance Premium | 8.54 6.62 4.19 | 0.63 0.63 3.11 | 17.33 20.87 25.94 |
+| 4512431216 | THQSWK2C77 | 06-19-1966 | O'reilly, Schulist And Block 89531 Libbie Passage Rio Rancho, 76292-9418 | Reilly, Greenholt And Pfannerstill 3693 Kessler Centers Otiliaville, 07772 | Economy Select | 13.3 | 3 | 35.55 | Signature Confirmation Fee | 9.48 | 2.94 | 22.18 |
+| 8041910202 | | 10-30-1976 | Jenkins, Yost And Bauch 633 Landen Drive Domenicaland, 58844 | Skiles, Mueller And Boyle 9008 Thiel Loaf New Winfield, 64383-0397 | Domestic Priority | 5.5 | 10 | 193.31 | Fragile Item Fee Declared Value Charge Export Surcharge | 7.53 3.76 2.77 | 3.23 1.27 4.63 | 14.83 21.89 43.71 |
+| 0682370779 | | 03-17-1992 | Funk - Kiehn 3421 Meta Heights Isobeltfield, 69550-3968 | Hamill - Green 1811 Stanley Street Fort Jaydeshire, 80569-3971 | Domestic Priority | 34.5 | 2 | 128.61 | Export Surcharge Holiday Delivery Fee | 8.7 5.22 | 3.47 4.29 | 45.9 27.98 |
+| 2422145727 | EVCFDZSJRM | 10-29-1997 | Vonrueden, Lehner And Kunze 81390 Vandervort Plaza South Maiyaborough, 44444-6420 | Heidenreich - Wuckert 66845 Johnny Via Emserburgh, 40906 | Economy Select | 27.4 | 6 | 29.92 | Declared Value Charge | 4.84 | 4.92 | 16.51 |
+| 0431981981 | | 06-08-1998 | Durgan Group 1349 Barton Parkways North Sammiefurt, 88126 | McClure, Blick And Frami 7051 E Front Street Wellington, 40549-8277 | Economy Select | 6.4 | 8 | 183.13 | Peak Season Surcharge Repacking Fee Address Correction Fee Perishable Item Surcharge | 6.23 2.35 3.58 9.72 | 0.92 2.92 1.85 4.01 | 40.31 10.41 25.52 36.56 |
+
+50/56

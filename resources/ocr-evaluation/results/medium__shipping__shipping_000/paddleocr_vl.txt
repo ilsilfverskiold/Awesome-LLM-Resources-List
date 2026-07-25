@@ -1,0 +1,20 @@
+50/56
+Shipment Number | Sender / Reference Number | Date | Dispatch Station / Sender | Receiving Station / Recipient | Type of Service / Charge | Weight in Kg | Number of Shipments | Base Charge | Description of Additional Charges | Additional Charges | VAT / Code | Gross Value
+071554743 | 10-20-1952 | Runoffson, Bernier And Rau | Rosenbaum, Boehm And Franse | Economy Select | 29.5 | 8 | 134.24 | Export Surcharge | 2.11 | 1.52 | 37.74 |  
+071554743 | 10-20-1952 | Runoffson, Bernier And Franse | 531 Alexis Camp Yama, 14256 | 790 Abernathy Oval Spokane Valley, 51148-7593 |   |   |   |   |   |   |   |  
+0357429199 | 10-22-1957 | Reeb LLC | Kovacek LLC | Express Worldwide | 43.7 | 8 | 41.38 | Export Surcharge | 4.27 | 1.6 | 11.21 |  
+0357429199 | 10-22-1957 | Reeb LLC | 841 Archibald Vista | 71713 Windmill Lane |   |   |   |   |   |   |   |  
+0632670905 | SMYKMOQZMT | 12-20-1958 | Marquardt Inc | Franekci LLC | Express Worldwide | 17.9 | 5 | 69.1 | Export Handling Fee | 8.54 | 0.63 | 17.33
+0632670905 | SMYKMOQZMT | 12-20-1958 | 6024 Quinten Union | 71386 Bosco Crescent |   |   |   |   |   |   |   |  
+0632670905 | SMYKMOQZMT | 12-20-1958 | Fort Fabianfort, 88222-7411 | New Jammichester, 91281 |   |   |   |   |   |   |   |  
+0512431216 | THQSWK2C77 | 06-19-1966 | Orreily, Schulist And Block | Reilly, Greenholt And Pflannerstill | Economy Select | 13.3 | 3 | 35.55 | Signature Confirmation Fee | 9.48 | 2.94 | 22.18
+0512431216 | THQSWK2C77 | 06-19-1966 | 89531 Libbie Passage | Reilly, Greenholt And Pflannerstill | Economy Select | 13.3 | 3 | 35.55 | Signature Confirmation Fee | 9.48 | 2.94 | 22.18
+08041910202 | 10-30-1976 | Jenkins, Yost And Bauch | Skiles, Mueller And Bosey | Domestic Priority | 5.5 | 10 | 193.31 | Fragile Item Fee | 7.53 | 3.23 | 14.83 |  
+08041910202 | 10-30-1976 | Jenkins, Yost And Bauch | 633 Landen Drive Domenicaland, 58844 | Domestic Priority |   |   |   |   |   |   |   |  
+0682570779 | 03-17-1992 | Funk - Kiehn 3421 Meta Heights Isobelfield, 69550-3968 | Hamill - Green 1811 Stanley Street Fort Jaydeshire, 80569-3971 | Domestic Priority | 34.5 | 2 | 128.61 | Export Surcharge | 8.7 | 3.47 | 45.9 |  
+0682570779 | 03-17-1992 | Funk - Kiehn 3421 Meta Heights Isobelfield, 69550-3968 | Hamill - Green 1811 Stanley Street Fort Jaydeshire, 80569-3971 | Domestic Priority |   |   |   |   |   |   |   |  
+0422145727 | EVCFDZSIRM | 10-29-1997 | Vonrueden, Lehner And Kane | Heidenreich-Wuckert | Economy Select | 27.4 | 6 | 29.92 | Declared Value Charge | 4.84 | 4.92 | 16.51 |  
+0422145727 | EVCFDZSIRM | 10-29-1997 | 81390 Vandervort Plaza | Heidenreich-Wuckert | Economy Select |   |   |   |   |   |   |  
+0431981981 | 06-08-1998 | Durgan Group | Mcclate, Blick And Frama | Economy Select | 6.4 | 8 | 183.13 | Peak Season Surcharge | 6.23 | 0.92 | 40.31 |  
+0431981981 | 06-08-1998 | Durgan Group | 1349 Barton Parkways | 7051 E Front Street |   |   |   |   |   |   |   |  
+0431981981 | 06-08-1998 | North Sammyfurt, 88126 | Wellington, 40549-8277 |   |   |   |   |   |   |   |   |  

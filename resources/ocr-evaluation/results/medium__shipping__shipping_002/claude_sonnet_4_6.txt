@@ -1,0 +1,47 @@
+# UNITED STATES POSTAL SERVICE
+
+## Invoice With Tax
+
+**Document Number:** QJFAH2WZ5U
+**Client Number:** 408797953
+**Issue Date:** 02-16-1951
+**Page:** 38 of 83
+
+---
+
+| Shipment Number | Sender / Reference Number | Date | Dispatch Station / Sender | Receiving Station / Recipient | Type of Service / Charge | Weight In Kg | Number of Shipments | Base Charge | Description of Additional Charges | Additional Charges | VAT / Code | Gross Value |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 7725716318 | J9ZYYWV8FM | 11-10-1960 | | ECONOMY SELECT 9.9 | | 10 | 39.06 | PEAK SEASON SURCHARGE | 4.07 | 3.79 | 19.89 |
+| | | | HICKLE AND SONS | MCGLYNN, THOMPSON AND REICHERT | | | | | EXPRESS HANDLING FEE | 5.79 | 1.6 | 38.36 |
+| | | | 8477 Bernardo Ranch YOSTVILLE, 56602-1850 | 3505 Theresa Mission NORTH GARRICKSHIRE, 33047-5826 | | | | | ENVIRONMENTAL SURCHARGE | 4.42 | 4.64 | 30.83 |
+| | | | | | | | | | EXPRESS HANDLING FEE | 6.81 | 2.29 | 48.8 |
+| | | | | | | | | | PRIORITY SERVICE CHARGE | 5.29 | 2.86 | 42.97 |
+| 3571009596 | IUHYHVXEIL | 03-07-1967 | | | DOMESTIC PRIORITY | 23.2 | 9 | 118.68 | EXPRESS HANDLING FEE | 9.92 | 4.75 | 21.56 |
+| | | | AUER AND SONS 396 S Walnut Street NEW VEDAFORT, 04920 | CRIST AND SONS 789 Mozell Roads SOUTH AUSTINSTAD, 18910-0124 | | | | | STORAGE FEE | 7.57 | 1.36 | 29.6 |
+| 3854531101 | WZAAGJKKVX | 06-06-1979 | | | DOMESTIC PRIORITY | 11.7 | 10 | 134.06 | PERISHABLE ITEM SURCHARGE | 3.29 | 4.41 | 44.25 |
+| | | | HERMISTON - LESCH 92490 Pfeffer Circles BECHTELARTON, 78427-4763 | BUCKRIDGE AND SONS 916 University Avenue ABBOTTWORTH, 25526-6328 | | | | | SEASONAL SURCHARGE | 7.34 | 4.5 | 32 |
+| | | | | | | | | | URBAN CONGESTION CHARGE | 5.64 | 1.57 | 33.62 |
+| | | | | | | | | | FUEL ADJUSTMENT CHARGE | 8.59 | 4.34 | 47.61 |
+| 1463086890 | 6Y9JLTXTRT | 12-13-1981 | | | ECONOMY SELECT 35.1 | | 6 | 79.83 | WEEKEND DELIVERY FEE | 1.22 | 0.98 | 49.83 |
+| | | | PRICE - KOCH 263 Lind Ridge ELDRIDGESTAD, 29057-7627 | MCGLYNN - NITZSCHE 49648 Armand Turnpike WOLFVIEW, 51512-9096 | | | | | ADDRESS CORRECTION FEE | 6.07 | 1.34 | 28.72 |
+| | | | | | | | | | STORAGE FEE | 5.03 | 1.07 | 30.57 |
+| 3464687052 | | 12-07-1986 | | | DOMESTIC PRIORITY | 13.1 | 5 | 44.64 | SECURITY SURCHARGE | 9.66 | 0.66 | 13.24 |
+| | | | RITCHIE - MCKENZIE 75946 Walker Curve PORT BRAINFURT, 35783 | KUHN LLC 964 Church Road PORT WYATTPORT, 27397 | | | | | | | | |
+| 3082328344 | | 01-27-1990 | | | DOMESTIC PRIORITY | 35 | 3 | 56.77 | PRIORITY SERVICE CHARGE | 1.7 | 4.69 | 14.27 |
+| | | | FARRELL - BAUMBACH 92927 East Road JUVENALWORTH, 90922-3813 | SCHMITT - ZULAUF 6399 Roebin Valleys FLINT, 49972 | | | | | HOLIDAY DELIVERY FEE | 7.54 | 3.74 | 39.99 |
+| | | | | | | | | | CHANGE OF ADDRESS FEE | 9.26 | 2.17 | 20.13 |
+| | | | | | | | | | DELIVERY FEE | 8.78 | 3.11 | 49.47 |
+| | | | | | | | | | HOLIDAY DELIVERY FEE | 3.88 | 3.97 | 37.21 |
+| 0869727751 | | 10-18-2001 | | | ECONOMY SELECT 9.2 | | 10 | 81.43 | REPACKING FEE | 5.58 | 1.3 | 33.29 |
+| | | | FAY, GREEN AND MORAR 80929 Field Lane LAKE DASIA, 77394 | O'CONNER LUETTGEN 994 School Close WEST GARNETBORO, 85801-9676 | | | | | IMPORT TAX | 7.83 | 3.83 | 31.54 |
+| | | | | | | | | | ENVIRONMENTAL SURCHARGE | 4.7 | 1.69 | 38.93 |
+| | | | | | | | | | STORAGE FEE | 2.37 | 4.2 | 49.41 |
+| | | | | | | | | | WEIGHT OVERCHARGE | 3.18 | 1.34 | 27.02 |
+| 1680735539 | KNWZUGHCW6 | 12-14-2001 | | | DOMESTIC PRIORITY | 28 | 1 | 144.24 | OUT-OF-HOURS DELIVERY FEE | 1.86 | 3.96 | 20.85 |
+| | | | PADBERG INC 951 Aspen Close TRACY, 98505 | MCGLYNN - PREDOVIC 995 Boyle Junction GIOVANNYBORO, 14819 | | | | | DANGEROUS GOODS HANDLING FEE | 8.05 | 3.82 | 47.85 |
+| | | | | | | | | | WEEKEND DELIVERY FEE | 2.35 | 4.09 | 19.77 |
+| | | | | | | | | | URBAN CONGESTION CHARGE | 1.57 | 2.58 | 45.57 |
+
+---
+
+38
