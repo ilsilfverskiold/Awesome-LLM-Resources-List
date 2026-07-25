@@ -1,0 +1,73 @@
+### Account Overview
+
+|                              | Current Period | YTD Period   |
+| ---------------------------- | -------------- | ------------ |
+| Beginning of Period Value    | $637,990.00    | $776,199.00  |
+| Account Transfers Out        | $0.00          | -$73,579.95  |
+| Dividends                    | $0.00          | $14,691.25   |
+| Aggregate Portfolio Movement | -$25,497.13    | -$217,594.40 |
+| Additional Deposits          | $70,374.61     | $89,254.60   |
+| Performance Fees             | -$9,514.72     | -$50,150.55  |
+| Capital Appreciation         | $34,310.90     | $123,685.00  |
+| Other                        | -$1,125.55     | -$27,602.05  |
+| ENDING ACCOUNT VALUE         | $706,538.11    | $634,902.90  |
+
+1 Net Change in Portfolio is the difference between the ending account value and beginning account value after activity.
+
+| ETF                                    | Traded As | EOD Price | YTD Price Change | Avg. Daily Volume | One Day Change | Classification |
+| -------------------------------------- | --------- | --------- | ---------------- | ----------------- | -------------- | -------------- |
+| Technology Select Sector SPDR Fund     | XLK       | 234.47    | 0.2265           | 4015302           | -0.0127        | Equity         |
+| Vanguard Information Technology ETF    | VGT       | 627.57    | 0.305            | 453405            | -0.0125        | Equity         |
+| SPDR S&P 500 ETF Trust                 | SPY       | 588.22    | 0.2534           | 46003064          | -0.0114        | Equity         |
+| Vanguard Growth ETF                    | VUG       | 414.19    | 0.339            | 1145739           | -0.0126        | Equity         |
+| Invesco QQQ Trust Series I             | QQQ       | 515.61    | 0.2665           | 29009270          | -0.0133        | Equity         |
+| iShares Core S&P 500 ETF               | IVV       | 590.98    | 0.2542           | 5875330           | -0.011         | Equity         |
+| Vanguard Total International Stock ETF | VXUS      | 59        | 0.052            | 3544059           | -0.0067        | Equity         |
+| Vanguard FTSE Emerging Markets ETF     | VWO       | 44.11     | 0.1076           | 8214263           | -0.0088        | Equity         |
+| iShares Core MSCI Emerging Markets ETF | IEMG      | 52.31     | 0.0667           | 9449047           | -0.0082        | Equity         |
+| iShares Core S&P Mid-Cap ETF           | IJH       | 62.17     | 0.1366           | 7659450           | -0.007         | Equity         |
+| Vanguard Total Stock Market ETF        | VTI       | 290.82    | 0.2424           | 3046583           | -0.0111        | Equity         |
+| iShares Core MSCI EAFE ETF             | IEFA      | 70.32     | 0.0332           | 8199248           | -0.0066        | Equity         |
+| Vanguard Value ETF                     | VTV       | 168.94    | 0.1571           | 1827734           | -0.0101        | Equity         |
+| Vanguard S&P 500 ETF                   | VOO       | 540.99    | 0.2548           | 5594505           | -0.0111        | Equity         |
+
+## Account statement as of Apr 2020 - Nov 2020
+
+### Your Representative
+
+Your Financial Consultant: Dr. Gregory Frami
+
+ID: jUefATevv
+
+212 Beier Walks North Richland Hills Kentucky, 18382-7941
+
+Contact Information
+
+Business: 663 999-5583
+
+### Your Account Information
+
+#### DIVIDEND REINVESTMENT PREFERENCES
+
+Automatically apply dividends toward new share acquisitions: YES
+
+Allow partial share ownership for investments: NO
+
+### Daily Balances
+
+| Date       | Amount      | Date       | Amount      | Date       | Amount      | Date       | Amount      |
+| ---------- | ----------- | ---------- | ----------- | ---------- | ----------- | ---------- | ----------- |
+| 2023-12-30 | $707,126.00 | 2023-12-22 | $706,373.00 | 2023-12-14 | $707,309.00 | 2023-12-06 | $708,831.00 |
+| 2023-12-29 | $707,431.00 | 2023-12-21 | $706,832.00 | 2023-12-13 | $707,955.00 | 2023-12-05 | $709,301.00 |
+| 2023-12-28 | $701,554.00 | 2023-12-20 | $706,666.00 | 2023-12-12 | $708,475.00 | 2023-12-02 | $709,798.00 |
+| 2023-12-27 | $706,159.00 | 2023-12-19 | $707,119.00 | 2023-12-09 | $709,146.00 | 2023-12-01 | $709,311.00 |
+| 2023-12-26 | $705,795.00 | 2023-12-16 | $706,759.00 | 2023-12-08 | $709,423.00 |            |             |
+| 2023-12-23 | $706,412.00 | 2023-12-15 | $706,899.00 | 2023-12-07 | $709,066.00 |            |             |
+
+### Get your statements online
+
+![App Store](image)![Play Store](image)
+
+84 ... 85
+
+Jefferies

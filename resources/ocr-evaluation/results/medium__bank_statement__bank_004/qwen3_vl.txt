@@ -1,0 +1,41 @@
+Account Summary
+Current Period
+BEGINNING OF PERIOD $71,131.00 $73,343.00
+Management Fees -$13,694.95 -$61,435.55
+Comprehensive Portfolio Change -$11,169.71 -$203,190.80
+Deposits $188,113.59 $283,135.40
+Portfolio Rebalancing -$53,043.55 -$65,100.70
+Other Expenditures (Gains) -$20,271.65 -$72,903.30
+Realized Capital Gains $64,479.13 $68,005.40
+Interest Earnings $8,032.55 $15,887.05
+Redemptions $0.00 -$27,190.80
+END OF PERIOD $339,663.51 $140,029.30
+¹ Net Change in Portfolio is the difference between the ending account value and beginning account value after activity.
+Daily Balances
+Date Amount Date Amount Date Amount Date Amount
+2023-12-30 $339,410.00 2023-12-22 $339,540.00 2023-12-14 $339,415.00 2023-12-06 $342,269.00
+2023-12-29 $339,625.00 2023-12-21 $339,644.00 2023-12-13 $339,415.00 2023-12-05 $342,436.00
+2023-12-28 $339,514.00 2023-12-20 $339,869.00 2023-12-09 $339,628.00 2023-12-01 $342,327.00
+2023-12-27 $339,177.00 2023-12-19 $340,034.00 2023-12-08 $340,197.00
+2023-12-26 $339,193.00 2023-12-16 $339,724.00 2023-12-07 $342,425.00
+Your Account Information
+DIVIDEND REINVESTMENT PREFERENCES
+Automatically apply dividends toward new share acquisitions: NO
+Allow partial share ownership for investments: NO
+Your Representative
+Your Financial Consultant: Genevieve O’Conner
+ID: qxZy2Nywh
+1056 Alisha Glen Wintheiserfield West Virginia, 09751-3689
+Contact Information
+Business: (336) 697-2409
+Account statement as of 2018-05-01 - 2019-06-30
+Traded As E.T.F. EOD Price Price Change in Period Average daily volume Classification One Day Change
+VWO Vanguard FTSE Emerging Markets ETF 44.11 0.1076 8214263 Equity -0.0088
+IVV iShares Core S&P 500 ETF 590.98 0.2542 5875330 Equity -0.011
+IHF iShares Core S&P Mid-Cap ETF 62.17 0.1366 7659450 Equity -0.007
+SPY SPDR S&P 500 ETF Trust 588.22 0.2534 46003064 Equity -0.0114
+VOO Vanguard S&P 500 ETF 540.99 0.2548 5594505 Equity -0.0111
+VTI Vanguard Total Stock Market ETF 290.82 0.2424 3046583 Equity -0.0111
+VXUS Vanguard Total International Stock ETF 59 0.052 354009270 Equity -0.0067
+QQQ Invesco QQQ Trust Series I 515.61 0.2665 29009270 Equity -0.0133
+15 / 75

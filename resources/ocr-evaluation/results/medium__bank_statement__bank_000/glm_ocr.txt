@@ -1,0 +1,59 @@
+Account Overview
+
+Beginning of Period Value Current Period YTD Period
+Account Transfers Out $837,590.00 $725,199.00
+Bondholders $2.00 $73,579.95
+Aggregate Portfolio Investment $0.00 $1,491.25
+Additional Deposits $254,497.13 $217,584.40
+Performance Prices $70,274.71 $80,254.00
+Capital Appreciation $50,150.55
+Other $54,140.00 $122,685.00
+Total $1,125.55 $122,685.00
+Ending Account Value $1,125.55 $122,685.00
+
+No Change in Portfolio is the difference between the ending account balance and beginning account value after activity.
+
+EFT Traded At EOD Price YTD Price Change Arg. Daily Volume One Day Change Classification
+Technology Select Sector SPDR Fund XLK 234.47 0.2265 401502 -0.0127 Equity
+VGT 627.57 0.305 453405 -0.0125 Equity
+SPV 588.22 0.2534 4600364 -0.0114 Equity
+VUG 414.19 0.339 1145739 -0.0126 Equity
+Invesco QQQ Trust Series 1 QQQ 515.61 0.2665 2900920 -0.0135 Equity
+IVV 590.98 0.2542 587530 -0.011 Equity
+VXUS 59 0.052 354809 -0.0067 Equity
+VWO 44.11 0.1076 821426 -0.0088 Equity
+HBMG 52.31 0.0667 9449047 -0.0082 Equity
+IBH 62.17 0.1866 765930 -0.007 Equity
+VTI 290.82 0.2424 3046485 -0.0111 Equity
+BEFA 70.32 0.0332 8199248 -0.0066 Equity
+VTV 168.94 0.1571 1827734 -0.0101 Equity
+VOO 540.99 0.2548 595905 -0.0111 Equity
+
+Account statement as of Apr 2020 - Nov 2020
+
+Your Representative
+Your Financial Consultant: Dr. Gregory Franti
+ID: JE@Alive
+212 Better Walks North Richland Hills, Kentucky 18382-7941
+
+Contact Information
+Business: 663 999-5883
+
+Your Account Information
+
+DIVIEND REVENUEMENT PREFERENCES
+Automatically apply dividends toward new share acquisitions.
+Allow retail share ownership for investments.
+
+Daily Balances
+Date Amount Date Amount Date Amount Date Amount Date Amount
+2023-12-20 $707,126.00 2023-12-22 $706,373.00 2023-12-14 $707,309.00 2023-12-06 $708,831.00
+2023-12-29 $707,431.00 2023-12-21 $706,832.00 2023-12-13 $707,955.00 2023-12-05 $709,301.00
+2023-12-28 $706,154.00 2023-12-20 $706,666.00 2023-12-12 $708,475.00 2023-12-02 $709,798.00
+2023-12-27 $706,159.00 2023-12-19 $707,119.00 2023-12-12 $709,146.00 2023-12-01 $709,311.00
+2023-12-26 $705,795.00 2023-12-16 $706,759.00 2023-12-08 $709,423.00 2023-12-01 $709,311.00
+2023-12-21 $706,412.00 2023-12-15 $706,499.00 2023-12-07 $709,066.00
+
+Get your statements online
+
+App Store Google Play

@@ -1,0 +1,61 @@
+Macquarie Group
+Statement of Portfolio Holdings
+PORTFOLIO OVERVIEW
+Current	YTD
+STARTING VALU	$370,320.00	$559,307.00
+Realized Capital Gains	$28,027.63	$31,604.70
+Tactical Rebalancing	$0.00	$80,653.09
+Interest Earnings	$14,638.22	$15,728.45
+Scheduled Withdrawals	-$314.83	-$27,354.75
+Automatic Transfers In	$51,066.05	$121,350.40
+Account Maintenance Fees	$0.00	-$50,595.05
+	$463,737.07	$730,693.84
+1 Net Change in Portfolio is the difference between the ending account value and beginning account value after activity.
+Symbol	E.T.F.	Closing Price	One Day Change	Avg. Daily Volume	Price Change (YTD)	Classification
+SPY	SPDR S&P 500 ETF Trust	588.22	-0.0114	46003064	0.2534	Equity
+QQQ	Invesco QQQ Trust Series I	515.61	-0.0133	29009270	0.2665	Equity
+VEA	Vanguard FTSE Developed Markets ETF	47.81	-0.0062	10714970	0.0312	Equity
+VTI	Vanguard Total Stock Market ETF	290.82	-0.0111	3046583	0.2424	Equity
+VOO	Vanguard S&P 500 ETF	540.99	-0.0111	5594505	0.2548	Equity
+VXUS	Vanguard Total International Stock ETF	59	-0.0067	3544059	0.052	Equity
+IJR	iShares Core S&P Small-Cap ETF	114.97	-0.0072	3509577	0.0839	Equity
+IEMG	iShares Core MSCI Emerging Markets ETF	52.31	-0.0082	9449047	0.0667	Equity
+VGT	Vanguard Information Technology ETF	627.57	-0.0125	453405	0.305	Equity
+VWO	Vanguard FTSE Emerging Markets ETF	44.11	-0.0088	8214263	0.1076	Equity
+IVV	iShares Core S&P 500 ETF	590.98	-0.011	5875330	0.2542	Equity
+XLK	Technology Select Sector SPDR Fund	234.47	-0.0127	4015302	0.2265	Equity
+IJH	iShares Core S&P Mid-Cap ETF	62.17	-0.007	7659450	0.1366	Equity
+IEFA	iShares Core MSCI EAFE ETF	70.32	-0.0066	8199248	0.0332	Equity
+VUG	Vanguard Growth ETF	414.19	-0.0126	1145739	0.339	Equity
+VIG	Vanguard Dividend Appreciation ETF	195.8	-0.0125	965248	0.1697	Equity
+Holdings for period 12-01-2023 - 02-29-2024
+IMPORTANT INFORMATION:
+- The values displayed in this statement may be rounded and could differ slightly from actual transaction amounts or balances.
+- Call us at 1-866-564-2262 or write us at the address on the front of this statement immediately if you think your statement or receipt is incorrect or if you need more information about a transfer listed on the statement or receipt.
+GETTING IN TOUCH
+Your Financial Consultant: Calvin Boyle
+ID: E11yLRI47
+3380 Tromp Avenue North Efrainberg Louisiana, 43659
+Contact Information
+Business: 302-492-7693
+YOUR ACCOUNT INFORMATION
+TAX LOT DEFAULT DISPOSITION METHOD
+Preferred tax-lot approach for open-ended and mutual funds:
+Standard tax-lot method for stocks in DRIPs:
+Primary disposal method for non-fund, non-DRIP securities:
+BOND AMORTIZATION ELECTIONS
+Amortize taxable bond premiums under a uniform yield framework:
+Default strategy for incrementally capturing market discount on varied bonds:
+Recognize bond discount in each year's income:
+CASH SWEEP PROGRAM
+Designated account for holding idle funds:
+Interval for transferring uninvested cash to the sweep account:
+DAILY BALANCES
+Date	Amount	Date	Amount	Date	Amount	Date	Amount
+2023-12-30	$464,022.00	2023-12-22	$461,769.00	2023-12-14	$458,146.00	2023-12-06	$456,813.00
+2023-12-29	$463,968.00	2023-12-21	$461,691.00	2023-12-13	$457,688.00	2023-12-05	$456,993.00
+2023-12-28	$461,409.00	2023-12-20	$461,583.00	2023-12-12	$457,313.00	2023-12-02	$456,690.00
+2023-12-27	$461,384.00	2023-12-19	$461,970.00	2023-12-09	$457,308.00	2023-12-01	$452,113.00
+2023-12-26	$461,492.00	2023-12-16	$462,225.00	2023-12-08	$457,337.00		
+2023-12-23	$461,772.00	2023-12-15	$462,324.00	2023-12-07	$456,955.00
+38/65

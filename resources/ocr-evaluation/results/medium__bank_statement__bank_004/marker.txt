@@ -1,0 +1,65 @@
+|                                   | Year-to-Date<br><b>Current Period</b> |                  |
+|-----------------------------------|---------------------------------------|------------------|
+| <b>BEGINNING OF PERIOD</b>        | <u>\$71,131.00</u>                    | \$73,343.00      |
+| <b>Management Fees</b>            | $-$13,694.95$                         | $-$ \$61,435.55  |
+| <b>Deposits</b>                   | \$188,113.59                          | \$283,135.40     |
+| Comprehensive Portfolio Change    | $-$11,169.71$                         | $-$ \$203,912.60 |
+| <b>Portfolio Rebalancing</b>      | \$53,043.55                           | \$65,100.70      |
+| <b>Other Expenditures (Gains)</b> | $-$ \$20,271.65                       | $-$ \$72,903.30  |
+| <b>Realized Capital Gains</b>     | \$64,479.13                           | \$68,005.40      |
+| <b>Interest Earnings</b>          | \$8,032.55                            | \$15,887.05      |
+| Redemptions                       | \$0.00                                | $-$ \$27,190.80  |
+| <b>END OF PERIOD</b>              | \$339,663.51                          | \$140,029.30     |
+
+ $\frac{1}{2}$  Net Change in Portfolio is the difference between the ending account value and beginning account value after activity.
+
+| <b>Date</b> | Amount       | <u>Date</u>      | Amount       | ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,<br>Date | Amount       | Date       | Amount       |
+|-------------|--------------|------------------|--------------|------------------------------------------------|--------------|------------|--------------|
+| 2023-12-30  | \$339,410.00 | 2023-12-22       | \$339,540.00 | 2023-12-14                                     | \$339,415.00 | 2023-12-06 | \$342,269.00 |
+| 2023-12-29  | \$339,625.00 | 2023-12-21       | \$339,644.00 | 2023-12-13                                     | \$339,415.00 | 2023-12-05 | \$342,436.00 |
+| 2023-12-28  | \$339,514.00 | 2023-12-20       | \$339,869.00 | 2023-12-12                                     | \$339,628.00 | 2023-12-02 | \$342,327.00 |
+| 2023-12-27  | \$339,177.00 | 2023-12-19       | \$340,034.00 | 2023-12-09                                     | \$339,918.00 | 2023-12-01 | \$342,550.00 |
+| 2023-12-26  | \$339,193.00 | $2023 - 12 - 16$ | \$339,724.00 | 2023-12-08                                     | \$340,197.00 |            |              |
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+.......................................
+
+######################################
+
+## **Your Account Information**
+
+.......................................
+
+### DIVIDEND REINVESTMENT PREFERENCES
+
+Automatically apply dividends toward new share acquisitions:
+
+Allow partial share ownership for investments:
+
+# **Your Representative**
+
+### Your Financial Consultant: Genevieve O'Conner
+
+ID: qxZy2Nywh 1056 Alisha Glen Wintheiserfield West Virginia, 09751-3689 **Contact Information Business: (336) 697-2409** 
+
+**NO** 
+
+**NO** 
+
+# Account statement as of 2018-05-01 - 2019-06-30
+
+| <b>Traded</b><br>As | <b>E.T.F.</b>                                           | <b>EOD</b><br><b>Price</b> | <b>Price Change in Period</b><br>(YTD) | <b>Average daily</b><br>volume | <b>Classification</b> | <b>One Day</b><br><b>Change</b> |
+|---------------------|---------------------------------------------------------|----------------------------|----------------------------------------|--------------------------------|-----------------------|---------------------------------|
+| <b>VWO</b>          | <b>Vanguard FTSE Emerging Markets</b><br>ETF            | 44.11                      | 0.1076                                 | 8214263                        | Equity                | $-0.0088$                       |
+| <b>IVV</b>          | iShares Core S&P 500 ETF                                | 590.98                     | 0.2542                                 | 5875330                        | Equity                | $-0.011$                        |
+| <b>IWF</b>          | iShares Russell 1000 Growth ETF                         | 405.2                      | 0.3432                                 | 1349642                        | Equity                | $-0.0119$                       |
+| <b>IJH</b>          | iShares Core S&P Mid-Cap ETF                            | 62.17                      | 0.1366                                 | 7659450                        | Equity                | $-0.007$                        |
+| <b>SPY</b>          | SPDR S&P 500 ETF Trust                                  | 588.22                     | 0.2534                                 | 46003064                       | Equity                | $-0.0114$                       |
+| <b>IEMG</b>         | iShares Core MSCI Emerging Markets<br>ETF               | 52.31                      | 0.0667                                 | 9449047                        | Equity                | $-0.0082$                       |
+| <b>VOO</b>          | Vanguard S&P 500 ETF                                    | 540.99                     | 0.2548                                 | 5594505                        | Equity                | $-0.0111$                       |
+| <b>VTI</b>          | Vanguard Total Stock Market ETF                         | 290.82                     | 0.2424                                 | 3046583                        | Equity                | $-0.0111$                       |
+| <b>VXUS</b>         | <b>Vanguard Total International Stock</b><br><b>ETF</b> | 59                         | 0.052                                  | 3544059                        | Equity                | $-0.0067$                       |
+| QQQ                 | <b>Invesco QQQ Trust Series I</b>                       | 515.61                     | 0.2665                                 | 29009270                       | Equity                | $-0.0133$                       |
+
+ $15/75$

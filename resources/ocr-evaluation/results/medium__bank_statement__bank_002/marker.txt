@@ -1,0 +1,56 @@
+# **Ameriprise Financial**
+
+**Brokerage Account Statement** 
+
+### **Period Overview**
+
+|                                    | <b>This Period</b> | <b>YTD</b>       |  |
+|------------------------------------|--------------------|------------------|--|
+| <b>BEGINNING BALANCE</b>           | \$333,984.00       | \$417,390.00     |  |
+| Performance Fees                   | $-$44,186.57$      | $-$ \$51,065.10  |  |
+| Unrealized Capital Gains           | \$5,180.37         | \$107,527.40     |  |
+| <b>Total Portfolio Performance</b> | \$0.00             | $-$ \$212,041.40 |  |
+| <b>Reinvested Dividends</b>        | \$0.00             | \$55,968.00      |  |
+| <b>Strategic Rebalancing</b>       | \$926.29           | \$20,993.63      |  |
+| <b>Distributions</b>               | \$0.00             | $-$19,454.85$    |  |
+| Automatic Transfers In             | \$45,983.90        | \$72,674.00      |  |
+| Other Expenditures (Gains)         | $-$ \$30,448.23    | $-$ \$42,531.10  |  |
+| <b>ENDING VALUE</b>                | \$311,439.76       | \$349,460.58     |  |
+
+<sup>1</sup> Net Change in Portfolio is the difference between the ending account value and beginning account value after activity.
+
+# **Your Account Information**
+
+#### BENEFICIARY DESIGNATIONS
+
+### Secondary individual or entity to receive assets:
+
+### **Daily Balances**
+
+| Date       | Amount       | Date             | Amount       | Date             | Amount       | Date       | Amount       |
+|------------|--------------|------------------|--------------|------------------|--------------|------------|--------------|
+| 2023-12-30 | \$311,712.00 | 2023-12-22       | \$311,768.00 | $2023 - 12 - 14$ | \$316,580.00 | 2023-12-06 | \$317,107.00 |
+| 2023-12-29 | \$311,936.00 | 2023-12-21       | \$311,991.00 | $2023 - 12 - 13$ | \$316,568.00 | 2023-12-05 | \$317,100.00 |
+| 2023-12-28 | \$312,039.00 | 2023-12-20       | \$312,275.00 | $2023 - 12 - 12$ | \$316,597.00 | 2023-12-02 | \$317,355.00 |
+| 2023-12-27 | \$312,183.00 | 2023-12-19       | \$312,337.00 | 2023-12-09       | \$316,881.00 | 2023-12-01 | \$317,141.00 |
+| 2023-12-26 | \$312,024.00 | $2023 - 12 - 16$ | \$314,447.00 | $2023 - 12 - 08$ | \$317,010.00 |            |              |
+| 2023-12-23 | \$311,938.00 | $2023 - 12 - 15$ | \$314,887.00 | 2023-12-07       | \$317,085.00 |            |              |
+
+# **Getting in Touch**
+
+#### Your Financial Consultant: Dr. Stephen Russel
+
+ID: Xbr0ssu4v
+
+**Contact Information** Business: (119) 544-7071
+
+3778 Prudence Loaf York Tennessee, 81399
+
+|                                    |             |       | Fund Name   Symbol   EOD Price   Price Change in Period (YTD)   One Day Change   Classification   Avg. Daily Volume |           |        |         |
+|------------------------------------|-------------|-------|---------------------------------------------------------------------------------------------------------------------|-----------|--------|---------|
+| Vanguard FTSE Emerging Markets ETF | <b>VWO</b>  | 44.11 | 0.1076                                                                                                              | $-0.0088$ | Equity | 8214263 |
+| iShares Core MSCI EAFE ETF         | <b>IEFA</b> | 70.32 | 0.0332                                                                                                              | $-0.0066$ | Equity | 8199248 |
+
+### Twelve month(s) ending 10/31/2017
+
+![](_page_0_Picture_24.jpeg)
