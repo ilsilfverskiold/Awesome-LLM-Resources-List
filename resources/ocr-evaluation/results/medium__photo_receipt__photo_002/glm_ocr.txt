@@ -1,0 +1,59 @@
+1871
+McDonald's South Afr co
+Restaurant # 197019
+Tando
+www.mcdonalds.co.za
+Tel: 011 974 2297. Vat: 42.057911
+
+Grew ID 28 - MAUREEN IUTJA
+TAX INVOICE
+
+MRY Side 1
+
+ORD 271-REG #16-04/04/2024 03:55:31
+QTY ITEM TOTAL
+1 ReqCokeNoSugar 17.00
+1 Boerie Hashbrown 30.90
+1 Boerie and Egg PYM 41.90
+1 Short Filter Milk 89.80
+Rounding Adjustment 0.00
+Subtotal 89.80
+Take-Dut Total (incl VAT) 89.80
+Cashless 89.80
+TOTAL INCLUDES VAT OF 15% 11.72
+
+-- Cashless transaction information --
+
+DATE & TIME 04/04/2024 06:57:05
+MOD 1000000141277:
+TID 24019419
+TAKE-ENTRY Contactless IDC
+ACCOUNT DETAIL Default
+GROUP NAME 037608
+APP ID A000000040101
+APP NAME Savings
+APP PAN SEQ# 000
+APP EF8REXP 08/23 01/29
+CARD TYPE CAPITEC
+AUTHN & STAN 422547 374540
+CRYPTOFORM ABUC-265EE06292 195002
+VERIFICATION None
+
+PURCHASE 89.80
+TOTAL ZAR 89.80
+
+APPROVED - 00
+No signature required on PIN verification
+Thank you for visiting McDonald's
+Rate your experience with us today
+Go to www.rateuvisit.co.za
+For all details, please refer to
+www.mcdonalds.co.za/nn
+
+Your view is approved to us
+Please visit https://www.rateuvisit.co.za
+/survey
+and use this code: HCMM-7UCCC-IC-96-N
+Alternatively, scan this QR code:
+
+Thank you
