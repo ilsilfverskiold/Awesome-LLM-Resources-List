@@ -1,0 +1,51 @@
+Department of the Treasury—Internal Revenue Service U.S. Individual Income Tax Return	2024	OMB No. 1545-0074	IRS Use Only—Do not write or staple in this space.
+For the year Jan. 1-Dec. 31, 2024, or other tax year beginning 1/01 2024, ending 12/31 2024			See separate instructions.
+Your first name and middle initial Gussie R	Last name Gutmann		Your social security number 053 77 3400
+If joint return, spouse's first name and middle initial Trystan H	Last name Johnston		Spouse's social security number 297 75 4691
+Home address (number and street). If you have a P.O. box, see instructions. 995 S Main		Apt. no. Apt. 168	Presidential Election Campaign Check here if you, or your spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund.
+City, town, or post office. If you have a foreign address, also complete spaces below. Sandraboro	State NE	ZIP code 68004	You Spouse
+Foreign country name	Foreign province/state/county	Foreign postal code
+Filing Status
+
+Check only one box.
+
+☐ Single
+
+☐ Married filing jointly (even if only one had income)
+
+☑ Married filing separately (MFS)
+
+If you checked the MFS box, enter the name of your spouse. If you checked the HOH or QSS box, enter the child's name if the qualifying person is a child but not your dependent:
+
+☐ If treating a nonresident alien or dual-status alien spouse as a U.S. resident for the entire tax year, check the box and enter their name (see instructions and attach statement if required):
+
+**Digital**
+
+**Assets**
+
+**Standard**
+**Deduction**
+
+At any time during 2024, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell, exchange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.)
+
+☐ Someone can claim: ☑ You as a dependent ☐ Your spouse as a dependent
+
+☐ Spouse itemizes on a separate return or you were a dual-status alien
+
+**Age/Bindness** **You:** ☐ Were born before January 2, 1960 ☑ Are blind **Spouse:** ☐ Was born before January 2, 1960 ☐ Is blind
+
+**Dependents** (see instructions): (2) Social security (3) Relationship (4) Check the box if qualifies for (see instructions):
+
+If more (1) First name Last name number to you Child tax credit Credit for other dependents
+
+than four
+
+dependents,
+
+see instructions ☐ ☐
+
+and check
+
+here
+
+<table><tr><td>Income</td><td colspan="4">1a Total amount from Form(s) W-2, box 1 (see instructions)</td><td></td><td></td><td></td><td>1a</td><td>&#36;124,890.00</td></tr><tr><td>Attach Form(s) W-2 here. Also attach Forms<br>W-2G and<br>1099-R if tax<br>was withheld.</td><td colspan="4">b Household employee wages not reported on Form(s) W-2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</td><td></td><td></td><td></td><td>1b</td><td>&#36;12,136.00</td></tr><tr><td></td><td colspan="4">c Tip income not reported on line 1a (see instructions)</td><td></td><td></td><td></td><td>1c</td><td>&#36;845.00</td></tr><tr><td></td><td colspan="4">d Medicaid waiver payments not reported on Form(s) W-2 (see instructions)</td><td></td><td></td><td></td><td>1d</td><td>&#36;5,433.00</td></tr><tr><td></td><td colspan="4">e Taxable dependent care benefits from Form 2441, line 26</td><td></td><td></td><td></td><td>1e</td><td>&#36;9,900.00</td></tr><tr><td></td><td colspan="4">f Employer-provided adoption benefits from Form 8839, line 29</td><td></td><td></td><td></td><td>1f</td><td>&#36;5,723.00</td></tr><tr><td></td><td colspan="4">g Wages from Form 8919, line 6</td><td></td><td></td><td></td><td>1g</td><td>&#36;0.00</td></tr><tr><td></td><td colspan="4">h Other earned income (see instructions)</td><td></td><td></td><td></td><td>1h</td><td>&#36;0.00</td></tr><tr><td></td><td colspan="4">i Nontaxable combat pay election (see instructions)</td><td></td><td>1i</td><td>&#36;9,891.00</td><td></td><td></td></tr><tr><td></td><td colspan="4">j Add lines 1a through 1h</td><td></td><td></td><td></td><td>1z</td><td>&#36;168,818.00</td></tr><tr><td>Attach Sch. B<br>if required.</td><td>2a Tax-exempt interest</td><td>2a</td><td>&#36;8,185.00</td><td></td><td>b Taxable interest</td><td></td><td></td><td>2b</td><td>&#36;0.00</td></tr><tr><td></td><td>3a Qualified dividends</td><td>3a</td><td>&#36;3,998.00</td><td></td><td>b Ordinary dividends</td><td></td><td></td><td>3b</td><td>&#36;0.00</td></tr><tr><td></td><td>4a IRA distributions</td><td>4a</td><td>&#36;0.00</td><td></td><td>b Taxable amount</td><td></td><td></td><td>4b</td><td>&#36;0.00</td></tr><tr><td></td><td>5a Pensions and annuities</td><td>5a</td><td>&#36;8,081.00</td><td></td><td>b Taxable amount</td><td></td><td></td><td>5b</td><td>&#36;1,878.00</td></tr><tr><td></td><td>6a Social security benefits</td><td>6a</td><td>&#36;2,597.00</td><td></td><td>b Taxable amount</td><td></td><td></td><td>6b</td><td>&#36;3,755.00</td></tr><tr><td></td><td colspan="4">c If you elect to use the lump-sum election method, check here (see instructions)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="4">7 Capital gain or (loss). Attach Schedule D if required. If not required, check here</td><td></td><td></td><td></td><td>7</td><td>&#36;0.00</td></tr><tr><td></td><td colspan="4">8 Additional income from Schedule 1, line 10</td><td></td><td></td><td></td><td>8</td><td>&#36;0.00</td></tr><tr><td></td><td colspan="4">9 Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7, and 8. This is your total income</td><td></td><td></td>
