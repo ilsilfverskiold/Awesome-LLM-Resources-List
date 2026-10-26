@@ -1,4 +1,4 @@
-# Building an AGENTS.md file & How to set up Rules
+# Building an AGENTS.md file
 
 ## The main AGENTS.md file
  
