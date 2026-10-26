@@ -113,7 +113,7 @@ To apply sandboxing and security restrictions to every Claude Code project on yo
 }
 ```
 
-- blockReadsOutsideWorkingDirectories was added in v2.1.257 (1 Sep 2026). It makes Read/Grep/Glob refuse outside paths and makes recognized file-reading Bash commands prompt even in auto and bypassPermissions. Open bug (Sep 2026): it ignores additionalDirectories set in project/local settings.
+blockReadsOutsideWorkingDirectories was added in v2.1.257 (1 Sep 2026). It makes Read/Grep/Glob refuse outside paths and makes recognized file-reading Bash commands prompt even in auto and bypassPermissions. Open bug (Sep 2026): it ignores additionalDirectories set in project/local settings.
 
 | Setting | Effect |
 | --- | --- |
