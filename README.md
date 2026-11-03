@@ -430,6 +430,7 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 |------|--------------|-------------|-------------|--------|
 | [helicone](https://github.com/Helicone/helicone) | Helicone | A platform for monitoring and analyzing AI model performance. | [![GitHub Repo stars](https://img.shields.io/github/stars/Helicone/helicone?style=flat-square&color=purple)](https://github.com/Helicone/helicone) | [![GitHub followers](https://img.shields.io/github/followers/Helicone?style=flat-square&color=teal)](https://github.com/Helicone) |
 | [langwatch](https://github.com/langwatch/langwatch) | langwatch | A tool for monitoring outputs and performance of language models. | [![GitHub Repo stars](https://img.shields.io/github/stars/langwatch/langwatch?style=flat-square&color=purple)](https://github.com/langwatch/langwatch) | [![GitHub followers](https://img.shields.io/github/followers/langwatch?style=flat-square&color=teal)](https://github.com/langwatch) |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Continuum AI | Records a run at the HTTP boundary to the model provider, from outside the process, and replays it offline with no provider called. | [![GitHub Repo stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=flat-square&color=purple)](https://github.com/Continuum-AI-Corp/OrcaReplay) | [![GitHub followers](https://img.shields.io/github/followers/Continuum-AI-Corp?style=flat-square&color=teal)](https://github.com/Continuum-AI-Corp) |
 
 
 ### Infrastructure
