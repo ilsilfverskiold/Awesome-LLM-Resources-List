@@ -91,6 +91,7 @@ It goes without saying that these platforms can usually do more than LLM serving
 | [RunPod](https://www.runpod.io/)              | None                     | ❌                | [![GitHub followers](https://img.shields.io/github/followers/runpod?style=flat-square&color=teal)](https://github.com/runpod) |
 | [Paperspace](https://www.paperspace.com/)     | Fine-tuning              | ✅                | [![GitHub followers](https://img.shields.io/github/followers/Paperspace?style=flat-square&color=teal)](https://github.com/Paperspace) |
 | [Colab](https://colab.research.google.com/)   | Small models only        | ✅                | [![GitHub followers](https://img.shields.io/github/followers/googlecolab?style=flat-square&color=teal)](https://github.com/googlecolab) |
+| [CloudGPU](https://cloudgpu.app)              | None                     | ❌                | [![GitHub followers](https://img.shields.io/github/followers/mrhy7176?style=flat-square&color=teal)](https://github.com/mrhy7176) |
 
 
 ### Fine-Tuning with No-Code UI
