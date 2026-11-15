@@ -401,6 +401,7 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 | [PromptWizard](https://github.com/microsoft/PromptWizard) | microsoft | A tool to generate, manage, and optimize prompts for AI models. | [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/PromptWizard?style=flat-square&color=purple)](https://github.com/microsoft/PromptWizard) | [![GitHub followers](https://img.shields.io/github/followers/microsoft?style=flat-square&color=teal)](https://github.com/microsoft) |
 | [Open-Interface](https://github.com/AmberSahdev/Open-Interface) | AmberSahdev | Control Any Computer Using LLMs. | [![GitHub Repo stars](https://img.shields.io/github/stars/AmberSahdev/Open-Interface?style=flat-square&color=purple)](https://github.com/AmberSahdev/Open-Interface) | [![GitHub followers](https://img.shields.io/github/followers/AmberSahdev?style=flat-square&color=teal)](https://github.com/AmberSahdev) |
 | [wut](https://github.com/shobrook/wut) | shobrook | LLM for the terminal | [![GitHub Repo stars](https://img.shields.io/github/stars/shobrook/wut?style=flat-square&color=purple)](https://github.com/shobrook/wut) | [![GitHub followers](https://img.shields.io/github/followers/shobrook?style=flat-square&color=teal)](https://github.com/shobrook) |
+| [No Stairs Please MCP](https://nostairsplease.com/mcp) | No Stairs Please | Remote MCP server for searching under-400 capacity live music venues across North America. | No | - |
 
 
 ### Training/Optimization
