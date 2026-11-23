@@ -521,3 +521,5 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 | [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | NirDiamant | A curated collection of generative AI agents and related tools. | [![GitHub Repo stars](https://img.shields.io/github/stars/NirDiamant/GenAI_Agents?style=flat-square&color=purple)](https://github.com/NirDiamant/GenAI_Agents) | [![GitHub followers](https://img.shields.io/github/followers/NirDiamant?style=flat-square&color=teal)](https://github.com/NirDiamant) |
 
 
+
+- **Novel Writer Suite** — Zero-cost Chinese novel writing with OpenClaw. [900K+ chars, ¥0 API, 3 skills](https://github.com/Shine8592/novel-writer-skills)
