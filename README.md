@@ -438,6 +438,7 @@ See [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) if you get st
 |------|--------------|-------------|-------------|--------|
 | [gpustack](https://github.com/gpustack/gpustack) | gpustack | A toolkit for managing GPU infrastructure for AI workloads. | [![GitHub Repo stars](https://img.shields.io/github/stars/gpustack/gpustack?style=flat-square&color=purple)](https://github.com/gpustack/gpustack) | [![GitHub followers](https://img.shields.io/github/followers/gpustack?style=flat-square&color=teal)](https://github.com/gpustack) |
 | [harbor](https://github.com/av/harbor) | av | A repository for containerized AI infrastructure management. | [![GitHub Repo stars](https://img.shields.io/github/stars/av/harbor?style=flat-square&color=purple)](https://github.com/av/harbor) | [![GitHub followers](https://img.shields.io/github/followers/av?style=flat-square&color=teal)](https://github.com/av) |
+| [Bifrost](https://github.com/maximhq/bifrost) | Maxim AI | An open-source, self-hosted AI gateway for multi-provider routing, failover, governance, semantic caching, and observability. | [![GitHub Repo stars](https://img.shields.io/github/stars/maximhq/bifrost?style=flat-square&color=purple)](https://github.com/maximhq/bifrost) | [![GitHub followers](https://img.shields.io/github/followers/maximhq?style=flat-square&color=teal)](https://github.com/maximhq) |
 
 
 ### Research Papers on Chain-of-Thought Prompting
